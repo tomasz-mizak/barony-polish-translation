@@ -26,3 +26,6 @@ Thumbs.db
 *.zip
 *.rar
 *.7z
+
+# Claude Code files
+CLAUDE.md
