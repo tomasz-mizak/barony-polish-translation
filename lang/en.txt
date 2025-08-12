@@ -5282,24 +5282,24 @@ Gracza#
 wykopać %s?#
 
 5404 WYBÓR RASY#
-5405 Górka#
-5406 Jutrzenka#
-5407 Sobieski#
-5408 Ostrowski#
-5409 Poletyło#
-5410 Kubala#
-5411 Mogiła#
-5412 Wąż#
-5413 Trzy Kawki#
-5414 Kromer#
-5415 Prawomir#
-5416 Piłsudski#
-5417 Murzaj#
-5418 Maurys#
-5419 Pigmenton#
-5420 Szuwaksin#
-5421 Hebaniusz#
-5422 Grafitus#
+5405 Landguard#
+5406 Northborn#
+5407 Firebrand#
+5408 Hardbred#
+5409 Highwatch#
+5410 Gloomforge#
+5411 Pyrebloom#
+5412 Snakestone#
+5413 Windclan#
+5414 Warblood#
+5415 Millbound#
+5416 Sunstalk#
+5417 Claymount#
+5418 Stormward#
+5419 Tradefell#
+5420 Nighthill#
+5421 Baytower#
+5422 Whetsong#
 5423 Wyłącz cechy
 rasowe potworów#
 5424 Ukryj Rasę
