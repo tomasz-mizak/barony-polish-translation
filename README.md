@@ -1,8 +1,14 @@
 # Barony - Polskie Tłumaczenie
 
-Oficjalne polskie tłumaczenie gry Barony - trójwymiarowej roguelike z widokiem pierwszoosobowym.
+Ulepszone polskie tłumaczenie gry Barony - trójwymiarowej roguelike z widokiem pierwszoosobowym.
 
 ## O projekcie
+
+To tłumaczenie bazuje na modzie ze Steam Workshop ([Polish Translation](https://steamcommunity.com/sharedfiles/filedetails/?id=3078243671)), jednak zostało znacząco ulepszone:
+- **Poprawione akcenty i błędy językowe** - usunięto śmieszne akcenty i nienaturalne tłumaczenia
+- **Zachowany oryginalny charakter gry** - tłumaczenie respektuje klimat i lore Barony
+- **Łatwa instalacja** - nie musisz korzystać z Workshop ani ładować modów przy każdym uruchomieniu
+- **Natywne wsparcie** - gra automatycznie działa po polsku bez dodatkowych kroków
 
 To repozytorium zawiera kompletne tłumaczenie gry Barony na język polski, obejmujące:
 - Interfejs użytkownika i dialogi (ponad 4000 linii tekstu)
@@ -17,6 +23,14 @@ To repozytorium zawiera kompletne tłumaczenie gry Barony na język polski, obej
 - Gra Barony zainstalowana przez Steam, GOG lub Epic Games Store
 - System operacyjny: Windows lub Linux
 - Około 10 MB wolnego miejsca na dysku
+
+## Zalety względem modu Workshop
+
+1. **Brak konieczności ładowania modu** - nie musisz wybierać modu przy każdym uruchomieniu gry
+2. **Stabilność** - tłumaczenie jest zintegrowane z plikami gry, nie wymaga synchronizacji z Workshop
+3. **Offline** - działa bez połączenia z internetem i Steam Workshop
+4. **Pełna kontrola** - możesz łatwo przywrócić oryginalne pliki lub modyfikować tłumaczenie
+5. **Uniwersalność** - działa również z wersjami GOG i Epic Games
 
 ## Instalacja
 
