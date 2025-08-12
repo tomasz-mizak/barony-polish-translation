@@ -38,14 +38,12 @@ To repozytorium zawiera kompletne tłumaczenie gry Barony na język polski, obej
 
 #### Linux
 ```bash
-cd scripts/linux
 chmod +x install_translation.sh
 ./install_translation.sh
 ```
 
 #### Windows
 ```cmd
-cd scripts\windows
 install_translation.bat
 ```
 
@@ -88,13 +86,11 @@ Skrypty automatycznie:
 
 #### Linux
 ```bash
-cd scripts/linux
 ./restore_original.sh
 ```
 
 #### Windows
 ```cmd
-cd scripts\windows
 restore_original.bat
 ```
 
@@ -106,14 +102,15 @@ Przywróć pliki z utworzonych wcześniej kopii zapasowych lub zweryfikuj pliki 
 
 ```
 barony-polish-translation/
-├── lang/           # Główne pliki językowe
-├── books/          # Tłumaczenia książek w grze (34 pliki)
-├── data/           # Tłumaczenia UI (osiągnięcia, samouczek, zakończenia)
-├── items/          # Nazwy przedmiotów i opisy
-├── fonts/          # Czcionki z polskimi znakami
-└── scripts/        # Skrypty instalacyjne
-    ├── linux/      # Skrypty dla Linux
-    └── windows/    # Skrypty dla Windows
+├── lang/                       # Główne pliki językowe
+├── books/                      # Tłumaczenia książek w grze (34 pliki)
+├── data/                       # Tłumaczenia UI (osiągnięcia, samouczek, zakończenia)
+├── items/                      # Nazwy przedmiotów i opisy
+├── fonts/                      # Czcionki z polskimi znakami
+├── install_translation.sh      # Skrypt instalacyjny dla Linux
+├── install_translation.bat     # Skrypt instalacyjny dla Windows
+├── restore_original.sh         # Skrypt przywracania dla Linux
+└── restore_original.bat        # Skrypt przywracania dla Windows
 ```
 
 ## Rozwiązywanie problemów
