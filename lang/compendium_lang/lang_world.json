@@ -1026,7 +1026,7 @@
     },
     "gnomish mines": {
         "blurb": [
-            "Jeśli w kopalniach pod Osadą kiedyś",
+            "Jeśli w kopalniach pod Hamlet kiedyś",
             "było złoto, opowieści o nim",
             "zaczeły się właśnie tutaj.",
             "Kiedy Gnom zacznie poszukiwać bogactw,",
@@ -1196,7 +1196,7 @@
             "- Alchemik i Alchemilla",
             "- Garmażerka",
             "",
-            "Wykryte potwory w Osadzie zostaną",
+            "Wykryte potwory w Hamlet zostaną",
             "zatakowane. W sypialni karczmy jest",
             "przydatne zejście do kanałów, przez",
             "które można bezpiecznie udać się",
@@ -1283,7 +1283,7 @@
     "haunted castle": {
         "blurb": [
             "Zanim Baron został zapieczętowany,",
-            "mieszkańcy Osady zostali zniewoleni",
+            "mieszkańcy Hamlet zostali zniewoleni",
             "by zbudować dla niego ZAMEK.",
             "",
             "Ściany zostały utworzone ze skał",
@@ -1824,7 +1824,7 @@
     },
     "minehead": {
         "blurb": [
-            "Tuż za ruinami Osady leżą Kopalnie,",
+            "Tuż za ruinami Hamlet leżą Kopalnie,"
             "gdzie mieszkańcy niewolniczo",
             "harowali dla Barona Herxchavena.",
             "",
@@ -1854,7 +1854,7 @@
             "a później bezskutecznie poszukiwano",
             "złota. KOPALNIE stały się domem",
             "dla najemnej armii Barona Herxa,",
-            "która uwięziła górników z Osady."
+            "która uwięziła górników z Hamlet."
         ],
         "details": [
             "ZAMIESZKAŁE PRZEZ:",
@@ -1920,7 +1920,7 @@
         "blurb": [
             "Miejsce wytchnienia w kopalniach,",
             "ukryte przed Herxem. Uważane za mit",
-            "przez górników z Osady, nie wiadomo,",
+            "przez górników z Hamlet, nie wiadomo,"
             "czy MIASTO GÓRNICZE zbudowali pełni",
             "nadziei ludzie czy je odkryli."
         ],
@@ -2086,7 +2086,7 @@
             "dziwne połączenie z MISTYCZNĄ",
             "BIBLIOTEKĄ, kieszonkowym wymiarem",
             "dostępnym za pomocą magii z ruin",
-            "zakopanych głęboko pod Osadą."
+            "zakopanych głęboko pod Hamlet."
         ],
         "details": [
             "SKARBY NA SEKRETNYM POZIOMIE:",
