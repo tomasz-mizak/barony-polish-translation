@@ -5300,12 +5300,9 @@ wykopać %s?#
 5420 Nighthill#
 5421 Baytower#
 5422 Whetsong#
-5423 Wyłącz cechy
-rasowe potworów#
-5424 Ukryj Rasę
-Info#
-5425 Pokaż Rasę
-Info#
+5423 Tylko wygląd
+5424 Zamknij
+5425 Szczegóły
 
 5426 WYBÓR PROFESJI#
 5427 PŻ:
