@@ -29,14 +29,7 @@ chmod +x install_translation.sh
 ./install_translation.sh
 ```
 
-#### Windows (PowerShell)
-```powershell
-cd scripts\windows
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
-.\install_translation.ps1
-```
-
-#### Windows (Wiersz poleceń)
+#### Windows
 ```cmd
 cd scripts\windows
 install_translation.bat
@@ -85,13 +78,7 @@ cd scripts/linux
 ./restore_original.sh
 ```
 
-#### Windows (PowerShell)
-```powershell
-cd scripts\windows
-.\restore_original.ps1
-```
-
-#### Windows (Wiersz poleceń)
+#### Windows
 ```cmd
 cd scripts\windows
 restore_original.bat
@@ -126,8 +113,7 @@ barony-polish-translation/
 - Dla niestandardowych instalacji, edytuj ścieżkę w skrypcie lub użyj metody ręcznej
 
 ### Brak uprawnień w Windows
-- Uruchom PowerShell jako Administrator
-- Lub użyj pliku .bat zamiast .ps1
+- Uruchom wiersz poleceń (cmd) jako Administrator
 
 ## Licencja
 
