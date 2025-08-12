@@ -3661,7 +3661,7 @@ Interesują mnie tylko najrzadsze
 3338 WYCOFANO#
 3339 Warzenie#
 3340 Alchemia#
-3341 Przestań Warzyć#
+3341 Przestań warzyć#
 3342 Brak Ci eliksirów do warzenia!#
 3343 WYCOFANO#
 3344 WYCOFANO#
@@ -4385,7 +4385,7 @@ dobijemy targu!#
 4028 Opuść sekretny poziom#
 4029 Wejdź na sekretny poziom#
 4030 Opuść piętro lochu#
-4031 Opuść Miasto#
+4031 Opuść miasto#
 4032 Przejdź przez portal#
 4033 Rozpocznij próbę#
 4034 Wyjdź z próby#
@@ -4434,7 +4434,7 @@ dobijemy targu!#
 4071 MAPA#
 4072 DZIENNIK#
 4073 Widzisz znak.#
-4074 Lista Umiejętności#
+4074 Lista umiejętności#
 # Podpowiedzi interakcji
 4075 Atak#
 4076 Blok#
@@ -4459,9 +4459,9 @@ Dystansowy#
 # Podpowiedzi nawigacyjne
 4091 Wszystko#
 4092 Rusz kursorem#
-4093 Lista Zaklęć#
-4094 Lista Przedmiotów#
-4095 Lista Umiejętności#
+4093 Lista zaklęć#
+4094 Lista przedmiotów#
+4095 Lista umiejętności#
 4096 Weź#
 4097 Odłóż całość#
 4098 %s
@@ -4501,7 +4501,7 @@ aby coś więcej kupić!#
 Nie ma czasu na formalności
 dotyczące złota, no już!#
 4127 %s#
-4128 Rzadkie Towary#
+4128 Rzadkie towary#
 4129 ???#
 
 # nowy majsterkowicz od v 4.3.1 mechanik
@@ -4842,7 +4842,7 @@ i Wyjdź#
 5045 Skala#
 5046 Skala mapy#
 5047 Dopasuj rozmiar mapy, większy czy mniejszy.#
-5048 Rozmiar Ikon#
+5048 Rozmiar ikon#
 5049 Dopasuj rozmiar ikon na mapie (takich jak gracze i sojusznicy)#
 5050 Przezroczystość#
 5051 Przezroczystość przodu#
@@ -4919,14 +4919,14 @@ następny klawisz, który wciśniesz zostanie przypisany.#
 5107 Opcje Ekwipunku#
 5108 Przypisz przedmioty do paska#
 5109 Zapełnia pasek podręczny podnoszonymi rzeczami.#
-5110 Sortowanie Ekwipunku#
+5110 Sortowanie ekwipunku#
 5111 Dostosuj w jakiej kolejności mają być sortowane przedmioty.#
 5112 Użyj przy zwolnieniu#
 5113 Użyj przedmiotu od razu przy zwolnieniu klawisza Interakcji w ekwipunku.#
 5114 Opcje HUDu#
 5115 Skalowanie HUDu#
 5116 Skaluj Interfejs - większy lub mniejszy. (Zalecamy: 50%, 75% lub 100%)#
-5117 Skala Paska Zdrowia Wroga#
+5117 Skala paska zdrowia wroga#
 5118 Wybierz rozmiar pasków zdrowia wrogów.#
 5119 Skala okienek#
 5120 Wybierz rozmiar okienek dla przedmiotów, nagrobków i dialogów.#
@@ -4934,9 +4934,9 @@ następny klawisz, który wciśniesz zostanie przypisany.#
 5122 Wybierz rozmiar okienek dla przedmiotów, nagrobków i dialogów na podzielonym ekranie.#
 5123 Wysokość podpowiedzi#
 5124 Dostosuj wertykalną pozycję okienek podpowiedzi.#
-5125 Przezroczystość Celownika#
+5125 Przezroczystość celownika#
 5126 Dopasuj przezroczystość celownika.#
-5127 Typy Celowników#
+5127 Typy celowników#
 5128 Wybierz wygląd celownika.#
 5129 Filtr skalowania#
 5130 Zeskalowane elementy interfejsu będą miały miękkie krawędzie za cenę ostrości.#
@@ -4948,13 +4948,13 @@ następny klawisz, który wciśniesz zostanie przypisany.#
 5136 Wyświetla imię postaci nad ich awatarem.#
 
 5137 Dostępność#
-5138 Kontrola Zawartości#
+5138 Kontrola zawartości#
 5139 Wyłącz pojawianie się krwi i innych problematycznych treści w grze#
 5140 Tryb Daltonisty#
 5141 Zmień wygląd elementów interfejsu, aby poprawić widoczność dla niektórych Daltonistów.#
 5142 Zamień wszystkie gigantyczne pająki w grze na wrogie skorupiaki.#
 5143 Zamień wszystkie gigantyczne pająki w grze na wrogie skorupiaki. (Zmiana nastąpi przy nowym piętrze)#
-5144 Filtr Arachnofoba#
+5144 Filtr arachnofoba#
 5145 Trzęsienia#
 5146 Pozwala kamerze trząść się kiedy gracz potknie się lub otrzyma obrażenia.#
 5147 Podskakiwanie#
@@ -4998,20 +4998,20 @@ następny klawisz, który wciśniesz zostanie przypisany.#
 5183 Urządzenie#
 5184 Urządzenie wyjściowe dla całego audio.#
 5185 Głośność#
-5186 Głośność Główna#
+5186 Głośność główna#
 5187 Dostosuj głośność wszystkich źródeł dźwięku.#
-5188 Głośność Rozgrywki#
+5188 Głośność rozgrywki#
 5189 Dostosuj głośność większości efektów dźwiękowych.#
-5190 Głośność Otoczenia#
+5190 Głośność otoczenia#
 5191 Dostosuj głośność złowieszczych podziemnych dźwięków.#
-5192 Głośność Środowiska#
+5192 Głośność środowiska#
 5193 Dostosuj głośność płynącej wody i lawy.#
-5194 Głośność Powiadomień#
+5194 Głośność powiadomień#
 5195 Dostosuj głośność wołania, czatu, wzrostu umiejętności i powiadomień o awansie.#
-5196 Głośność Muzyki#
+5196 Głośność muzyki#
 5197 Dostosuj głośność ścieżki dźwiękowej gry.#
 5198 Opcje#
-5199 Dźwięki Minimapy#
+5199 Dźwięki minimapy#
 5200 Przełącz dźwięki pingów/wskazań na miejsca#
 5201 Dźwięki Gracza-Potwora#
 5202 Przełącza szansę na wydawanie potwornych bełkotów podczas grania jako potwór.#
@@ -5031,13 +5031,13 @@ następny klawisz, który wciśniesz zostanie przypisany.#
 5215 Klawiszologia#
 5216 Układ kontrolera.#
 5217 Mysz i Klawiatura#
-5218 Czułość Myszy#
+5218 Czułość myszy#
 5219 Dostosuj prędkość ruchu myszy do ruchu kamery w grze.#
 5220 Numeryczne w Ekwipunku#
 5221 Pozwala na przypisywanie przedmiotów do paska używając klawiszy numerycznych.#
-5222 Odwrócenie Osi#
+5222 Odwrócenie osi#
 5223 Zamienia górę z dołem dla kontroli orientacji kamery.#
-5224 Wygładzanie Myszy#
+5224 Wygładzanie myszy#
 5225 Wygładza ruch myszy po kilku klatkach wejściowych.#
 5226 Interkacja z Asystą celu#
 5227 Wyłącz, aby zawsze używać precyzyjnego celowania na obiekty interaktywne i usuń wyskakujące okienka.#
@@ -5073,16 +5073,16 @@ następny klawisz, który wciśniesz zostanie przypisany.#
 # Trapy są gejowskie.
 5255 Losowe pułapki#
 5256 Włącza losowe rozmieszczenie pułapek na każdym poziomie.#
-5257 Ogień Bratobójczy#
+5257 Ogień bratobójczy#
 5258 Umożliwia graczom wyrządzanie krzywdy sobie nawzajem i swoim sojusznikom.#
-5259 Tryb Hardkorowy#
+5259 Tryb hardkorowy#
 5260 Znacząco zwiększa trudność wszystkich potyczek bojowych.#
-5261 Tryb Klasyczny#
+5261 Tryb klasyczny#
 5262 Włącz tę opcję, aby gra zakończyła się po walce z Baronem Herxem.#
-5263 Zachowaj Ekwipunek po Śmierci#
+5263 Zachowaj ekwipunek po śmierci#
 5264 Kiedy gracz umrze, zachowa swój ekwipunek po odrodzeniu na następnym poziomie.#
-5265 Drugie Życie#
-5266 Rozpocznij grę z Amuletem Drugiego Życia, aby zapobiec pierwszej śmierci.#
+5265 Drugie życie#
+5266 Rozpocznij grę z amuletem drugiego życia, aby zapobiec pierwszej śmierci.#
 5267 Oszustwa#
 5268 Włącza możliwość aktywacji kodów podczas rozgrywki.#
 
@@ -5129,7 +5129,7 @@ Wynik:#
 5293 Byłeś cholernie szybki.#
 5294 Byłeś całkiem szybki.#
 5295 Nie traciłeś ekwipunku.#
-5296 Miałeś Drugie Życie.#
+5296 Miałeś drugie życie.#
 5297 Byłeś Przeklęty.#
 5298 POZ %d %s %s#
 5299 %d/100
@@ -5151,7 +5151,7 @@ Wielosobowy#
 Przyjaciół#
 5311 Ranking
 Światowy#
-5312 Usuń Wpis#
+5312 Usuń wpis#
 5313 Czy na pewno chcesz wymazać
 "%s"?#
 5314 Tak#
@@ -5241,10 +5241,10 @@ Niewłaściwy kod pokoju.#
 5378 Wyłącz Głód#
 5379 Wyłącz Losowe
 Minotaury#
-5380 Włącza Amulet
-Drugiego Życia#
-5381 Zachowaj Ekwipunek
-po Śmierci#
+5380 Włącza amulet
+drugiego życia#
+5381 Zachowaj ekwipunek
+po śmierci#
 5382 Wyłącz Losowe Pułapki#
 5383 Wyłącz
 Bratobójczy Ogień#
@@ -5300,9 +5300,12 @@ wykopać %s?#
 5420 Nighthill#
 5421 Baytower#
 5422 Whetsong#
-5423 Tylko wygląd
+5423 Wyłącz cechy
+rasy#
 5424 Zamknij
-5425 Szczegóły
+szczegóły#
+5425 Pokaż
+szczegóły#
 
 5426 WYBÓR PROFESJI#
 5427 PŻ:
@@ -5327,8 +5330,8 @@ Złożoność:#
 nie mogą dołączyć#
 5443 GRACZ %d#
 5444 Wciśnij by Zacząć#
-5445 Podłącz Kontroler#
-5446 Proszę Czekać#
+5445 Podłącz kontroler#
+5446 Proszę czekać#
 5447 ZAPROŚ#
 5448 Kliknij by Zaprosić#
 5449 OTWARTA#
@@ -5342,12 +5345,12 @@ tę rozgrywkę?#
 5455 Tak#
 5456 Nie#
 5457 Daj publiczną nazwę dla tej rozgrywki.#
-5458 Lokalna Gra#
-5459 Bezprzewodowa Gra#
+5458 Lokalna gra#
+5459 Bezprzewodowa gra#
 5460 Gra LAN#
 5461 Gra Sieciowa (Epic)#
 5462 Gra Sieciowa (Steam)#
-5463 Gra Sieciowa#
+5463 Gra sieciowa#
 5464 Adres LAN#
 5465 Kod pokoju#
 5466 Gra Bezprzewodowa utworzona pomyślnie.#
@@ -5382,20 +5385,20 @@ Gra jest ZAMKNIĘTA.#
 5482 No trudno#
 5483 Pobieram listę Rozgrywek...#
 5484 Anuluj#
-5485 Przeglądarka Rozgrywek Sieciowych#
+5485 Przeglądarka rozgrywek sieciowych#
 5486 Filtry#
 5487 Pokaż niedołączalne#
 5488 Tylko dla przyjaciół#
 5489 OSIĄGNIĘCIA WŁĄCZONE#
 5490 Oszustwa włączone#
-5491 Bratobójczy Ogień#
+5491 Bratobójczy ogień#
 5492 Minotaury włączone#
 5493 Głód włączony#
 5494 Losowe pułapki#
-5495 Tryb Hardkorowy#
-5496 Tryb Klasyczny#
-5497 Zachowaj Ekwipunek#
-5498 Drugie Życie#
+5495 Tryb hardkorowy#
+5496 Tryb klasyczny#
+5497 Zachowaj ekwipunek#
+5498 Drugie życie#
 
 5500 Oszustwa#
 5501 Ogień
@@ -5431,8 +5434,8 @@ Adres IP#
 5526 Najpierw wskaż Rozgrywkę do dołączenia.#
 5527 Dołącz do
 Rozgrywki#
-5528  Nazwa Rozgrywki#
-5529  Nazwa Rozgrywki (%d ukryte)#
+5528  Nazwa rozgrywki#
+5529  Nazwa rozgrywki (%d ukryte)#
 5530  Gracze#
 5531  Wersja#
 5532  Latencja#
@@ -5446,9 +5449,9 @@ umiejętności, przygotowując Cię na przygody w prawdziwym lochu#
 5537 Próba#
 5538 Czas#
 5539 Sala#
-5540  Sala Prób#
-5541  Próba 1: Podstawy lochów i Walki Wręcz#
-5542  Próba 2: Łuki, Strzały i Broń Miotana#
+5540  Sala prób#
+5541  Próba 1: Podstawy lochów i walki wręcz#
+5542  Próba 2: Łuki, strzały i broń miotana#
 5543  Próba 3: Pułapki w lochu; Kolce i Głazy#
 5544  Próba 4: Jedzenie, Ocena i Klątwy#
 5545  Próba 5: Magia, Tomy zaklęć i Inkantacje#
@@ -5457,7 +5460,7 @@ umiejętności, przygotowując Cię na przygody w prawdziwym lochu#
 5548  Próba 8: Eliksiry i Alchemia#
 5549  Próba 9: Mechanika#
 5550  Próba 10: Handlerze i sklepy#
-5551  Łączny Czas#
+5551  Łączny czas#
 5552 Zresetuj
 Postęp Prób#
 5553 Na pewno chcesz usunąć
@@ -5499,11 +5502,11 @@ przez internet#
 przez internet (wyłączono)#
 5576 Dołącz do gry Wieloosobowej#
 5577 NOWY PODRÓŻNIK#
-5578 Lokalna Przygoda#
+5578 Lokalna przygoda#
 5579 Załóż Bezprzewodową
 Grę#
 5580 Załóż Grę LAN#
-5581 Załóż Grę Sieciową#
+5581 Załóż grę sieciową#
 5582 Przeglądarka Gier#
 
 5583 Barony to gra pełna wyzwań.
@@ -5616,76 +5619,75 @@ Menu Głównego#
 No to wynoś się i nie wracaj!#
 5701 Jezu, dobra#
 5702 Nigdy!#
-5703 Czy małe gobłiny
-złaniły Twoje sełduszko?#
-5704 Właściwie
-To Tak#
+5703 Czy małe gobliny
+zraniły twoje serduszko?#
+5704 Tak#
 5705 Nie#
-5706 Anuluj inne plany.
-Ja tu czekam.#
-5707 Mhm. Pozdro#
+5706 Po prostu anuluj plany.
+Ja poczekam.#
+5707 Powodzenia#
 5708 Jasne#
-5709 I tak byś nie zabił Licza.#
+5709 I tak byś nie zabił licza.#
 5710 Masz rację#
 5711 Chyba śnisz!#
-5712 Zły bo ssiesz!
-Git Gud!#
-5713 Jestem zły#
+5712 Słaby jesteś!
+Poćwicz więcej!#
+5713 Jestem wściekły#
 5714 Okej#
-5715 Krasnale z Ciebie kisną!
-Serio się z tym pogodzisz?#
+5715 Gnomy się z ciebie śmieją!
+Naprawdę to zniesiesz?#
 5716 Tak :(#
 5717 Nie ma mowy!#
-5718 Nie idź teraz! Tam czai
-się na Ciebie pułapka z głazem!#
+5718 Nie idź teraz! Za rogiem
+czeka pułapka z głazem!#
 5719 Zabijcie mnie#
-5720 Uff, dzięki!#
-5721 Powiem Twoim starym
+5720 O, dzięki#
+5721 Powiem twoim rodzicom,
 że przeklinasz.#
 5722 Kupa#
-5723 Proszę nie!#
+5723 Błagam nie#
 5724 Nie odchodź!
-Jest jeszcze tyle łupów!#
+Jest jeszcze więcej skarbów!#
 5725 Mam to gdzieś#
-5726 Więcej łupów!#
+5726 Więcej skarbów!#
 5727 Ciesz się, że nie mogę
-przywołać minotaura na żywo.#
-5728 Twój problem#
+przywołać minotaura w realu.#
+5728 Szkoda#
 5729 Zrozumiano#
-5730 Lecisz zostawić
-negatywną opinię?#
+5730 Idziesz napisać
+złą recenzję?#
 5731 ... tjaa#
 5732 Ja? Nigdy!#
-5733 No ja też bym wyszedł.
+5733 Ja też bym wyszedł.
 Ta gra wygląda jak Minecraft.#
 5734 lol#
-5735 Oof#
-5736 Okej, widzę jak jest.
-Ciekawe czy jutro też tu będę.#
-5737 Cokolwiek#
-5738 Kocham Cię!#
-5739 Nie wychodź, następnym
-razem wygrasz na stówę.#
-5740 Nie kłam#
+5735 Auć#
+5736 Dobra, rozumiem.
+Zobaczę czy jutro tu będę.#
+5737 Nieważne#
+5738 Kocham cię!#
+5739 Nie wychodź, przecież
+następnym razem wygrasz.#
+5740 Nie kłamiesz#
 5741 Serio?#
-5742 Tylko leszcze wychodzą
-teraz z gry.#
-5743 Pora Leszcza#
+5742 Tylko mięczaki
+teraz wychodzą.#
+5743 Czas mięczaka#
 5744 Nie jestem!#
-5745 Podróżnik utknął! 
-Potrzebują Twojej pomocy!#
-5746 Co mnie to#
-5747 Już pędzę!#
-5748 Rezygnujący mówi Co.#
+5745 Podróżnik utknął
+i potrzebuje twojej pomocy!#
+5746 Kogo to obchodzi#
+5747 Już lecę!#
+5748 Tchórz mówi co?#
 5749 Co?#
 5750 Nie dzisiaj#
-5751 Nie wyłączysz.
-To zwykły blef.#
-5752 Zakład?#
-5753 Masz mnie.#
-5754 Powiedz jedno słowo
-a wyrzucę Cię z hukiem.#
-5755 Słowo#
+5751 Nie wyjdziesz.
+To tylko blef.#
+5752 Załóż się#
+5753 Złapałeś mnie.#
+5754 Powiedz jeszcze jedno słowo,
+a wyrzucę cię z gry.#
+5755 Jedno słowo#
 5756 ...#
 
 5757 Czy ekran wygląda w porządku?
@@ -6009,7 +6011,7 @@ TRUDNOŚĆ#
 5962 Powiązana statystyka:#
 5963 Atak#
 5964 Skradanie#
-5965 Rzuć Zaklęcie#
+5965 Rzuć zaklęcie#
 5966 Mapa#
 5967 Dziennik#
 5968 KARTA POSTACI#
@@ -6017,26 +6019,26 @@ TRUDNOŚĆ#
 
 5970 Atak#
 5971 Użyj#
-5972 Rzuć Zaklęcie#
+5972 Rzuć zaklęcie#
 5973 Blokuj#
 5974 Skradanie#
 5975 Stan postaci#
 5976 Wstrzymaj grę#
-5977 Lista Zaklęć#
-5978 Karta Umiejętności#
-5979 Automatyczne Sortowanie#
+5977 Lista zaklęć#
+5978 Karta umiejętności#
+5979 Automatyczne sortowanie#
 5980 Rozkaż BN-owi#
 5981 Pokaż Rozkazy dla BN-ów#
 5982 Przełącz BN-ów#
 5983 Otwórz Mapę#
 5984 Otwórz Dziennik#
-5985 Przełącz Minimapę#
+5985 Przełącz minimapę#
 5986 W lewo na pasku#
 5987 W prawo na pasku#
 5988 Górny Pasek / Wybierz#
 5989 Dolny Pasek / Anuluj#
-5990 Następna Podpowiedź#
-5991 Poprzednia Podpowiedź#
+5990 Następna podpowiedź#
+5991 Poprzednia podpowiedź#
 5992 Szerszy opis w ekwipunku#
 5993 Szybki obrót#
 5994 Czat#
@@ -6067,7 +6069,7 @@ TRUDNOŚĆ#
 #6018 zostało wcześniej pominięte, więc zostało wykorzystane.
 
 6019 Wypełniaj pasek#
-6020 Wstępnie załaduj Pliki Muzyczne#
+6020 Wstępnie załaduj pliki muzyczne#
 6021 Wstępne ładowanie poprawi wydajność odtwarzania, ale zwiększy zużycie pamięci systemu. (Zadziała przy ponownym uruchomieniu gry)#
 6022 Motywy świąteczne#
 6023 Treść świąteczna#
@@ -6210,7 +6212,7 @@ Filtr#
 6075 Cytadela#
 6076 Klasyczny#
 6077 Piekło#
-6078 Filtry Tabeli Wyników#
+6078 Filtry tabeli wyników#
 6079 Filtry Tabeli
 Wyników#
 6080 Głębia#
@@ -6333,17 +6335,17 @@ dozwolona w tym wyzwaniu!#
 6143 Mono#
 6144 Stereo#
 6145 Kwadro#
-6146 Dźwięk Przestrzenny#
-6147 5.1 Dźwięk Przestrzenny#
-6148 7.1 Dźwięk Przestrzenny#
-6149 7.1.4 Dźwięk Przestrzenny#
+6146 Dźwięk przestrzenny#
+6147 5.1 Dźwięk przestrzenny#
+6148 7.1 Dźwięk przestrzenny#
+6149 7.1.4 Dźwięk przestrzenny#
 6150 Żądana konfiguracja głośników.#
 6151 Brak wyników z bieżącym filtrem.
 Wypróbuj inne filtry rankingów
 aby zobaczyć więcej wyników.#
 6152 oblał wyzwanie.#
 6153 Wyzwanie#
-6154 Postęp Wyzwania#
+6154 Postęp wyzwania#
 6155 Drużynowa liczba zabójstw#
 6156 Wyzwanie Ukończone!#
 6157 Zniszczone meble#
@@ -6575,8 +6577,8 @@ Ustawieniach. Poproś gospodarza
 by zmienił ustawienia gry.
 
 #
-6349 Poproś o Ułatwiacze#
-6350 Sprawdź Ustawienia#
+6349 Poproś o ułatwiacze#
+6350 Sprawdź ustawienia#
 6351 Ktoś obecnie używa kapliczki, cierpliwości!#
 6352 Widzisz Pomocną Kapliczkę.#
 6353 Pomocna Kapliczka#
