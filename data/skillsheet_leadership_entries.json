@@ -1,0 +1,151 @@
+{
+    "version": 1,
+    "leadership_allies_base": {
+        "vampire": [
+            "Wampir",
+            "Maszyna"
+        ],
+        "skeleton": [
+            "Ghul",
+            "Maszyna"
+        ],
+        "human": [
+            "Człowiek",
+            "Maszyna"
+        ],
+        "succubus": [
+            "Sukkub",
+            "Inkub",
+            "Maszyna"
+        ],
+        "goatman": [
+            "Satyr",
+            "Maszyna"
+        ],
+        "automaton": [
+            "Człowiek",
+            "Maszyna"
+        ],
+        "incubus": [
+            "Sukkub",
+            "Inkub",
+            "Maszyna"
+        ],
+        "goblin": [
+            "Goblin",
+            "Maszyna"
+        ],
+        "insectoid": [
+            "Skorpion",
+            "Skarabeusz",
+            "Insektoid",
+            "Maszyna"
+        ],
+        "rat": [
+            "Szczur",
+            "Maszyna"
+        ],
+        "troll": [
+            "Troll",
+            "Maszyna"
+        ],
+        "spider": [
+            "Pająk",
+            "Skorpion",
+            "Skarabeusz",
+            "Maszyna"
+        ],
+        "imp": [
+            "Chochlik",
+            "Maszyna"
+        ]
+    },
+    "leadership_allies_legendary": {
+        "vampire": [
+            "Goblin",
+            "Insektoid",
+            "Satyr"
+        ],
+        "skeleton": [
+            "Goblin",
+            "Insektoid",
+            "Satyr"
+        ],
+        "human": [
+            "Goblin",
+            "Insektoid",
+            "Satyr"
+        ],
+        "succubus": [
+            "Goblin",
+            "Insektoid",
+            "Satyr"
+        ],
+        "goatman": [
+            "Goblin",
+            "Insektoid"
+        ],
+        "automaton": [
+            "Goblin",
+            "Insektoid",
+            "Satyr"
+        ],
+        "incubus": [
+            "Goblin",
+            "Insektoid",
+            "Satyr"
+        ],
+        "goblin": [
+            "Insektoid",
+            "Satyr"
+        ],
+        "insectoid": [
+            "Goblin",
+            "Satyr"
+        ],
+        "rat": [
+            "Goblin",
+            "Insektoid",
+            "Satyr"
+        ],
+        "troll": [
+            "Goblin",
+            "Insektoid",
+            "Satyr"
+        ],
+        "spider": [
+            "Goblin",
+            "Insektoid",
+            "Satyr"
+        ],
+        "imp": [
+            "Goblin",
+            "Insektoid",
+            "Satyr"
+        ]
+    },
+    "leadership_allies_unique_recruits": {
+        "succubus": [
+            {
+                "human": "   (Pijany)"
+            },
+            {
+                "human": "   (Zdezorientowany)"
+            }
+        ],
+        "goatman": [
+            {
+                "human": "   (Rzuć piwem\n   będąc pijanym)"
+            },
+			{
+                "goblin": "   (Rzuć piwem\n   będąc pijanym)"
+            },
+			{
+                "succubus": "   (Rzuć piwem\n   będąc pijanym)"
+            },
+			{
+                "incubus": "   (Rzuć piwem\n   będąc pijanym)"
+            }
+        ]
+    }
+}

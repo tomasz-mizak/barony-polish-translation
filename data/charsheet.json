@@ -1,0 +1,295 @@
+{
+	"version": 1,
+	"hover_text": {
+		"autosort_button_mouse_compact": "Auto-sortowanie.\nPrzytrzymaj [Prawy przycisk] po więcej opcji.",
+		"autosort_button_mouse": "Auto-sortowanie.\nPrzytrzymaj [Prawy przycisk] po\nwięcej opcji.",
+		"gold_mouse": "Przytrzymaj [Prawy przycisk] by upuścić złoto.",
+		"gold_controller": "Wciśnij klawisz by upuścić złoto:",
+		"gold_option_10": "10 złota",
+		"gold_option_100": "100 złota",
+		"gold_option_1000": "1000 złota",
+		"gold_option_all": "CAŁE złoto",
+		"game_timer_mouse": "[Lewy przycisk] by ",
+		"game_timer_pin": "przypiąć stoper do HUDa.",
+		"game_timer_unpin": "odepiąć stoper od HUDa.",
+		"race": {
+			"race_traits": "Cechy:",
+			"race_title_normal": "OPIS RASY",
+			"race_title_polymorph": "OPIS RASY (Polimorfia)",
+			"race_title_shapeshift": "OPIS RASY (Zmiennokształtność)"
+		},
+		"class": {
+			"class_title": "PRZYROST STATÓW PROFESJI",
+			"class_title_shapeshift": "PRZYROST STATÓW PROFESJI (Zmiennokształtność)",
+			"stat_growth_info": "Nowy poziom zwiększa statystyki o +1, zależnie od Profesji\nUlepszanie umiejętności zapewnia +20% do wyrzucenia +2 dla Powiązanej Statystyki   (Zobacz powiązane statystyki na liście umiejętności)",
+			"stat_growth_min_tooltip_width": "320",
+			"stat_growth_max_tooltip_width": "320"
+		},
+		"stats": {
+			"stat_max_tooltip_width": "600",
+			"stat_min_tooltip_width": "380",
+			"stat_base_amount": "Bazowa:",
+			"stat_modified_amount": "Bonusy:\n(Od przedmiotów/efektów)",
+			"stat_str_title": "SIŁA",
+			"stat_dex_title": "ZRĘCZNOŚĆ",
+			"stat_con_title": "KONDYCJA",
+			"stat_int_title": "INTELIGENCJA",
+			"stat_per_title": "PERCEPCJA",
+			"stat_chr_title": "CHARYZMA",
+			"stat_str_desc": "Zwiększa wartość ATK wręcz\nZwiększa prędkość ruchu podczas przenoszenia ciężkich rzeczy",
+			"stat_dex_desc": "Zwiększa wartość ATK dystansowego i rzucanego\nZwiększa prędkość ruchu podczas przenoszenia lekkich rzeczy",
+			"stat_con_desc": "Zwiększa Klasę Pancerza (KP)\nSkraca trwanie negatywnych efektów\nZwiększa efekty eliksirów leczenia",
+			"stat_int_desc": "Zwiększa Moc zaklęć (MOC) i regenerację PM (RGN)\nZwiększa efekty Magii i Rzucania Zaklęć\nZwiększa efekty eliksirów odnowy Many",
+			"stat_per_desc": "Zwiększa penetrację pancerza dla broni dystansowej\nZwiększa efekty Mechaniki i Oceny\nZapewnia lepszą widoczność w ciemności",
+			"stat_chr_desc": "Zapewnia lepsze ceny wymian z Handlarzami\nZwiększa efekty Dowodzenia i Handlu",
+			"stat_str_movement_bonus": "Prędkość ruchu od SIŁ:",
+			"stat_atk_value_format": "%+d ATK",
+			"stat_str_atk_bonus": "Bonus wręcz do ATK:",
+			"stat_dex_movement_bonus": "Bonus prędkości od ZRĘ:",
+			"stat_dex_ranged_atk_bonus": "Bonus ATK Dystansowego:",
+			"stat_dex_thrown_atk_bonus": "Bonus ATK Rzucanego:",
+			"stat_con_ac_bonus": "Bonus do Klasy Pancerza:",
+			"stat_ac_value_format": "%+d KP",
+			"stat_movement_value_format": "%+.1f%% PRĘ",
+			"stat_int_pwr_bonus": "Bonus do Mocy zaklęć:",
+			"stat_int_mp_regen_bonus": "Bonus do regeneracji PM:",
+			"stat_pwr_value_format": "%+.1f%% MOC",
+			"stat_mp_regen_value_format": "%+.1f%% RGN",
+			"stat_per_pierce_bonus": "Szansa na przebicie\npancerza:",
+			"stat_pierce_value_format": "%+.f%%",
+			"stat_per_light_bonus": "Lepszy wzrok \nw ciemności:",
+			"stat_per_sneaking_bonus": "Lepszy wzrok \nprzy skradaniu:",
+			"stat_light_value_format": "%+d Światła",
+			"stat_chr_selling_bonus": "Wartość sprzedawanego \nprzedmiotu:",
+			"stat_chr_buying_bonus": "Zniżka na zakup \nprzedmiotu:",
+			"stat_selling_value_format": "%+.1f%% Złota",
+			"stat_buying_value_format": "%+.1f%% Złota",
+			"icon_str_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"icon_dex_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+			"icon_con_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+			"icon_int_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"icon_per_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+			"icon_chr_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png"
+		},
+		"icon_backing_path": "#*images/ui/HUD/HUD_ActionPromptBacking00_02.png",
+		"attributes_max_tooltip_width": "600",
+		"attributes_min_tooltip_width": "420",
+		"attributes_atk": {
+			"icon_atk_path": "#*images/ui/CharSheet/HUD_CharSheet_ATT_00.png",
+			"attributes_atk_total_sum_header": "Maks ATK Łącznie:",
+			"attributes_atk_title": "ATAK",
+			"attributes_atk_title_unarmed": "Bez broni",
+			"attributes_atk_range": "Zasięg ATK:\n(Używa umiejętności %s: %d/100)",
+			"attributes_atk_range_noskill": "Zasięg ATK:",
+			"attributes_atk_avg": "Średni ATK:",
+			"attributes_atk_value": "Wartość ATK:",
+			"attributes_atk_melee_desc": "Cios krytyczny zadaje 200%% obrażeń\nIm wyższa umiejętność %s tym większy średni ATK\nCiosy w plecy zadają dodatkowe obrażenia oparte o Skradanie",
+			"attributes_atk_pickaxe_desc": "Cios krytyczny zadaje 200%% obrażeń\nCiosy w plecy zadają dodatkowe obrażenia oparte o Skradanie",
+			"attributes_atk_unarmed_desc": "Cios krytyczny zadaje 200%% obrażeń\nIm wyższa umiejętność %s tym większy średni ATK\nWyposażone pierścienie i kastety wzmacniają ATK\nCiosy w plecy zadają dodatkowe obrażenia oparte o Skradanie",
+			"attributes_atk_ranged_desc": "Ataki dystansowe mają szansę na zignorowanie 50%% KP celu w oparciu o PER\nIm wyższa umiejętność %s tym większy średni ATK\nZałożone kołczany modyfikują ATK i dają dodatkowe efekty przy trafieniu",
+			"attributes_atk_thrown_desc": "nAtaki ignorują 50-75%% KP celu\nWyższa umiejętność %s zwiększa obrażenia\nNaładowany rzut zadaje maks obrażeń i zwiększa penetrację pancerza celu",
+			"attributes_atk_gem_desc": "Wyższa umiejętność %s zwiększa obrażenia\nNaładowany rzut zadaje maks obrażeń",
+			"attributes_atk_potion_desc": "Efekty mikstury przechodzą na trafiony cel\nWyższa umiejętność %s zwiększa obrażenia od uderzenia i efektu eliksiru",
+			"attributes_atk_magicstaff_desc": "Rzuca zaklęcie przypisane do Kostura przy ataku\nŁadowanie ataku pozwala na większą celność\nMoc i efekty są niezależne od stopnia naładowania",
+			"attributes_atk_tool_desc": "Nie można atakować trzymając to w dłoniach\nPrzy użyciu wchodzisz w interakcję z przedmiotami",
+			"attributes_atk_tinker_tool_desc": "Rozstawia narzędzie przy Ataku\nW pełni naładowany rzut rozstawia sprzęt dalej",
+			"attributes_atk_entry_weapon_bonus": "Bonus broni:",
+			"attributes_atk_entry_items_bonus": "Bonus Przedmiotów / Efektów:",
+			"attributes_atk_entry_attr_bonus_melee": "Bonus cechy (SIŁ):",
+			"attributes_atk_entry_attr_bonus_ranged": "Bonus cechy (ZRĘ):",
+			"attributes_atk_entry_attr_bonus_whip": "Bonus cechy (SIŁ/ZRĘ):",
+			"attributes_atk_entry_melee_weapon_base": "Bazowe obrażenia wręcz:",
+			"attributes_atk_entry_ranged_weapon_base": "Bazowe obrażenia dystansowe:",
+			"attributes_atk_entry_unarmed_weapon_base": "Bazowe obrażenia bez broni:",
+			"attributes_atk_entry_thrown_weapon_base": "Bazowe obrażenia rzucane:",
+			"attributes_atk_entry_thrown_weapon_fully_charged": "Bonus przy silnym rzucie:",
+			"attributes_atk_entry_skill_variance": "Odchylenie ATK od umiejętności:",
+			"attributes_atk_entry_skill_bonus": "Bonus umiejętności:",
+			"attributes_atk_range_format": "%d - %d ATK",
+			"attributes_atk_bonus_format": "%+d ATK",
+			"attributes_atk_nobonus_format": "%d ATK",
+			"attributes_atk_percent_format": "%.2f%%",
+			"attributes_atk_average_format": "%.1f ATK"
+		},
+		"attributes_ac": {
+			"icon_ac_path": "#*images/ui/CharSheet/HUD_CharSheet_AC_00.png",
+			"attributes_ac_title": "KLASA PANCERZA",
+			"attributes_ac_base": "Bazowa Klasa Pancerza:",
+			"attributes_ac_defending": "Bonus za aktywny blok:\n(Używa umiejętności %s: %d/100)",
+			"attributes_ac_entry_attr_bonus": "Bonus cechy (KON):",
+			"attributes_ac_bonus_format": "%+d KP",
+			"attributes_ac_nobonus_format": "%d KP",
+			"attributes_ac_entry_items_bonus": "Bonus Przedmiotów / Efektów:",
+			"attributes_ac_base_sum_header": "Bazowa KP łącznie:",
+			"attributes_ac_passive_bonus": "Pasywny Bonus umiejętności:",
+			"attributes_ac_desc": "Pomniejsza otrzymywane obrażenia fizyczne o punkty KP\nBlokowanie zwiększa KP bez względu na kierunek i czas ataków\nPremia za aktywne blokowanie dotyczy większości przedmiotów w drugiej ręce,\npodczas gdy premia za umiejętności pasywne dotyczy tylko dzierzonych tarcz"
+		},
+		"attributes_pwr": {
+			"icon_pwr_path": "#*images/ui/CharSheet/HUD_CharSheet_SPWR_00.png",
+			"attributes_pwr_title": "MOC ZAKLĘĆ",
+			"attributes_pwr_base": "Moc Zaklęć:",
+			"attributes_pwr_spellbook": "Bonus czaru z księgi:\n(Używa cechy INT)",
+			"attributes_pwr_entry_attr_bonus": "Bonus cechy (INT):",
+			"attributes_pwr_bonus_format": "%+d%% MOC",
+			"attributes_pwr_nobonus_format": "%d%% MOC",
+			"attributes_pwr_base_value": "Bazowa Moc Zaklęć:",
+			"attributes_pwr_entry_items_bonus": "Bonus Przedmiotów / Efektów:",
+			"attributes_pwr_base_sum_header": "Moc Zaklęć łącznie:",
+			"attributes_pwr_passive_bonus": "Pasywny Bonus umiejętności:",
+			"attributes_pwr_desc": "Zwiększa obrażenia i leczenie rzucanych zaklęć\nRzucanie zaklęć z trzymanej w rękach księgi wzmacnia ich efekt"
+		},
+		"attributes_res": {
+			"icon_res_path": "#*images/ui/CharSheet/HUD_CharSheet_RES_00.png",
+			"attributes_res_title": "ODPORNOŚĆ NA MAGIĘ",
+			"attributes_res_base_sum_header": "Odporność na magię łącznie:",
+			"attributes_res_base": "Odporność na magię:",
+			"attributes_res_sources": "Źródła odporności:\n(Przedmioty / Efekty)",
+			"attributes_res_base_value": "Bonus rasowy (%s):",
+			"attributes_res_entry_items_bonus": "Bonus Przedmiotów / Efektów:",
+			"attributes_res_bonus_format": "%+d%% ODP",
+			"attributes_res_sources_format": "%+d źródło/a",
+			"attributes_res_nobonus_format": "%d%% ODP",
+			"attributes_res_desc": "Zmniejsza obrażenia od zaklęć o % odporności (Ujemne % zwiększają przyjmowane obrażenia)\nRóżne źródła Odporności na magię od przedmiotów/efektów nakładają się malejąco"
+		},
+		"attributes_rgn_hp": {
+			"icon_rgn_hp_path": "#*images/ui/CharSheet/HUD_CharSheet_REGEN_00.png",
+			"attributes_rgn_hp_title": "REGENERACJA PŻ",
+			"attributes_rgn_hp_base_sum_header": "Regeneracja PŻ łącznie:",
+			"attributes_rgn_hp_base": "Bazowa Regeneracja PŻ:",
+			"attributes_rgn_sources": "Źródła regeneracji:\n(Przedmioty / Efekty)",
+			"attributes_rgn_base_value": "Bonus rasowy (%s):",
+			"attributes_rgn_entry_items_bonus": "Bonus Przedmiotów / Efektów:",
+			"attributes_rgn_plain_display": "Szybkość efektu:",
+			"attributes_rgn_hp_per_second_format_zero": "0 PŻ co %2.1f sekund(y)",
+			"attributes_rgn_disabled": "Regeneracja PŻ wyłączona",
+			"attributes_rgn_hp_per_second_format": "+1 PŻ co %2.1f sekund(y)",
+			"attributes_rgn_bonus_format": "%+.f%% RGN",
+			"attributes_rgn_small_format": "%.f%%",
+			"attributes_rgn_hp_sources_format": "%+d  [Regen PŻ]",
+			"attributes_rgn_nobonus_format": "%s RGN",
+			"attributes_rgn_hp_desc": "PŻ regenerują się powoli z czasem, natychmiastowe przywracanie PŻ wymaga eliksirów lub zaklęć\nMaksymalny modyfikator od przedmiotów / efektów ograniczony do +3 [Regen PŻ]",
+			"attributes_rgn_hp_desc_no_hunger": "NOTE: Głód jest wyłączony w Ustawieniach obecnej sesji gry, PŻ nie regenerują się pasywnie\nZamiast tego przywracaj PŻ jedząc, używając eliksirów i zaklęć",
+			"attributes_rgn_en_desc_no_hunger": "NOTE: Głód jest wyłączony w Ustawieniach obecnej sesji gry, EN nie degeneruje się pasywnie\nRzucanie zaklęć wykorzystuje EN\nŚmierć głodowa wkracza gdy brakuje EN\nPrzywróć EN konsumując jedzenie, słodkie płyny i używając efektów przywracania PM",
+			"icon_rgn_mp_path": "#*images/ui/CharSheet/HUD_CharSheet_REGEN_00.png",
+			"icon_rgn_ht_empty_path": "#*images/ui/CharSheet/HUD_CharSheet_Boiler_Empty_00.png",
+			"icon_rgn_ht_normal_path": "#*images/ui/CharSheet/HUD_CharSheet_Boiler_Normal_00.png",
+			"icon_rgn_ht_superheated_path": "#*images/ui/CharSheet/HUD_CharSheet_Boiler_Superheated_00.png",
+			"attributes_rgn_mp_title": "REGENERACJA PM",
+			"attributes_rgn_ht_title": "TEMPERATURA",
+			"attributes_rgn_en_title": "SPALANIE ENERGII",
+			"attributes_rgn_mp_base_sum_header": "Regeneracja PM łącznie:",
+			"attributes_rgn_ht_base_sum_header": "RAPORT O STANIE:",
+			"attributes_rgn_en_base_sum_header": "Spalanie Energii łącznie:",
+			"attributes_rgn_en_bonus_format": "%+.f%% EN",
+			"attributes_rgn_en_nobonus_format": "%s EN",
+			"attributes_rgn_en_sources": "Modyfikator stopnia:\n(Przedmioty / Efekty)",
+			"attributes_rgn_mp_base": "Bazowa regeneracja PM:",
+			"attributes_rgn_ht_base": "Bazowy stopień Temperatury (TMP):",
+			"attributes_rgn_en_base": "Stopień Spalania Energii (EN):",
+			"attributes_rgn_en_entry_items_bonus": "Items / Effects Modifiers:",
+			"attributes_rgn_ht_boiler_status": "BOILER NA PLECACH:",
+			"attributes_rgn_ht_boiler_value_normal": "W NORMIE",
+			"attributes_rgn_ht_boiler_value_superheat": "DEMONICZNIE GORĄCY",
+			"attributes_rgn_ht_boiler_value_low": "KRYTYCZNIE CHŁODNY",
+			"attributes_rgn_ht_base_bonus": "Bazowa stopień TMP:",
+			"attributes_rgn_en_base_bonus": "Bazowy stopień spalania EN:\n(Modyfikatory głodu danej mapy)",
+			"attributes_rgn_entry_statskill_bonus": "Cecha / Bonus umiejętności:\n(Używając cechy INT x umiejętność Inkantacji)",
+			"attributes_rgn_mp_per_second_format": "+1 PM co %2.1f sekund(y)",
+			"attributes_rgn_ht_per_second_format": "%+d TMP co %2.1f sekund(y)",
+			"attributes_rgn_en_per_second_format": "-1 EN co %2.1f sekund(y)",
+			"attributes_rgn_mp_sources_format": "%+d  [Regen PM]",
+			"attributes_rgn_ht_sources_format": "%+d  [Wzrost TMP]",
+			"attributes_rgn_en_sources_format": "%+d  [Utrzymanie EN]",
+			"attributes_rgn_ht_bonus_format": "%+.f%% RGN",
+			"attributes_rgn_ht_small_format": "%.f%%",
+			"attributes_rgn_mp_desc": "PM regenerują się powoli z czasem, maksymalnie 1 PM co 2 sekundy przed modyfikatorami\nMaksymalny Modyfikator regenracji z przedmiotów / efektów ograniczono do +3 [Regen PM]",
+			"attributes_rgn_ht_desc": "Boiler w normie zwiększa produkcję TMP\nDEMONICZNIE GORĄCY boiler zwiększa produkcję TMP o 2x albo o 4x jeśli TMP w boilerze spadła poniżej 50% maks\nKRYTYCZNIE CHŁODNY boiler błyskawicznie traci TMP, istnieje ryzyko poważnej awarii przy 0 TMP",
+			"attributes_rgn_en_desc": "Energia spala się z czasem, efekty wolnego trawienia spowalniają spalanie EN\nRzucanie zaklęć wykorzystuje EN\nŚmierć głodowa wkracza gdy brakuje EN\nPrzywróć EN konsumując jedzenie, słodkie płyny i używając efektów przywracania PM"
+		},
+		"attributes_wgt":
+		{
+			"icon_wgt_path": "#*images/ui/CharSheet/HUD_CharSheet_WGT_00.png",
+			"attributes_wgt_title": "UDŹWIG",
+			"attributes_wgt_base_sum_header": "Prędkości ruchu łącznie:",
+			"attributes_wgt_base": "Bazowy Udźwig:",
+			"attributes_wgt_movement_speed": "Obecna prędkości ruchu:\n(Używając wagi + cechy [SIŁ + ZRĘ])",
+			"attributes_wgt_inventory_value": "Kara za wagę ekwipunku:",
+			"attributes_wgt_equipment_value": "Kara za wagę wyposażenia:",
+			"attributes_wgt_gold_value": "Kara za noszone Złoto:",
+			"attributes_wgt_bonus_format": "%+d UDŹ",
+			"attributes_wgt_speed_format": "%.1f%% PRĘ",
+			"attributes_wgt_speed_bonus_format": "%+.2f%% PRĘ",
+			"attributes_wgt_speed_bonus_format1": "%+.2f%% %+.2f%% %+.2f%% PRĘ",
+			"attributes_wgt_nobonus_format": "%d UDŹ",
+			"attributes_wgt_attributes_bonus": "Bonus cechy (ZRĘ):",
+			"attributes_wgt_noweight_speed": "Kara za obecny udźwig:",
+			"attributes_wgt_desc": "Przedmioty i złoto zwiększają łączny udźwig, spowalniając ruch\nCecha SIŁ zmniejsza kary za wagę\nCecha ZRĘ zapewnia masywny bonus do ruchu i jego maksymalnej wartości"
+		}
+	},
+	"level_strings": {
+		"Start Map": { 
+			"display_name": "Wejście do kopalni",
+			"description": "Na obrzeżach południowo-zachodniej bramy Osady znajduje się wejście do Bastionu Diabłów."
+		},
+		"The Mines": { 
+			"display_name": "Kopalnie",
+			"description": "Mieszkańcy Osady na próżno kopali tu złoto."
+		},
+		"The Swamp": { 
+			"display_name": "Bagna",
+			"description": "Podziemne źródła zasilają tutejszą dziwną florę."
+		},
+		"The Labyrinth": { 
+			"display_name": "Piaskowy Labirynt",
+			"description": "Przypuszcza się, że cały piasek pochodzi z wyschniętego starożytnego oceanu."
+		},
+		"The Ruins": { 
+			"display_name": "Ruiny",
+			"description": "W najgłębszych otchłaniach niewolnicy Herxa zbudowali miasto."
+		},
+		"Mines to Swamp Transition": { 
+			"display_name": "Wyjście z kopalni",
+			"description": "Miejsce zbudowane dla tych, którzy przechodzą."
+		},
+		"Swamp to Labyrinth Transition": { 
+			"display_name": "Wyjście z Bagien",
+			"description": "Mosty umożliwiają dostęp przez wielką przepaść."
+		},
+		"Labyrinth to Ruins Transition": { 
+			"display_name": "Wyjście z Labiryntu",
+			"description": "Wygląda na to, że ten most był kiedyś rozbierany."
+		},
+		"Boss": { 
+			"display_name": "Leże Herxa",
+			"description": "To miejsce wygląda, jakby nie zostało zbudowane przez ludzi."
+		},
+		"Hell Boss": { 
+			"display_name": "Dom Bafometa",
+			"description": "Czujesz tu magiczne połączenie z Legowiskiem Herxa."
+		},
+		"Hell": { 
+			"display_name": "Piekło",
+			"description": "To miejsce budzi w Tobie nienawiść."
+		},
+		"Mages Guild": { 
+			"display_name": "Hamlet",
+			"description": "Budynki wokół wejścia do kopalni sprawiają wrażenie, jakby tędy przechodzili poszukiwacze przygód."
+		},
+		"Caves To Citadel Transition": { 
+			"display_name": "Wyjście z jaskiń",
+			"description": "Wydaje się, że tutejsza maszyneria czerpie energię z kryształów."
+		},
+		"Caves": { 
+			"display_name": "Kryształowa Grota",
+			"description": "Powietrze pulsuje magią materiałów, z których zrobione są ściany."
+		},
+		"Citadel": { 
+			"display_name": "Cytadela",
+			"description": "Ta mechaniczna twierdza wydaje się odcięta od świata zewnętrznego."
+		},
+		"Sanctum": { 
+			"display_name": "Sanktuarium",
+			"description": "Wydaje się, że prawa rzeczywistości łamią się w centrum tej masywnej maszyny."
+		}
+	}
+}

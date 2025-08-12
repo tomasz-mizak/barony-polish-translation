@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    "*2Wyrąbując sobie ścieżkę przez każdego demona na swojej drodze, wskakujesz w portal^.\n",
+	"Nie ważne kto, śmiertelnik czy Bóg, nikt nie może stawić Ci teraz czoła.\n^",
+	"*2Stoisz zmęczony w niekończącej się białej sali usianej ogromnymi filarami,\n",
+	"które rozciągają się wyżej, niż widzisz.\n",
+	"*2Nerwowo czekasz na pojawienie się kolejnego wroga.\n",
+	"Denerwujesz się, gdy rozbrzmiewa donośny głos:\n^",
+	"*3\"Byliśmy świadkami Waszej siły i żądzy władzy. Nie spodziewaliśmy się Ciebie.\n",
+	"Jesteśmy jednak pod wrażeniem Waszej zaciekłości i skupienia.\n",
+	"Prosimy o rozważenie tej propozycji, o potężny...\"\n^",
+	"*3Kiedy głos zwraca się do ciebie, zauważasz, że kuszą cię jego słowa. Mówi\n",
+	"o sile większej niż Herx i Baphomet. Twierdzi, że jest większa nawet od\n",
+	"Ciebie. Perspektywa konkurencji nie ma racji bytu...\n^",
+	"*2Bez ostrzeżenia zostajesz przeniesiony do ludzkiego mieszkania w Osadzie.\n",
+	"Ale jego mieszkańcy są zbyt pijani, żeby zauważyć, jak skradasz się na zaplecze.\n^",
+	"*1Zapadnia prowadzi do ścieków, za którymi możesz poczuć zew potężnej magii..."
+    ],
+    "images": [
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/white.png",
+	"*images/ui/Main Menus/Story/NoEternals.png",
+	"*images/ui/Main Menus/Story/Eternals.png",
+	"*images/ui/Main Menus/Story/white.png",
+	"*images/ui/Main Menus/Story/MagiciansGuild.png",
+	"*images/ui/Main Menus/Story/black.png"
+    ]
+}

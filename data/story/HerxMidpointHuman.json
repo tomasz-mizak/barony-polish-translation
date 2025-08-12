@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    	"Po pokonaniu Barona i umieszczeniu jego fioletowej kuli na cokole,\n",
+    	"wkraczasz do portalu. Potężna magia wywołuje mrowienie w całym ciele.\n^",
+    	"Zostajesz przeniesiony z białym błyskiem.^ Wychodzisz na zewnątrz\n",
+    	"kopalni i patrzysz, jak przeklęta czerń odrywa się od ziemi.\n",
+    	"Ciepłe światło słoneczne przepływa nad okolicą. Gdy drzwi kopalni otworzyły się,\n",
+    	"szeroko, ludzie ostrożnie wyszli na ulice, przyzwyczajając się do wolności.\n^",
+    	"*3Maszerujesz do Gildii Magów, aby uzyskać odpowiedzi na temat mocy Herxa,\n",
+    	"ale odźwierny ci odmawia. Widząc, że jesteś wychudzony po wyprawie,\n",
+    	"zachęca cię do odpoczynku. \"Odpowiedzi, których szukasz nigdzie sobie nie pójdą.\"\n",
+		"Wracasz na ulice i widzisz setkę ludzi czekających na ciebie, ich bohatera.\n",
+		"Bierzesz udział w zasłużonej zabawie, ale postanawiasz ponownie odwiedzić\n",
+		"Gildię Magów, gdy zabawa ucichnie..."
+    ],
+    "images": [
+	"images/ui/Main Menus/Story/black.png",
+	"images/ui/Main Menus/Story/white.png",
+	"images/ui/Main Menus/Story/Hamlet_Rescue.png",
+	"images/ui/Main Menus/Story/MagiciansGuild.png",
+	"images/ui/Main Menus/Story/black.png"
+    ]
+}

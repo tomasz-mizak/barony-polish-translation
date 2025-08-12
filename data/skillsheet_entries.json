@@ -1,0 +1,682 @@
+{
+	"version": 1,
+	"colors": {
+		"default": {
+			"r": 201,
+			"g": 162,
+			"b": 100,
+			"a": 255
+		},
+		"novice": {
+			"r": 74,
+			"g": 196,
+			"b": 20,
+			"a": 255
+		},
+		"expert": {
+			"r": 55,
+			"g": 149,
+			"b": 215,
+			"a": 255
+		},
+		"legend": {
+			"r": 230,
+			"g": 183,
+			"b": 20,
+			"a": 255
+		}
+	},
+	"skill_background_icons" : {
+		"default": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00_00.png",
+		"default_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG00Select_00.png",
+		"novice": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20_00.png",
+		"novice_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG20Select_00.png",
+		"expert": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60_00.png",
+		"expert_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG60Select_00.png",
+		"legend": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100_00.png",
+		"legend_selected": "#*images/ui/SkillSheet/UI_Skills_Icons_BG100Select_00.png"
+	},
+	"skill_select_images": {
+		"highlight_left": "#*images/ui/SkillSheet/UI_Skills_SkillSelector_01.png",
+		"selected_left": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100_01.png",
+		"highlight_right": "#*images/ui/SkillSheet/UI_Skills_SkillSelectorR_01.png",
+		"selected_right": "#*images/ui/SkillSheet/UI_Skills_SkillUnselected100R_01.png"
+	},
+	"window_scaling": {
+		"standard_scale_modifier_x": 2.0,
+		"standard_scale_modifier_y": 1.2,
+		"compact_scale_modifier_x": 0.5,
+		"compact_scale_modifier_y": 0.0
+	},
+	"alchemy_potion_names_to_filter": ["eliksir", "butelka"],
+	"skills": [
+		{
+			"name": "Skradanie",
+			"id": 1,
+			"sfx": 549,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Stealth01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Stealth01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Stealth02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+			"description": "Zapewnia zmniejszone wykrycie przez wrogów, dodatkową widoczność dla Ciebie i dodatkowe obrażenia w walce wręcz kiedy się skradasz. Użyj klawisza Bloku bez puklerza w drugiej ręce, aby się skradać.",
+			"legend_text": "Niewidzialność podczas skradania się. Podwójny bonus obrażeń przy dźgnięciu w plecy.",
+			"effects_position": {
+				"effect_start_offset_x": 80,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 88
+			},
+			"effects": [
+				{
+					"tag": "STEALTH_VIS_REDUCTION",
+					"title": "Zmniejszone wykrycie:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "STEALTH_SNEAK_VIS",
+					"title": "Dodatkowa widoczność:",
+					"value": "%+d"
+				},
+				{
+					"tag": "STEALTH_BACKSTAB",
+					"title": "Bonus ciosu w plecy:",
+					"value": "%+d ATK",
+					"realtime_update": true
+				},
+				{
+					"tag": "STEALTH_CURRENT_VIS",
+					"title": "Obecne wykrycie z:",
+					"value": "%d Pól",
+					"realtime_update": true
+				}
+			]
+		},
+		{
+			"name": "Blokowanie",
+			"id": 13,
+			"sfx": 599,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Blocking01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Blocking01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Blocking02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+			"description": "Zwiększa Klasę Pancerza podczas bloku.\n Oferuje pasywny bonus do Klasy Pancerza od trzymanych Puklerzy. Zwiększa trwałość przedmiotów w drugiej ręce podczas walki.",
+			"legend_text": "Puklerz nigdy się nie psuje.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "BLOCK_AC_INCREASE",
+					"title": "Bonus KP przy blokowaniu:",
+					"value": "%+d KP"
+				},
+				{
+					"tag": "PASSIVE_AC_INCREASE",
+					"title": "Pasywny bonus KP \n mając puklerz w drugiej ręce:",
+					"value": "%+d KP"
+				},
+				{
+					"tag": "BLOCK_DEGRADE_NORMAL_CHANCE",
+					"title": "Szansa na degradację Puklerza:\n (Przy otrzymywaniu obrażeń)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "BLOCK_DEGRADE_DEFENDING_CHANCE",
+					"title": "Szansa na degradację Puklerza:\n (Kiedy się bronisz):",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Dystansowe",
+			"id": 8,
+			"sfx": 600,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Ranged01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Ranged02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+			"description": "Zwiększa obrażenia Broni Dystansowych/Rzucanych oraz ich wytrzymałość.",
+			"legend_text": "Broń Dystansowa nigdy się nie psuje.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "RANGED_DMG_EFFECTIVENESS",
+					"title": "Efektywność ATK\n zasięgowego:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "RANGED_DEGRADE_CHANCE",
+					"title": "Szansa na degradację\n Broni Dystansowej:",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "RANGED_PIERCE_CHANCE",
+					"title": "Szansa na penetrację\n pancerza strzałą:\n (atrybut PER)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "RANGED_THROWN_DMG",
+					"title": "ATK Rzucanymi brońmi:",
+					"value": "%+d%%"
+				}
+			]
+		},
+		{
+			"name": "Pięści",
+			"id": 14,
+			"sfx": 594,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Unarmed01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Unarmed01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Unarmed02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Zwiększa obrażenia od Pięści lub Kastetów. Zwiększa wytrzymałość Kastetów i odpycha przy w pełni naładowanych ciosach.",
+			"legend_text": "+5 ATK i 1 sekunda Paralizu na w pełni naładowanym ciosie w plecy podczas skradania.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "UNARMED_DMG_EFFECTIVENESS",
+					"title": "Efektywność ATK\n Pięściami:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "UNARMED_BONUS_DMG",
+					"title": "Bonus do ATK Pięściami:",
+					"value": "%+d ATK"
+				},
+				{
+					"tag": "GLOVE_DEGRADE_CHANCE",
+					"title": "Szansa na degradację\n Kastetów:\n (Normalne ciosy)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "GLOVE_DEGRADE0_CHANCE",
+					"title": "Szansa na degradację\n Kastetów:\n (Przy zadaniu 0 obrażeń)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "UNARMED_KNOCKBACK_DIST",
+					"title": "Odległość Odepchnięcia\n Pięściami:",
+					"value": "%+d%%"
+				}
+			]
+		},
+		{
+			"name": "Miecze",
+			"id": 9,
+			"sfx": 588,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Swords01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Swords01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swords02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Zwiększa obrażenia jak i wytrzymałość każdego Miecza.",
+			"legend_text": "+5 ATK i wywołanie Krwawienia na 5 sekund przy w pełni naładowanym ciosie.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "SWORD_DMG_EFFECTIVENESS",
+					"title": "Efektywność ATK\n Mieczem:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "SWORD_DEGRADE_CHANCE",
+					"title": "Szansa na degradację\n broni:\n (Normalne ciosy)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "SWORD_DEGRADE0_CHANCE",
+					"title": "Szansa na degradację\n broni:\n (Przy zadaniu 0 obrażeń)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Kije",
+			"id": 12,
+			"sfx": 578,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Polearms01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Polearms01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Polearms02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Zwiększa obrażenia jak i wytrzymałość każdej Broni Drzewcowej.",
+			"legend_text": "+5 ATK i mocne odepchnięcie przy w pełni naładowanym ciosie.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "POLEARM_DMG_EFFECTIVENESS",
+					"title": "Efektywność ATK\n Kijami:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "POLEARM_DEGRADE_CHANCE",
+					"title": "Szansa na degradację\n broni:\n (Normalne ciosy)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "POLEARM_DEGRADE0_CHANCE",
+					"title": "Szansa na degradację\n broni:\n (Przy zadaniu 0 obrażeń)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Topory",
+			"id": 11,
+			"sfx": 570,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Axes01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Axes01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Axes02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Zwiększa obrażenia jak i wytrzymałość każdego Topora.",
+			"legend_text": "+10 ATK and inflict 3 second Slow status przy w pełni naładowanym ciosie.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "AXE_DMG_EFFECTIVENESS",
+					"title": "Efektywność ATK\n Toporami:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "AXE_DEGRADE_CHANCE",
+					"title": "Szansa na degradację\n broni:\n (Normalne ciosy)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "AXE_DEGRADE0_CHANCE",
+					"title": "Szansa na degradację\n broni:\n (Przy zadaniu 0 obrażeń)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Buzdygany",
+			"id": 10,
+			"sfx": 575,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Maces01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Maces01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Maces02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"description": "Zwiększa obrażenia jak i wytrzymałość każdego Buzdygana czy Morgenszternu.",
+			"legend_text": "+5 ATK i 25% szansy na zadanie 1.5 sekundy Paraliżu przy w pełni naładowanym ciosie.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "MACE_DMG_EFFECTIVENESS",
+					"title": "Efektywność ATK\n Buzdyganem:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "MACE_DEGRADE_CHANCE",
+					"title": "Szansa na degradację\n broni:\n (Normalne ciosy)",
+					"value": "%.2f%%"
+				},
+				{
+					"tag": "MACE_DEGRADE0_CHANCE",
+					"title": "Szansa na degradację\n broni:\n (Przy zadaniu 0 obrażeń)",
+					"value": "%.2f%%"
+				}
+			]
+		},
+		{
+			"name": "Pływanie",
+			"id": 4,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Swimming01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Swimming01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Swimming02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+			"description": "Zwiększa prędkość poruszania się podczas pływania w cieczach (lawie też).",
+			"legend_text": "Permanentne chodzenie po wodzie i lawie jak Jezus.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "SWIM_SPEED_TOTAL",
+					"title": "Prędkość ruchu\n podczas pływania:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "SWIM_SPEED_BASE",
+					"title": "Mnożnik kary\n ruchu w cieczach:",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "SWIM_SPEED_BONUS",
+					"title": "Bonusowy mnożnik\n ruchu od Umiejętności:",
+					"value": "+%d%%"
+				}
+			]
+		},
+		{
+			"name": "Dowodzenie",
+			"id": 5,
+			"sfx": 603,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Leadership01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Leadership01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Leadership02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+			"description": "Zwiększa liczbę BN-ów, których można zrekrutować jednocześnie i odblokowuje więcej poleceń dla nich podczas interakcji.",
+			"legend_text": "Możesz rekrutować gobliny, satyry i insektoidy poza standardowymi przynależnościami rasowymi.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "LEADER_MAX_FOLLOWERS",
+					"title": "Maksimum towarzyszy:",
+					"value": "%d"
+				},
+				{
+					"tag": "LEADER_FOLLOWER_SPEED",
+					"title": "Bonus do ruchu\n towarzyszy:",
+					"value": "+%d ZRĘ"
+				},
+				{
+					"tag": "LEADER_CHARM_MONSTER",
+					"title": "Szansa na sukces\n zaklęcia Uroku:\n (Umiejętność + atrybut CHR)",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "LIST_LEADER_AVAILABLE_FOLLOWERS",
+					"title": "Obecnie możesz\n rekrutować rasy:",
+					"value": "%s",
+					"auto_resize_value": true
+				}
+			]
+		},
+		{
+			"name": "Handel",
+			"id": 2,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Trading01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Trading01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Trading02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png",
+			"description": "Obniża ceny zakupu i poprawia ceny sprzedaży podczas wymiany z handlarzami.",
+			"legend_text": "Każdy handlarz kupi od Ciebie wszystko.",
+			"effects_position": {
+				"effect_start_offset_x": 102,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 110
+			},
+			"effects": [
+				{
+					"tag": "TRADING_BUY_PRICE",
+					"title": "Marża cenowa przy\nzakupie ze sklepu:",
+					"value": "%+.f%% Złota"
+				},
+				{
+					"tag": "TRADING_SELL_PRICE",
+					"title": "Kara za odsprzedaż\ntowarów sklepowych:\n (Umiejętność + atrybut CHR)",
+					"value": "%.f%% Złota"
+				}
+			]
+		},
+		{
+			"name": "Ocena",
+			"id": 3,
+			"sfx": 568,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Appraisal01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Appraisal01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Appraisal02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Appraisal02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+			"description": "Zwiększa prędkość oceny i pozwala na ocenę droższych przedmiotów.",
+			"legend_text": "Każdy przedmiot ulega ekspertyzie natychmiastowo.",
+			"effects_position": {
+				"effect_start_offset_x": 88,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 96
+			},
+			"effects": [
+				{
+					"tag": "APPRAISE_GOLD_SPEED",
+					"title": "Czas do oceny\n za wartość w złocie:",
+					"value": "%.2f sekund",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "APPRAISE_MAX_GOLD_VALUE",
+					"title": "Górna wartość\n by móc ocenić:\n (Umiejętność + atrybut PER)",
+					"value": "%d Złota"
+				},
+				{
+					"tag": "APPRAISE_WORTHLESS_GLASS",
+					"title": "Możliwość oceny\n kawałków szkła:\n (Umiejętność + atrybut PER)",
+					"value": "%s"
+				}
+			]
+		},
+		{
+			"name": "Mechanika",
+			"id": 0,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Tinkering01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Tinkering02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+			"description": "Zwiększa możliwości zestawu mechanika o nowe przedmioty do wytworzenia i naprawiania. Zwiększa szansę na otwieranie zamków wytrychem.",
+			"legend_text": "Naprawisz większość broni i pancerzy zestawem mechanika i znajdziesz dodatkowe przedmioty i złoto otwierając kufry wytrychem.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "TINKERING_LOCKPICK_CHESTS_DOORS",
+					"title": "Szansa na otwarcie\n drzwi i kufra:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_SCRAP_CHESTS",
+					"title": "Szansa na złom\n przy otwarciu wytrychem:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_SCRAP_AUTOMATONS",
+					"title": "Szansa na złom\n przy grzebaniu w Maszynie:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_DISARM_ARROWS",
+					"title": "Szansa na\n deaktywację pułapek:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "TINKERING_KIT_SCRAP_BONUS",
+					"title": "Dodatkowy złom\n przy odzysku:\n (Umiejętność + atrybut PER)",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "TINKERING_KIT_REPAIR_ITEM",
+					"title": "Najwyższa zdolność\n do naprawy przedmiotu:\n (Umiejętność + atrybut PER)",
+					"value": "%s",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "TINKERING_MAX_ALLIES",
+					"title": "Maksimum rozstawionych\n mechanicznych sojuszników:",
+					"value": "%d"
+				}
+			]
+		},
+		{
+			"name": "Alchemia",
+			"id": 15,
+			"sfx": 552,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Alchemy01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Alchemy02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Poprawia zdolność warzenia eliksirów w alembiku i zwiększa obrażenia rzucanych mikstur ofensywnych.\nPij lub warz eliksiry, aby poznać przydatne składniki w alchemii.",
+			"legend_text": "Alembik nigdy się nie psuje.\nUwarzone eliksiry są błogosławione +2.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "ALCHEMY_POTION_EFFECT_DMG",
+					"title": "Obrażenia od efektu:",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "ALCHEMY_THROWN_IMPACT_DMG",
+					"title": "Obrażenia od\n rzutu eliksirem:",
+					"value": "+%d%%"
+				},
+				{
+					"tag": "ALCHEMY_DUPLICATION_CHANCE",
+					"title": "Szansa na duplikację\n przy użyciu wody:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "ALCHEMY_EMPTY_BOTTLE_CONSUME",
+					"title": "Szansa na odzysk butelki\n przy wypiciu zawartości:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "ALCHEMY_EMPTY_BOTTLE_BREW",
+					"title": "Szansa na odzysk butelki\n przy warzeniu eliksirów:",
+					"value": "%d%%"
+				},
+				{
+					"tag": "ALCHEMY_LEARNT_INGREDIENTS_BASE",
+					"title": "Poznane składniki\n Alchemiczne:\n (Główny)",
+					"value": "%s",
+					"custom_value_width_offset": 0,
+					"auto_resize_value": true,
+					"realtime_update": true
+				},
+				{
+					"tag": "ALCHEMY_LEARNT_INGREDIENTS_SECONDARY",
+					"title": "Poznane składniki\n Alchemiczne:\n (Wtórny)",
+					"value": "%s",
+					"custom_value_width_offset": 0,
+					"auto_resize_value": true,
+					"realtime_update": true
+				}
+			]
+		},
+		{
+			"name": "Magia",
+			"id": 7,
+			"sfx": 597,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Magic01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Magic01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Magic02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Umożliwia naukę zaklęć wyższego poziomu z ksiąg zaklęć. Wyposaż się w zaklęcie poprzez menu Magii i użyj klawisza Inkantacji lub dzierż księgę zaklęć i użyj klawisza Bloku, aby czarować.",
+			"legend_text": "Poznajesz zaklęcie Dominacji.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "MAGIC_SPELLPOWER_INT",
+					"title": "Bonus do Mocy zaklęć:\n (atrybut INT)",
+					"value": "%+d%%"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER",
+					"title": "Najwyższy Krąg\n Magii, który pojmiesz:\n (Umiejętność + atrybut INT)",
+					"value": "%s"
+				},
+				{
+					"tag": "MAGIC_CURRENT_TIER_SPELLS",
+					"title": "Zaklęcia z obecnego\n Kręgu Magii:",
+					"value": "%s",
+					"auto_resize_value": true
+				}
+			]
+		},
+		{
+			"name": "Inkantacje",
+			"id": 6,
+			"sfx": 596,
+			"icon_base_path": "#*images/ui/SkillSheet/Icons/Casting01.png",
+			"icon_legend_path": "#*images/ui/SkillSheet/Icons/Casting01_Gold.png",
+			"icon_base_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32.png",
+			"icon_legend_path_32px": "#*images/ui/SkillSheet/Icons/Casting02_32Gold.png",
+			"icon_stat_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"description": "Zwiększa niezawodność Inkantacji i czarowania z ksiąg, zmniejszając ryzyko przekręcenia inkantacji lub nadmiernego przepalenia many. Zwiększa pasywny regen PM.",
+			"legend_text": "Poznajesz zaklęcie Pocisk Mocy i kosztuje ono (0) PM.",
+			"effects_position": {
+				"effect_start_offset_x": 72,
+				"effect_background_offset_x": 8,
+				"effect_background_width": 80
+			},
+			"effects": [
+				{
+					"tag": "CASTING_MP_REGEN_SKILL_MULTIPLIER",
+					"title": "Mnożnik INT regenu PM\n z umiejętności:",
+					"value": "%dx INT",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_MP_REGEN",
+					"title": "Bazowy regen PM:\n (Przed modyfikatorami\n rasy/ekwipunku)",
+					"value": "1 PM co \n%.2f sekund(y)",
+					"auto_resize_value": true
+				},
+				{
+					"tag": "CASTING_BEGINNER",
+					"title": "Możliwość nieudanej\n inkantacji zaklęć:",
+					"value": "%s"
+				},
+				{
+					"tag": "CASTING_SPELLBOOK_FUMBLE",
+					"title": "Najwyższy Krąg Magii\n do czarowania z ksiąg\n bez przekręcania:\n (Umiejętność + atrybut INT)",
+					"value": "%s"
+				}
+			]
+		}
+	]
+}

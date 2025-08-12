@@ -1,0 +1,2353 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},	
+    "script_entries": {
+        "tutorial8a": {
+            "sign": [
+				"$ ",
+				"",
+				"Twoich PŻ jest mało przez",
+				"efekt zatrucia.",
+				"Eliksir Leczenia Plus",
+				"na pewno pomoże."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[3],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1],
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/extrahealing_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/extrahealing.png",
+				"sizex": 32,
+				"sizey": 32
+				}			
+			]
+        },
+        "tutorial8a_gamepad": {
+            "sign": [
+				"$ ",
+				"",
+				"Twoich PŻ jest mało przez",
+				"efekt zatrucia.",
+				"Eliksir Leczenia Plus",
+				"na pewno pomoże."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[3],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1],
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/extrahealing_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/extrahealing.png",
+				"sizex": 32,
+				"sizey": 32
+				}			
+			]
+        },		
+        "tutorial8b": {
+            "sign": [
+				"By wymieszać eliksiry,",
+				"w Alembiku użyj$ , oraz",
+				"wskaż dwa różne eliksiry",
+				"wciskając$ .",
+				"",
+				"Potem zatwierdź rezultat",
+				"z dolnego okna, wciskając",
+				"$ zakończysz warzenie."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2],
+					[],
+					[0],
+					[],
+					[],
+					[1,2,3],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				},				
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}				
+			]
+        },
+        "tutorial8b_gamepad": {
+            "sign": [
+				"By wymieszać eliksiry,",
+				"w Alembiku użyj$ , oraz",
+				"wskaż dwa różne eliksiry",
+				"wciskając$ .",
+				"",
+				"Potem zbierz składniki$",
+				"albo zabierz wywar",
+				"z dolnego okna."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2],
+					[],
+					[0],
+					[],
+					[],
+					[1,2],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				},				
+				{
+					"type": "input_glyph",
+					"value": "MenuAlt2"
+				}				
+			]
+        },		
+        "tutorial8c": {
+            "sign": [
+				"Eliksiry są wartościową",
+				"pomocą dla Podróżników",
+				"jak i potężną bronią",
+				"przeciwko wrogom.",
+				"",
+				"",
+				"Ci, którzy opanują ich",
+				"zastosowanie, przetrwają",
+				"w najmroczniejszym lochu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1,2],
+					[3],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8d": {
+            "sign": [
+				"Błogosławiony alembik może",
+				"dać Błogosławiony wywar.",
+				"$",
+				"Błogosławiona woda i sok",
+				"mocniej leczą rany."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1],
+					[1,2],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_Błogosławionyalembic.png",
+				"sizex": 0,
+				"sizey": 0
+				}			
+			]
+        },
+        "tutorial8e": {
+            "sign": [
+				"Przeklęty alembik może",
+				"dać przeklęty wywar.",
+				"$",
+				"Skażony wywar zadaje",
+				"większe obrażenia.",
+				"Przeklęta woda może",
+				"przekląć jakiś przedmiot."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[0,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_Przeklętyalembic.png",
+				"sizex": 0,
+				"sizey": 0
+				}		
+			]
+        },
+        "tutorial8f": {
+            "sign": [
+				"Musisz wykorzystać to",
+				"czego się nauczyłeś oraz",
+				"swój zapas eliksirów by",
+				"zwyciężyć. Upewnij się,",
+				"że jesteś gotowy.",
+				"",
+				"Nadszedł czas na test.",
+				"Oczyść teren z tych",
+				"przeklętych nieumarłych."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8g": {
+            "sign": [
+				"Fachowi alchemicy są",
+				"lepsi w cedzeniu eliksirów",
+				"pozwlając na duplikację.",
+				"",
+				"Porażka spowoduje utratę",
+				"eliksiru a nie wody."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[2],
+					[0,1,2,3]
+				],
+                "word_highlights2": [
+					[0,1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial8h": {
+            "sign": [
+				"By podejrzeć szansę na",
+				"duplikację najedź na spód",
+				"gniazda alembiku kiedy",
+				"twój wywar oraz woda są",
+				"przygotowane do warzenia."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8i": {
+            "sign": [
+				"Aby zwiększyć umiejętność",
+				"Alchemii możesz zacząć",
+				"od picia wywaru",
+				"po raz pierwszy.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/SkillSheet/Icons/Alchemy02_32.png",
+				"sizex": 32,
+				"sizey": 32
+				}				
+			]
+        },
+        "tutorial8j": {
+            "sign": [
+				"Przed Tobą leży alembik.",
+				"Alembik można użyć do",
+				"warzenia eliksirów.",
+				"$",
+				"Wymieszaj nowy wywar",
+				"dając dwie różne butelki."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_alembic.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial8k": {
+            "sign": [
+				"Uważaj na śmiercionośnego",
+				"wroga za tym przejściem.",
+				"",
+				"Mądrze byłoby trzymać",
+				"te wrota zamknięte."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8l": {
+            "sign": [
+				"Wajcha od tej bramy",
+				"jest w pomieszczeniu",
+				"z wrogim stawonogiem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/spiderlever.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8m": {
+            "sign": [
+				"Eliksir Paraliżu",
+				"",
+				"$ ",
+				"",
+				"Nakłada efekt Paraliżu,",
+				"wstrzymuje swobodny ruch",
+				"i ataki. Możesz pić inne",
+				"wywary mając paraliż."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/HUD/statusfx/paralyze.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial8n": {
+            "sign": [
+				"Czasem rzut wywarem,",
+				"który ma pozytywny efekt",
+				"to najlepszy sposób by",
+				"pomóc sojusznikom."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[2],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8o": {
+            "sign": [
+				"Napój leczenia dolegliwości",
+				"$",
+				"Wypicie tego oczyści Cię",
+				"z większości efektów,",
+				"wliczając w to pozytywne."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_cure.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial8p": {
+            "sign": [
+				"Eliksiry z pozytywnym",
+				"efektem są spożywane przy",
+				"domyślnej akcji, natomiast",
+				"te negatywne są brane do",
+				"ręki. By nimi rzucić",
+				"wciśnij$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0,1],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[2],
+					[],
+					[4],
+					[0,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/potionoffense_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
+        },
+        "tutorial8p_gamepad": {
+            "sign": [
+				"Eliksiry z pozytywnym",
+				"efektem są spożywane przy",
+				"domyślnej akcji, natomiast",
+				"te negatywne są brane do",
+				"ręki. By nimi rzucić",
+				"wciśnij$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0,1],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[2],
+					[],
+					[4],
+					[0,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/potionoffense_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
+        },		
+        "tutorial8q": {
+            "sign": [
+				"Eliksir możesz zawsze",
+				"wypić albo rzucić.",
+				"",
+				"Jeśli eliskir został",
+				"zidentyfikowany, to",
+				"domyślne$ zastosowanie",
+				"jak i paska dostępu",
+				"dopasowuje się od efektu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[0,2],
+					[],
+					[],
+					[0],
+					[],
+					[],
+					[3]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}			
+			]
+        },
+		"tutorial8q_gamepad": {
+            "sign": [
+				"Eliksir możesz zawsze",
+				"wypić albo rzucić.",
+				"",
+				"Jeśli eliskir został",
+				"zidentyfikowany, to",
+				"domyślne$ zastosowanie",
+				"jak i paska dostępu",
+				"dopasowuje się od efektu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[0,2],
+					[],
+					[],
+					[0],
+					[],
+					[],
+					[3]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}			
+			]
+        },
+        "tutorial8r": {
+            "sign": [
+				"Jesteś zatruty.",
+				"",
+				"$ ",
+				"",
+				"Wypij to ze swojego",
+				"ekwipunku wciskając$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/cureailment.png",
+				"sizex": 32,
+				"sizey": 32
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}					
+			]
+        },
+		"tutorial8r_gamepad": {
+            "sign": [
+				"Jesteś zatruty.",
+				"",
+				"$ ",
+				"",
+				"Wypij to ze swojego",
+				"ekwipunku wciskając$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/cureailment.png",
+				"sizex": 32,
+				"sizey": 32
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}					
+			]
+        },
+        "tutorial8s": {
+            "sign": [
+				"Każdy rodzaj eliskiru",
+				"pojawia się w pewnym",
+				"zakresie kolorów",
+				"oraz może być pomocny",
+				"albo szkodliwy."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8t": {
+            "sign": [
+				"By dzierżyć nieznany",
+				"lub pozytywny eliskir,",
+				"ze swojego paska,",
+				"Trzymaj$ wciskając klawisz",
+				"z przypisywaną cyfrą."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+				[],
+				[],
+				[0,1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Alt_00.png",
+				"sizex": 0,
+				"sizey": 0
+				}	
+			]
+        },
+        "tutorial8t_gamepad": {
+            "sign": [
+				"By dzierżyć nieznany",
+				"lub pozytywny eliskir,",
+				"Wciśnij$ na eliksirze w",
+				"Twoim ekwipunku oraz",
+				"wybierz [Dzierż] z",
+				"rozwijanej listy."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1],
+					[],
+					[0],
+					[],
+					[1]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}				
+			]
+        },	
+        "tutorial8u": {
+            "sign": [
+				"Eliksir Choroby",
+				"",
+				"$ ",
+				"",
+				"Rzuć nim we wroga by",
+				"nałożyć efekt trucizny.",
+				"Zniszcz tę kukłę by",
+				"przejść dalej."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/potionthrow.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/HUD/statusfx/poisoned.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial8v": {
+            "sign": [
+				"Użyj eliksirów by",
+				"pomóc w pokonaniu",
+				"wrogich szkieletów.",
+				"Wieżyczka jest uszkodzona",
+				"i zostanie zniszczona",
+				"bez Twojej pomocy.",
+				"",
+				"Pociągnij za wajchę",
+				"by rozpocząć."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/healsentry.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8w": {
+            "sign": [
+				"Każdy poprawny przepis",
+				"ma składnik bazowy.",
+				"Złe przepisy zawsze",
+				"dadzą eliksir choroby.",
+				"",
+				"Wymieszaj sok z gorzałą",
+				"w Alembiku by zobaczyć",
+				"efekt błędnego przepisu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[1,2],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[1,2]					
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/sickbrew_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8w_gamepad": {
+            "sign": [
+				"Każdy poprawny przepis",
+				"ma składnik bazowy.",
+				"Złe przepisy zawsze",
+				"dadzą eliksir choroby.",
+				"",
+				"Wymieszaj sok z gorzałą",
+				"w Alembiku by zobaczyć",
+				"efekt błędnego przepisu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[1,2],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[1,2]						
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/sickbrew_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },		
+        "tutorial8x": {
+            "sign": [
+				"Kwas",
+				"$",
+				"Używany do większości",
+				"śmiertelnie niestabilnych",
+				"eliksirów, które stają się",
+				"potężniejsze wraz z",
+				"wyższym poziomem alchemii"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1],
+					[0,1,2,3],
+					[0]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_acid.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial8y": {
+            "sign": [
+				"W następnej sali,",
+				"znajdziesz sporo",
+				"rozmaitych butelek",
+				"do eksperymentowania.",
+				"",
+				"Jeśli pomyślnie uwarzysz",
+				"cokolwiek to przepis",
+				"zostanie dodany do karty",
+				"Przepisów w Alembiku."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1],
+					[],
+					[2],
+					[0,1,2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8z": {
+            "sign": [
+				"Kary i nagrody jakie",
+				"oferują fontanny są",
+				"zbyt trudne do oparcia",
+				"się dla Podróżników.",
+				"Zwłaszcza dla tych",
+				"szukających eliksirów."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0]
+				],
+                "word_highlights2": [
+					[2],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/fountains.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8ab": {
+            "sign": [
+				"Eliksir Przywracania Magii",
+				"$",
+				"Przydatny rzucającym czary.",
+				"Połączone z sokiem da Ci",
+				"Eliksir Leczenia."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial5/sign_restoremp.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
+        },
+        "tutorial8ac": {
+            "sign": [
+				"Eliksir Ślepoty",
+				"",
+				"$",
+				"",
+				"Każdy pod jego wpływem",
+				"będzie miał problemy z",
+				"widzeniem. Dodaj sok",
+				"i masz przepis na eliksir",
+				"Leczenia Dolegliwości."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],				
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/HUD/statusfx/blind.png",
+				"sizex": 32,
+				"sizey": 32
+				}	
+			]
+        },
+        "tutorial8ad": {
+            "sign": [
+				"Eliksir Dezorientacji",
+				"$ ",
+				"Wymieszaj gorzałę z",
+				"eliksirami dezorientacji",
+				"by uzyskać więcej Kwasu.",
+				"",
+				"Dezorientacja zamienia",
+				"Sok w Gorzałę i Kwas",
+				"w Sok owocowy."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[2],
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/confuse.png",
+				"sizex": 32,
+				"sizey": 32
+				}			
+			]
+        },
+        "tutorial8ae": {
+            "sign": [
+				"Eliksir Niewidzialności",
+				"",
+				"$",
+				"",
+				"Zapewnia Niewidzialność.",
+				"Wymieszaj z Przywracaniem",
+				"Magii by stworzyć silny",
+				"Eliksir Leczenia Plus."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/invisible.png",
+				"sizex": 32,
+				"sizey": 32
+				}				
+			]
+        },
+        "tutorial8af": {
+            "sign": [
+				"Alchemia jest wymagająca",
+				"i zajmuje sporo miejsca",
+				"w Twoim ekwipunku.",
+				"",
+				"Trzymaj$ i wciśnij$",
+				"na przedmiotach w ekwipunku",
+				"by nagle je wyrzucić.",
+				"Auto-sortuj wciskając$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,2],
+					[],
+					[1,2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Shift_00.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Autosort Inventory"
+				}						
+			]
+        },
+        "tutorial8af_gamepad": {
+            "sign": [
+				"Alchemia jest wymagająca",
+				"i zajmuje sporo miejsca",
+				"w Twoim ekwipunku.",
+				"",
+				"Wyrzucaj rzeczy, których",
+				"nie potrzeba wciskając$",
+				"i auto-sortuj $ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1],
+					[2],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuAlt2"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Autosort Inventory"
+				}						
+			]
+        },		
+        "tutorial8ag": {
+            "sign": [
+				"$",
+				"Picie lub warzenie",
+				"eliksirów może czasem",
+				"zwrócić Ci jeden flakon,",
+				"pustą butelkę, którą",
+				"możesz znowu wykorzystać."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_bottle.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
+        },
+        "tutorial8ah": {
+            "sign": [
+				"Picie lub oberwanie",
+				"butelką Gorzały",
+				"sprawi, że się upijesz.",
+				"",
+				"$",
+				"",
+				"Bycie pijanym wpływa na",
+				"Twoje cechy i sprawia, że",
+				"masz gorszą celność."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[3],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/system/drunk.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial8ai": {
+            "sign": [
+				"Butelki Gorzałki i Soku",
+				"nie leczą tak dobrze",
+				"jak pełnoprawny eliksir",
+				"Leczący, ale bez dwóch",
+				"zdań występują bardziej",
+				"powszechnie."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1,3],
+					[0,1,3],
+					[],
+					[],
+					[2],
+					[0]
+				]
+            },
+            "variables": []
+        },
+        "tutorial8aj": {
+            "sign": [
+				"Flakonik Wody",
+				"$",
+				"Mieszaj z dowolnym wywarem",
+				"by duplikować je.",
+				"Lekko zaspokaja głód.",
+				"Woda Święcona jest groźna",
+				"dla pewnej grupy potworów."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1],
+					[],
+					[0,1],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/duplicate_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_water.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
+        },
+        "tutorial8aj_gamepad": {
+            "sign": [
+				"Flakonik Wody",
+				"$",
+				"Mieszaj z dowolnym wywarem",
+				"by duplikować je.",
+				"Lekko zaspokaja głód.",
+				"Woda Święcona jest groźna",
+				"dla pewnej grupy potworów."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1],
+					[],
+					[0,1],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/duplicate_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial8/sign_water.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
+        },		
+        "tutorial8ak": {
+            "sign": [
+				"$",
+				"Uwarz eliksir Szybkości",
+				"Mieszając Gorzałę oraz",
+				"eliksir Leczenia Dolegliwości."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/speed.png",
+				"sizex": 32,
+				"sizey": 32
+				}				
+			]
+        },
+        "tutorial8al": {
+            "sign": [
+				"$ ",
+				"Uwarz eliksir",
+				"Lewitacji, mieszając",
+				"Leczenie Dolegliwości z",
+				"eliksirem Niewidzialności."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/levitation.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial8am": {
+            "sign": [
+				"$ ",
+				"",
+				"Eliksir Burzy z Gromem",
+				"można łatwo warzyć",
+				"mieszając nawzajem Kwas",
+				"i Szybkość ze sobą."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2,3],
+					[],
+					[2],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/thunderstorm_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/stoneblood.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial8am_gamepad": {
+            "sign": [
+				"$ ",
+				"",
+				"Eliksir Burzy z Gromem",
+				"można łatwo warzyć",
+				"mieszając nawzajem Kwas",
+				"i Szybkość ze sobą."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2,3],
+					[],
+					[2],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/thunderstorm_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/stoneblood.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },		
+        "tutorial8pm": {
+            "sign": [
+				"UWAGA:",
+				"Błędny przepis, który",
+				"korzysta z Kwasu powoduje",
+				"śmiercionośną eksplozję.",
+				"$ ",
+				"Jeśli szukasz potężnych",
+				"przepisów, korzystających",
+				"z Kwasu miej pod ręką",
+				"eliksiry Leczenia. :)"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[0,1],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/splode_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/HUD/statusfx/burning.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial8pm_gamepad": {
+            "sign": [
+				"UWAGA:",
+				"Błędny przepis, który",
+				"korzysta z Kwasu powoduje",
+				"śmiercionośną eksplozję.",
+				"$ ",
+				"Jeśli szukasz potężnych",
+				"przepisów, korzystających",
+				"z Kwasu miej pod ręką",
+				"eliksiry Leczenia. :)"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[0,1],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/splode_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/HUD/statusfx/burning.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },			
+        "tutorial8an": {
+            "sign": [
+				"STRZEŻ SIĘ:",
+				"Potwory wciskają się",
+				"do wodociągów jak głupie.",
+				"",
+				"Bądź gotowy do obrony",
+				"zanim spróbujesz wypić",
+				"lub przelać wodę z kranu",
+				"do jakiegoś flakonu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,1],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[3],
+					[],
+					[1],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/watermonsters.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8ao": {
+            "sign": [
+				"Dzierż pusty flakonik",
+				"by nalać wody ze zlewu",
+				"lub fontanny używając$ .",
+				"",
+				"To wypełni flakon wodą",
+				"lub przeróżnymi eliksirami",
+				"jakie są w fontannach."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[2]
+				],
+                "word_highlights2": [
+					[],
+					[1],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/tap_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}			
+			]
+        },
+        "tutorial8ao_gamepad": {
+            "sign": [
+				"Dzierż pusty flakonik",
+				"by nalać wody ze zlewu",
+				"lub fontanny używając$ .",
+				"",
+				"To wypełni flakon wodą",
+				"lub przeróżnymi eliksirami",
+				"jakie są w fontannach."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[2]
+				],
+                "word_highlights2": [
+					[],
+					[1],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/tap_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}			
+			]
+        },
+        "tutorial8aw": {
+            "sign": [
+				"Woda płynąca w lochu",
+				"nie nadaje się do warzenia.",
+				"Alchemicy muszą polegać na",
+				"świeżych kranach, sklepach",
+				"lub fontannach dla zapasów."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1,2],
+					[1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial8az": {
+            "sign": [
+				"Cedzenie:",
+				"",
+				"Mieszanie dwóch eliksirów",
+				"tego samego typu, pozwala",
+				"na lepszą organizację",
+				"pozwalając im łączyć się",
+				"w jeden duży stosik",
+				"Rób tak na bieżąco."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[3],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/decanting_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial8az_gamepad": {
+            "sign": [
+				"Cedzenie:",
+				"",
+				"Mieszanie dwóch eliksirów",
+				"tego samego typu, pozwala",
+				"na lepszą organizację",
+				"pozwalając im łączyć się",
+				"w jeden duży stosik",
+				"Rób tak na bieżąco."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[3],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial8/decanting_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        }				
+    }
+}

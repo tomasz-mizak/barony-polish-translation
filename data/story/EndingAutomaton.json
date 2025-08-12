@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    	"*3Słaba magia wyciąga Cię z Cytadeli przez portal.\n",
+    	"Twoje stopy unoszą się nad podłogą, która gwałtownie się trzęsie.\n",
+    	"Rury i tłoki trzaskają swoim przytłumionym hałasem...\n^",
+    	"*Twoje sensory są przytłumione i obserwujesz przeniesienie swojej świadomości.\n^",
+    	"*2Twój system działa. Stoisz z czarodziejem i biskupem. Na ich twarzach\n",
+    	"pojawia się wyraz zaskoczenia.\n",
+    	"Są zszokowani, gdy widzą, że przed nadnaturalnym złem uratowała ich maszyna\n",
+    	"Czy powodem jest twoja nieludzka natura i boiler na plecach?\n^",
+    	"*3Gildie i kościoły są zgodne, że nie ma bardziej doskonałego sędziego\n",
+		"dla dobra ludzkości. Powierzono Ci zadania z zakresu prawa, które jako nowy\n",
+		"Baron będziesz umiał osądzać obiektywnie, bez uczuć.\n^",
+    	"*2Twoje orzeczenia są nieomylne... a co jeśli nie? Co sprawia, że jesteś świadomy?\n",
+    	"Przywracasz Osadę do jej dawnej chwały. Co jeśli przyszłość wymusi więcej mocy?\n^",
+    	"*1Mocy, o której wiesz, że zawsze gdzieś tam będzie czekać."
+    ],
+    "images": [
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/white.png",
+	"*images/ui/Main Menus/Story/HeroRescued.png",
+	"*images/ui/Main Menus/Story/throne.png",
+	"*images/ui/Main Menus/Story/intro1.png",
+	"*images/ui/Main Menus/Story/PowerWaiting.png"
+    ]
+}

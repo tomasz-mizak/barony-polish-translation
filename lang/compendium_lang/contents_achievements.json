@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"contents": [
+		{"    KATEGORIE": "-"},
+		{"PODRÓŻNICTWO": "adventure"},
+		{"DOŚWIADCZENIE": "experience"},
+		{"BŁAZENADA": "joker"},
+		{"PRACA ZESPOŁOWA": "teamwork"},
+		{"TECHNIKA": "technique"}
+	],
+	"contents_alphabetical": [
+		{"    KATEGORIE": "-"},
+		{"BŁAZENADA": "joker"},
+		{"DOŚWIADCZENIE": "experience"},
+		{"PODRÓŻNICTWO": "adventure"},
+		{"PRACA ZESPOŁOWA": "teamwork"},
+		{"TECHNIKA": "technique"}
+	]
+}

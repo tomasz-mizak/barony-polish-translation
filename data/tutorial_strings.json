@@ -1,0 +1,51 @@
+{
+    "version": 1,
+    "window_title": "Podejmij się 10 wyzwań, które nauczą Cię i przestestują twoje umiejętności, przygotowując Cię\n na przygody w prawdziwym lochu!",
+    "default_hover_text": "Najedź na wpis po więcej informacji.",
+    "levels": {
+        "tutorial_hub": {
+            "title": "Sala Prób",
+            "desc": "Opis: Sala, z której ma się dostęp do wszystkich komnat z próbami."
+        },
+        "tutorial1": {
+            "title": "Próba 1: Podstawy lochów i Walki Wręcz",
+            "desc": "Opis: Naucz się jak wchodzić w interakcję ze światem, jak walczyć wręcz\n i blokować puklerzami."
+        },
+        "tutorial2": {
+            "title": "Próba 2: Łuki, Strzały i Broń Miotana",
+            "desc": "Opis: Naucz się rozróżniać broń dystansową i typy strzał oraz\n jak rzucać kamieniami czy dyskami."
+        },
+        "tutorial3": {
+            "title": "Próba 3: Pułapki w lochu; Kolce i Głazy",
+            "desc": "Opis: Naucz się rodzajów pułapek jakie spotkasz i jak niebezpieczne są\n oraz jak je przechytrzyć i uniknąć."
+        },
+        "tutorial4": {
+            "title": "Próba 4: Jedzenie, Ocena i Klątwy",
+            "desc": "Opis: Dowiedz się o głodzie i jedzeniu oraz o tym, jak Ocena może pomóc\n w zmniejszeniu ryzyka związanego z niezidentyfikowanymi przedmiotami."
+        },
+        "tutorial5": {
+            "title": "Próba 5: Magia, Tomy zaklęć i Inkantacje",
+            "desc": "Opis: Naucz się zapamiętywać zaklęcia i rzucać je ze zwojów, ksiąg i Kosturów."
+        },
+        "tutorial6": {
+            "title": "Próba 6: Skradanie i ciosy z ukrycia",
+            "desc": "Opis: Dowiedz się, jak podejść do walki mając przewagę, korzystając z ciemności,\n flankowania i skrytobójstwa."
+        },
+        "tutorial7": {
+            "title": "Próba 7: Rekrutacja i polecenia dla towarzyszy",
+            "desc": "Opis: Dowiedz się, jak dowodzić sojusznikami, aby maksymalnie wykorzystać ich \n wszechstronne możliwości."
+        },
+        "tutorial8": {
+            "title": "Próba 8: Eliksiry i Alchemia",
+            "desc": "Opis: Naucz się podstaw picia i rzucania eliksirami, a także warzenia własnych\n mikstur przy pomocy alembiku."
+        },
+        "tutorial9": {
+            "title": "Próba 9: Mechanika",
+            "desc": "Opis: Dowiedz się o wielu gadżetach opartych na umiejętności Mechanika,\n od otwierania zamków po tworzenie wyszukanych zabezpieczeń."
+        },
+        "tutorial10": {
+            "title": "Próba 10: Handlerze i sklepy",
+            "desc": "Opis: Dowiedz się więcej o tajemniczych handlarzach, którzy są równie wybredni,\n jak potężni i dowiedz się jak mogą Ci pomóc."
+        }
+    }
+}

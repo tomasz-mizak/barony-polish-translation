@@ -1,0 +1,1405 @@
+{
+	"version": 1,
+	"comment": "Misc entity data here.",
+	"entities": {
+		"collider_dmg_calcs": {
+			"default": {
+				"burnable": false,
+				"minotaur_path_and_break": true,
+				"melee": true,
+				"magic": true,
+				"bombs_attach": true,
+				"boulder_destroy": true,
+				"minimap_appear_as_wall": true,
+				"bonus_damage_skills": ["PRO_AXE", "PRO_MACE"],
+				"resist_damage_skills": ["PRO_SWORD", "PRO_POLEARM"]
+			},
+			"no_magic": {
+				"burnable": false,
+				"minotaur_path_and_break": false,
+				"melee": true,
+				"magic": false,								
+				"bombs_attach": true,
+				"boulder_destroy": true,
+				"minimap_appear_as_wall": true,
+				"bonus_damage_skills": ["PRO_AXE", "PRO_MACE"]
+			},
+			"stone_wall": {
+				"burnable": false,
+				"minotaur_path_and_break": true,
+				"melee": true,
+				"magic": true,
+				"bombs_attach": true,				
+				"boulder_destroy": true,
+				"minimap_appear_as_wall": true,
+				"bonus_damage_skills": ["PRO_MACE"],
+				"resist_damage_skills": ["PRO_SWORD", "PRO_POLEARM"]
+			},
+			"wood_wall": {
+				"burnable": true,
+				"minotaur_path_and_break": true,
+				"melee": true,
+				"magic": true,
+				"bombs_attach": true,				
+				"boulder_destroy": true,
+				"minimap_appear_as_wall": true,
+				"bonus_damage_skills": ["PRO_AXE", "PRO_UNARMED"],
+				"resist_damage_skills": ["PRO_SWORD", "PRO_POLEARM"]
+			},			
+			"cordage_wall": {
+				"burnable": true,
+				"minotaur_path_and_break": true,
+				"melee": true,
+				"magic": true,
+				"bombs_attach": false,				
+				"boulder_destroy": true,
+				"minimap_appear_as_wall": true,
+				"bonus_damage_skills": ["PRO_SWORD", "PRO_AXE"]
+			},
+			"breakable": {
+				"burnable": false,
+				"minotaur_path_and_break": true,
+				"melee": true,
+				"magic": true,
+				"bombs_attach": false,				
+				"boulder_destroy": true,
+				"minimap_appear_as_wall": false,
+				"allow_npc_pathing": true,
+				"bonus_damage_skills": [],
+				"resist_damage_skills": []
+			},
+			"breakable_pliable": {
+				"burnable": true,
+				"minotaur_path_and_break": true,
+				"melee": true,
+				"magic": true,
+				"bombs_attach": false,				
+				"boulder_destroy": true,
+				"minimap_appear_as_wall": false,
+				"allow_npc_pathing": true,
+				"bonus_damage_skills": ["PRO_SWORD", "PRO_AXE", "PRO_MACE"],
+				"resist_damage_skills": []
+			},
+			"breakable_wood": {
+				"burnable": true,
+				"minotaur_path_and_break": true,
+				"melee": true,
+				"magic": true,
+				"bombs_attach": false,				
+				"boulder_destroy": true,
+				"minimap_appear_as_wall": false,
+				"allow_npc_pathing": true,
+				"bonus_damage_skills": ["PRO_AXE", "PRO_UNARMED"],
+				"resist_damage_skills": []
+			},
+			"breakable_sturdy": {
+				"burnable": true,
+				"minotaur_path_and_break": true,
+				"melee": true,
+				"magic": true,
+				"bombs_attach": false,				
+				"boulder_destroy": true,
+				"minimap_appear_as_wall": false,
+				"allow_npc_pathing": true,
+				"bonus_damage_skills": ["PRO_AXE", "PRO_MACE"],
+				"resist_damage_skills": []
+			}				
+		},
+		"collider_dmg_types": {
+			"0" : {
+				"name": "default",
+				"gib_model": 0,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "default",
+				"entity_lang_entry": 4335,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "object"
+			},
+			"1" : {
+				"name": "wood_barricade",
+				"gib_model": 1228,
+				"sfx_break": 177,
+				"sfx_hit": 0,
+				"damage_calc": "wood_wall",
+				"entity_lang_entry": 4336,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable_wall"
+			},			
+			"2" : {
+				"name": "mines_weakwall",
+				"gib_model": 1224,
+				"sfx_break": 67,
+				"sfx_hit": 565,
+				"damage_calc": "stone_wall",
+				"entity_lang_entry": 4336,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable_wall"					
+			},
+			"3" : {
+				"name": "stone_wall",
+				"gib_model": 555,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "default",
+				"entity_lang_entry": 4336,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable_wall"
+			},
+			"4" : {
+				"name": "spiderweb",
+				"gib_model": 1223,
+				"sfx_break": 67,
+				"sfx_hit": 595,
+				"damage_calc": "cordage_wall",
+				"entity_lang_entry": 4338,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable_wall"
+			},
+			"5" : {
+				"name": "labyrinth_weakwall",
+				"gib_model": 1222,
+				"sfx_break": 67,
+				"sfx_hit": 565,
+				"damage_calc": "stone_wall",
+				"entity_lang_entry": 4336,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable_wall"
+			},
+			"6" : {
+				"name": "ruins_weakwall",
+				"gib_model": 1349,
+				"sfx_break": 67,
+				"sfx_hit": 565,
+				"damage_calc": "stone_wall",
+				"entity_lang_entry": 4336,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable_wall"
+			},
+			"7" : {
+				"name": "hell_weakwall",
+				"gib_model": 555,
+				"sfx_break": 67,
+				"sfx_hit": 565,
+				"damage_calc": "stone_wall",
+				"entity_lang_entry": 4336,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable_wall"
+			},
+			"8" : {
+				"name": "caves_weakwall",
+				"gib_model": 555,
+				"sfx_break": 67,
+				"sfx_hit": 565,
+				"damage_calc": "stone_wall",
+				"entity_lang_entry": 4336,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable_wall"
+			},
+			"9" : {
+				"name": "citadel_weakwall",
+				"gib_model": 555,
+				"sfx_break": 67,
+				"sfx_hit": 565,
+				"damage_calc": "stone_wall",
+				"entity_lang_entry": 4336,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable_wall"
+			},
+			"10" : {
+				"name": "thicket",
+				"gib_model": 1320,
+				"sfx_break": 67,
+				"sfx_hit": 565,
+				"damage_calc": "cordage_wall",
+				"entity_lang_entry": 4336,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable_wall"
+			},
+			"11" : {
+				"name": "jar",
+				"gib_model": 1324,
+				"sfx_break": 658,
+				"sfx_hit": 0,
+				"damage_calc": "breakable",
+				"entity_lang_entry": 6213,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "jar",
+				"random_gen_pool": {
+					"The Mines": 10,
+					"The Swamp": 5
+					},
+				"events": {
+					"The Mines": {
+						"summon": ["slime"]
+					},
+					"The Swamp": {
+						"summon": ["slime"]
+					}					
+				},
+				"override_editor_props": {
+					"model": 1323,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -20,
+					"east_y": 0,
+					"west_x": 20,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 20,
+					"south_x": 0,
+					"south_y": -20,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"12" : {
+				"name": "basket",
+				"gib_model": 1326,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_pliable",
+				"entity_lang_entry": 6214,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "basket",
+				"random_gen_pool": {"The Swamp": 10},
+				"events": {
+					"The Swamp": {
+						"summon": ["slime"]
+					}
+				},
+				"override_editor_props": {
+					"model": 1325,
+					"height": 9,
+					"face_wall": 0,
+					"east_x": -18,
+					"east_y": 0,
+					"west_x": 18,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 18,
+					"south_x": 0,
+					"south_y": -18,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"13" : {
+				"name": "casket",
+				"gib_model": 187,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_wood",
+				"entity_lang_entry": 6215,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "casket",
+				"random_gen_pool": {
+					"Underworld": 10,
+					"The Ruins": 2
+				},
+				"events": {
+					"Underworld": {
+						"summon": ["bat", "skeleton", "ghoul"]
+					},
+					"The Ruins": {
+						"summon": ["bat", "vampire"]
+					}
+				},
+				"override_editor_props": {
+					"dir_offset": 2,
+					"model": 1328,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -20,
+					"east_y": 0,
+					"west_x": 20,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 20,
+					"south_x": 0,
+					"south_y": -20,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 30,
+					"diggable": 0
+				}
+			},
+			"14" : {
+				"name": "hanging_cage_skel",
+				"gib_model": 1331,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6216,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "cage",
+				"random_gen_pool": {"Underworld": 10},
+				"events": {
+					"Underworld": {
+						"summon": ["bat"]
+					}
+				},
+				"override_editor_props": {
+					"model": 1330,
+					"height": 0,
+					"face_wall": 0,
+					"east_x": -19,
+					"east_y": 0,
+					"west_x": 19,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 19,
+					"south_x": 0,
+					"south_y": -19,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"15" : {
+				"name": "urn",
+				"gib_model": 1334,
+				"sfx_break": 658,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6217,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "urn",
+				"random_gen_pool": {"Underworld": 10},
+				"override_editor_props": {
+					"model": 1332,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -18,
+					"east_y": 0,
+					"west_x": 18,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 18,
+					"south_x": 0,
+					"south_y": -18,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"16" : {
+				"name": "sacks",
+				"gib_model": 1336,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_pliable",
+				"entity_lang_entry": 6218,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "sack",
+				"random_gen_pool": {
+					"The Mines": 10,
+					"The Ruins": 10
+				},
+				"events": {
+					"The Mines": {
+						"summon": ["rat"]
+					},
+					"The Ruins": {
+						"summon": ["bat"]
+					}
+				},
+				"override_editor_props": {
+					"dir_offset": 6,
+					"model": 1335,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -8,
+					"east_y": 0,
+					"west_x": 8,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 8,
+					"south_x": 0,
+					"south_y": -8,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 10,
+					"diggable": 0
+				}
+			},
+			"17" : {
+				"name": "sarcophagus",
+				"gib_model": 1340,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6219,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "sarcophagus",
+				"random_gen_pool": {"The Labyrinth": 10},
+				"events": {
+					"The Labyrinth": {
+						"summon": ["scorpion", "scarab", "ghoul"]
+					}
+				},
+				"override_editor_props": {
+					"dir_offset": 6,
+					"model": 1339,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -18,
+					"east_y": 0,
+					"west_x": 18,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 18,
+					"south_x": 0,
+					"south_y": -18,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 30,
+					"diggable": 0
+				}
+			},
+			"18" : {
+				"name": "unused",
+				"gib_model": 1336,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "breakable",
+				"entity_lang_entry": 0,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "breakable",
+				"random_gen_pool": {},
+				"override_editor_props": {
+					"model": 0,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": 0,
+					"east_y": 0,
+					"west_x": 0,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 0,
+					"south_x": 0,
+					"south_y": 0,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"19" : {
+				"name": "pot_cooking",
+				"gib_model": 1342,
+				"sfx_break": 658,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6220,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "pot_short",
+				"random_gen_pool": {"The Labyrinth": 10},
+				"events": {
+					"The Labyrinth": {
+						"summon": ["slime"]
+					}
+				},
+				"override_editor_props": {
+					"dir_offset": 2,
+					"model": 1341,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -21,
+					"east_y": 0,
+					"west_x": 21,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 21,
+					"south_x": 0,
+					"south_y": -21,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"20" : {
+				"name": "pot_handles",
+				"gib_model": 1344,
+				"sfx_break": 658,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6220,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "pot",
+				"random_gen_pool": {"The Labyrinth": 10},
+				"events": {
+					"The Labyrinth": {
+						"summon": ["slime", "scorpion", "scarab"]
+					}
+				},
+				"override_editor_props": {
+					"model": 1343,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -21,
+					"east_y": 0,
+					"west_x": 21,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 21,
+					"south_x": 0,
+					"south_y": -21,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"21" : {
+				"name": "pot_simple",
+				"gib_model": 1346,
+				"sfx_break": 658,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6220,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "pot",
+				"random_gen_pool": {"The Labyrinth": 10},
+				"events": {
+					"The Labyrinth": {
+						"summon": ["slime", "scorpion", "scarab"]
+					}
+				},
+				"override_editor_props": {
+					"model": 1345,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -21,
+					"east_y": 0,
+					"west_x": 21,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 21,
+					"south_x": 0,
+					"south_y": -21,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"22" : {
+				"name": "cart",
+				"gib_model": 187,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_wood",
+				"entity_lang_entry": 6221,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "cart",
+				"random_gen_pool": {
+					"The Mines": 10,
+					"The Ruins": 10
+					},
+				"events": {
+					"The Mines": {
+						"summon": ["bat"]
+					},
+					"The Ruins": {
+						"summon": ["bat"]
+					}
+				},						
+				"override_editor_props": {
+					"dir_offset": 2,
+					"model": 1356,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -13,
+					"east_y": 0,
+					"west_x": 13,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 13,
+					"south_x": 0,
+					"south_y": -13,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 10,
+					"diggable": 0
+				}
+			},
+			"23" : {
+				"name": "pallets",
+				"gib_model": 187,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_wood",
+				"entity_lang_entry": 6222,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "pallet",
+				"random_gen_pool": {"The Ruins": 10},
+				"events": {
+					"The Ruins": {
+						"summon": ["bat"]
+					}
+				},						
+				"override_editor_props": {
+					"model": 1357,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -7,
+					"east_y": 0,
+					"west_x": 7,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 7,
+					"south_x": 0,
+					"south_y": -7,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"24" : {
+				"name": "pallets_sacks",
+				"gib_model": 1336,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_wood",
+				"entity_lang_entry": 6222,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "pallet",
+				"random_gen_pool": {"The Ruins": 10},
+				"events": {
+					"The Ruins": {
+						"summon": ["bat"]
+					}
+				},						
+				"override_editor_props": {
+					"model": 1358,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -9,
+					"east_y": 0,
+					"west_x": 9,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 9,
+					"south_x": 0,
+					"south_y": -9,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"25" : {
+				"name": "tarp_crate",
+				"gib_model": 187,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_wood",
+				"entity_lang_entry": 6223,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "crate_short",
+				"random_gen_pool": {
+					"The Swamp": 10,
+					"The Ruins": 10
+				},
+				"events": {
+					"The Swamp": {
+						"summon": ["bat"]
+					},
+					"The Ruins": {
+						"summon": ["bat"]
+					}
+				},				
+				"override_editor_props": {
+					"model": 1359,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -7,
+					"east_y": 0,
+					"west_x": 7,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 7,
+					"south_x": 0,
+					"south_y": -7,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"26" : {
+				"name": "tarp_tent",
+				"gib_model": 1336,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_pliable",
+				"entity_lang_entry": 6224,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "tent",
+				"random_gen_pool": {
+					"The Ruins": 10,
+					"The Swamp": 2,
+					"Caves": 2
+				},
+				"events": {
+					"The Ruins": {
+						"summon": ["gnome"]
+					},
+					"The Swamp": {
+						"summon": ["goblin"]
+					},
+					"Caves": {
+						"summon": ["kobold"]
+					}
+				},
+				"override_editor_props": {
+					"dir_offset": 2,
+					"model": 1360,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -2,
+					"east_y": 0,
+					"west_x": 2,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 2,
+					"south_x": 0,
+					"south_y": -2,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"27" : {
+				"name": "reliquary",
+				"gib_model": 1363,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6225,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "reliquary",
+				"random_gen_pool": {"Hell": 10},
+				"override_editor_props": {
+					"dir_offset": 2,
+					"model": 1362,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -16,
+					"east_y": 0,
+					"west_x": 16,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 16,
+					"south_x": 0,
+					"south_y": -16,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"28" : {
+				"name": "hell_bulb1",
+				"gib_model": 1366,
+				"sfx_break": 664,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_pliable",
+				"entity_lang_entry": 6226,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "bulb",
+				"random_gen_pool": {"Hell": 10},
+				"events": {
+					"Hell": {
+						"summon": ["slime"]
+					}
+				},
+				"override_editor_props": {
+					"model": 1364,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": 0,
+					"east_y": 0,
+					"west_x": 0,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 0,
+					"south_x": 0,
+					"south_y": 0,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"29" : {
+				"name": "hell_bulb2",
+				"gib_model": 1366,
+				"sfx_break": 664,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_pliable",
+				"entity_lang_entry": 6226,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "bulb",
+				"random_gen_pool": {"Hell": 10},
+				"events": {
+					"Hell": {
+						"summon": ["slime"]
+					}
+				},
+				"override_editor_props": {
+					"dir_offset": 2,
+					"model": 1365,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": 0,
+					"east_y": 0,
+					"west_x": 0,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 0,
+					"south_x": 0,
+					"south_y": 0,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"30" : {
+				"name": "iron_maiden",
+				"gib_model": 1368,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6227,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "iron maiden",
+				"random_gen_pool": {"Hell": 10},
+				"events": {
+					"Hell": {
+						"summon": ["human", "ghoul", "incubus", "incubus"]
+					}
+				},
+				"override_editor_props": {
+					"dir_offset": 6,
+					"model": 1367,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -18,
+					"east_y": 0,
+					"west_x": 18,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 18,
+					"south_x": 0,
+					"south_y": -18,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 30,
+					"diggable": 0
+				}
+			},
+			"31" : {
+				"name": "wheelbarrow",
+				"gib_model": 1371,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6228,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "wheelbarrow",
+				"random_gen_pool": {"Caves": 10},
+				"events": {
+					"Caves": {
+						"summon": ["scarab", "slime"]
+					}
+				},				
+				"override_editor_props": {
+					"model": 1370,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -18,
+					"east_y": 0,
+					"west_x": 18,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 18,
+					"south_x": 0,
+					"south_y": -18,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"32" : {
+				"name": "crystal_form1",
+				"gib_model": 1374,
+				"sfx_break": 658,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6229,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "crystal",
+				"random_gen_pool": {
+					"Caves": 10,
+					"Citadel": 2
+					},
+				"events": {
+					"Caves": {
+						"summon": ["automaton", "slime"]
+					},
+					"Citadel": {
+						"summon": ["automaton", "slime"]
+					}					
+				},
+				"override_editor_props": {
+					"dir_offset": 6,
+					"model": 1372,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -11,
+					"east_y": 0,
+					"west_x": 11,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 11,
+					"south_x": 0,
+					"south_y": -11,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"33" : {
+				"name": "crystal_form2",
+				"gib_model": 1374,
+				"sfx_break": 658,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6229,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "crystal_tall",
+				"random_gen_pool": {"Caves": 10},
+				"events": {
+					"Caves": {
+						"summon": ["scarab", "bat"]
+					}
+				},
+				"override_editor_props": {
+					"model": 1373,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -11,
+					"east_y": 0,
+					"west_x": 11,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 11,
+					"south_x": 0,
+					"south_y": -11,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"34" : {
+				"name": "cabinet",
+				"gib_model": 1378,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6230,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "cabinet",
+				"random_gen_pool": {"Citadel": 10},
+				"events": {
+					"Citadel": {
+						"summon": ["bat", "slime"]
+					}
+				},				
+				"override_editor_props": {
+					"dir_offset": 2,
+					"model": 1375,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -18,
+					"east_y": 0,
+					"west_x": 18,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 18,
+					"south_x": 0,
+					"south_y": -18,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"35" : {
+				"name": "citadel_capsule",
+				"gib_model": 1378,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6231,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "capsule",
+				"random_gen_pool": {"Citadel": 10},
+				"events": {
+					"Citadel": {
+						"summon": ["slime"]
+					}
+				},				
+				"override_editor_props": {
+					"model": 1376,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -17,
+					"east_y": 0,
+					"west_x": 17,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 17,
+					"south_x": 0,
+					"south_y": -17,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"36" : {
+				"name": "citadel_capsule_open",
+				"gib_model": 1378,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6231,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "capsule_tall",
+				"random_gen_pool": {"Citadel": 10},
+				"events": {
+					"Citadel": {
+						"summon": ["slime", "bat"]
+					}
+				},						
+				"override_editor_props": {
+					"model": 1377,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -17,
+					"east_y": 0,
+					"west_x": 17,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 17,
+					"south_x": 0,
+					"south_y": -17,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"37" : {
+				"name": "crate",
+				"gib_model": 187,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_wood",
+				"entity_lang_entry": 6223,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "crate",
+				"random_gen_pool": {
+					"The Mines": 10,
+					"The Ruins": 10
+				},
+				"events": {
+					"The Mines": {
+						"summon": ["rat", "bat"]
+					},
+					"The Ruins": {
+						"summon": ["bat"]
+					}
+				},
+				"override_editor_props": {
+					"dir_offset": 2,
+					"model": 1315,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -14,
+					"east_y": 0,
+					"west_x": 14,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 14,
+					"south_x": 0,
+					"south_y": -14,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"38" : {
+				"name": "keg",
+				"gib_model": 187,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_wood",
+				"entity_lang_entry": 6232,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "barrel",
+				"random_gen_pool": {
+					"The Mines": 10,
+					"The Ruins": 10
+				},
+				"events": {
+					"The Mines": {
+						"summon": ["rat", "slime", "bat"]
+					},
+					"The Ruins": {
+						"summon": ["slime", "bat"]
+					}
+				},
+				"override_editor_props": {
+					"model": 1316,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -12,
+					"east_y": 0,
+					"west_x": 12,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 12,
+					"south_x": 0,
+					"south_y": -12,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"39" : {
+				"name": "basket_long",
+				"gib_model": 1326,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_pliable",
+				"entity_lang_entry": 6214,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "basket",
+				"random_gen_pool": {"The Swamp": 10},
+				"events": {
+					"The Swamp": {
+						"summon": ["slime"]
+					}
+				},
+				"override_editor_props": {
+					"dir_offset": 6,
+					"model": 1327,
+					"height": 10,
+					"face_wall": 0,
+					"east_x": -18,
+					"east_y": 0,
+					"west_x": 18,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 18,
+					"south_x": 0,
+					"south_y": -18,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"40" : {
+				"name": "hanging_cage_empty",
+				"gib_model": 1331,
+				"sfx_break": [661, 662, 663],
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6216,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "cage",
+				"random_gen_pool": {"Underworld": 10},
+				"events": {
+					"Underworld": {
+						"summon": ["bat"]
+					}
+				},
+				"override_editor_props": {
+					"model": 1329,
+					"height": 0,
+					"face_wall": 0,
+					"east_x": -19,
+					"east_y": 0,
+					"west_x": 19,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 19,
+					"south_x": 0,
+					"south_y": -19,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 15,
+					"diggable": 0
+				}
+			},
+			"41" : {
+				"name": "urn2",
+				"gib_model": 1334,
+				"sfx_break": 658,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_sturdy",
+				"entity_lang_entry": 6217,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "urn_tall",
+				"random_gen_pool": {"Underworld": 10},
+				"override_editor_props": {
+					"dir_offset": 2,
+					"model": 1333,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": -18,
+					"east_y": 0,
+					"west_x": 18,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 18,
+					"south_x": 0,
+					"south_y": -18,
+					"collision": 1,
+					"collision_x": 2,
+					"collision_y": 2,
+					"hp": 5,
+					"diggable": 0
+				}
+			},
+			"42" : {
+				"name": "stump",
+				"gib_model": 1322,
+				"sfx_break": 67,
+				"sfx_hit": 0,
+				"damage_calc": "breakable_wood",
+				"entity_lang_entry": 6233,
+				"hit_message": 2509,
+				"break_message": 2510,
+				"hp_bar_lookup_name": "stump",
+				"random_gen_pool": {"The Swamp": 10},
+				"events": {
+					"The Swamp": {
+						"summon": ["slime", "bat"]
+					}
+				},				
+				"override_editor_props": {
+					"dir_offset": 2,
+					"model": 1321,
+					"height": -2,
+					"face_wall": 0,
+					"east_x": 0,
+					"east_y": 0,
+					"west_x": 0,
+					"west_y": 0,
+					"north_x": 0,
+					"north_y": 0,
+					"south_x": 0,
+					"south_y": 0,
+					"collision": 1,
+					"collision_x": 4,
+					"collision_y": 4,
+					"hp": 30,
+					"diggable": 0
+				}
+			}
+		}
+	}
+}

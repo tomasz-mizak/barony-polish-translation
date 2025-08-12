@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    	"*3Słaba magia wyciąga cię z Cytadeli przez portal.\n",
+    	"Twoje stopy unoszą się nad podłogą, która gwałtownie się trzęsie.\n",
+    	"Rury i tłoki trzaskają swoim przytłumionym hałasem...\n^",
+    	"*1Próbujesz otrząsnąć się ze strachu i zamykasz oczy.\n^",
+    	"*3Nagle pojawiasz się, stojąc w Gildii Magów z czarodziejem i biskupem.\n",
+    	"Ich twarze są zmieszane, ale cierpliwie i w zadumie czekają na Twoją reakcję.\n",
+    	"Czy to ci sami ludzie, którzy niedawno mordowali twój gatunek?\n^",
+    	"*3Choć na początku niepewnie, wasze narody budują sojusz na rzecz pokoju.\n",
+    	"Dzięki Twojemu przykładowi insektoidy, ludzie, satyry i gobliny nabrali odwagi\n",
+		"zamiast strachu. Handel rozkwita w Hamlecie a ludzie tłumią swoje żądze władzy.\n^",
+    	"*2Występujesz na dwór i wkrótce zostajesz koronowany na nowego barona. Przysięgasz\n",
+    	"zachować w tajemnicy źródło mocy liczów, i powstrzymać ponowne poszukiwania.\n^",
+    	"*1Mocy, o której wiesz, że zawsze gdzieś tam będzie czekać."
+    ],
+    "images": [
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/white.png",
+	"*images/ui/Main Menus/Story/HeroRescued.png",
+	"*images/ui/Main Menus/Story/intro1.png",
+	"*images/ui/Main Menus/Story/throne.png",
+	"*images/ui/Main Menus/Story/PowerWaiting.png"
+    ]
+}

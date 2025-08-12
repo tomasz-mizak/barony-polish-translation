@@ -1,0 +1,1253 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+        "tutorial7a": {
+            "sign": [
+				"Cóż za wspaniały sprzęt.",
+				"Jaka szkoda, że sam z",
+				"niego nie skorzystasz.",
+				"",
+				"Dobry Przywódca",
+				"musi sprawnie zarządzać",
+				"swoimi zasobami."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[2,3],
+					[3],
+					[1,2],
+					[],
+					[1],
+					[1],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/partyequip_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7b": {
+            "sign": [
+				"Twoje umiejętności",
+				"zarządzania podwładnymi",
+				"w sposób wydajny",
+				"zostaną sprawdzone."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7c": {
+            "sign": [
+				"Zwoje Przywołania",
+				"zapewnią Ci sojuszników",
+				"w trymiga.",
+				"",
+				"Powinieneś zachować ten",
+				"zwój na finałowy test",
+				"na końcu tej",
+				"wymagającej Próby."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1],
+					[0,1,2],
+					[],
+					[2],
+					[1],
+					[2,3],
+					[0,1],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial7d": {
+            "sign": [
+				"Rozkaż sojusznikom",
+				"by [Czekali] żeby nie",
+				"wchodzili Ci w drogę.",
+				"$ $",
+				"Polecenie [Podążaj]",
+				"sprawi, że sojusznicy",
+				"będą się trzymać blisko."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[0,1],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[3],
+					[1,2,3,4],
+					[],
+					[],
+					[],
+					[2,3]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",	
+					"value": "*#data/scripts/tutorial7/sign_wait.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial7/sign_follow.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },
+        "tutorial7d_gamepad": {
+            "sign": [
+				"Rozkaż sojusznikom",
+				"by [Czekali] żeby nie",
+				"wchodzili Ci w drogę.",
+				"$ $",
+				"Polecenie [Podążaj]",
+				"sprawi, że sojusznicy",
+				"będą się trzymać blisko."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[0,1],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[3],
+					[1,2,3,4],
+					[],
+					[],
+					[],
+					[2,3]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial7/sign_wait.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial7/sign_follow.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },		
+        "tutorial7do": {
+            "sign": [
+				"Sojusznicy zawsze będą",
+				"atakować pobliskich wrogów.",
+				"",
+				"By powstrzymać ich od",
+				"wszczynania walk musisz",
+				"trzymać ich daleko od",
+				"wrogów w zasięgu wzroku",
+				"aż nie będziesz gotowy."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1],
+					[0,2],
+					[],
+					[1],
+					[0,1],
+					[],
+					[0,1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/moveall_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7do_gamepad": {
+            "sign": [
+				"Sojusznicy zawsze będą",
+				"atakować pobliskich wrogów.",
+				"",
+				"By powstrzymać ich od",
+				"wszczynania walk musisz",
+				"trzymać ich daleko od",
+				"wrogów w zasięgu wzroku",
+				"aż nie będziesz gotowy."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1],
+					[0,2],
+					[],
+					[1],
+					[0,1],
+					[],
+					[0,1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/moveall_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },			
+        "tutorial7e": {
+            "sign": [
+				"Będziesz musiał ustawić",
+				"sojusznika na miejscu",
+				"w taki sposób, żeby",
+				"wyczyścili Ci drogę.",
+				"",
+				"Sojusznicy mogą być",
+				"zbyt ostrożni. Czasem",
+				"będzie trzeba kazać im",
+				"[Iść] w konkretne miejsce."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2,3],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[0],
+					[2],
+					[0,2],
+					[],
+					[],
+					[0,1],
+					[],
+					[]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/movefurther_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7f": {
+            "sign": [
+				"Zarządzanie sojusznikami",
+				"w sposób strategiczny",
+				"pozwoli Ci przeżyć i",
+				"przezwyciężyć lochy."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial7g": {
+            "sign": [
+				"Jeśli wydasz rozkaz",
+				"sojusznikowi [Idź do],",
+				"po przejściu tam będą",
+				"oczekiwać na następny.",
+				"$",
+				"Użyj$by wydać kolejny",
+				"rozkaz gdziekolwiek."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2],
+					[0,1,2],
+					[],
+					[],
+					[],
+					[0,2,3],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2],
+					[0,1,2],
+					[],
+					[]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial7/sign_moveto.png",
+					"sizex": 0,
+					"sizey": 0
+				},			
+				{
+					"type": "input_glyph",
+					"value": "Show NPC Commands"
+				}						
+			]
+        },
+        "tutorial7h": {
+            "sign": [
+				"Możesz rozkazać",
+				"sojusznikom by zbierali",
+				"i używali ekwipunku",
+				"poprzez [Użyj].",
+				"",
+				"Sojusznicy użyją sprzętu",
+				"najlepiej jak potrafią",
+				"by Cię wesprzeć."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1],
+					[],
+					[1,2],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/lantern_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7i": {
+            "sign": [
+				"Rozkazy możesz wydawać",
+				"sojusznikom z dowolnego",
+				"miejsca wciskając$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",			
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[0,2],
+					[0]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Show NPC Commands"
+				}					
+			]
+        },
+        "tutorial7j": {
+            "sign": [
+				"Przyda Ci się sojusznik",
+				"do otwarcia tych wrót,",
+				"nie sądzisz?",
+				"$",
+				"Rozkaż towarzyszowi",
+				"aby [Użył] wajchy,",
+				"której nie sięgniesz sam."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[1,2,3],
+					[0,1],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/interactgate_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial7/sign_interact.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },
+        "tutorial7j_gamepad": {
+            "sign": [
+				"Przyda Ci się sojusznik",
+				"do otwarcia tych wrót,",
+				"nie sądzisz?",
+				"$",
+				"Rozkaż towarzyszowi",
+				"aby [Użył] wajchy,",
+				"której nie sięgniesz sam."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[1,2,3],
+					[0,1],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/interactgate_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial7/sign_interact.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },		
+        "tutorial7k": {
+            "sign": [
+				"Możesz polegać na swoich",
+				"towarzyszach i pomocy",
+				"jaką będą Ci nieśli.",
+				"",
+				"Wciśnij$ by zrekrutować",
+				"tego człowieczka, po",
+				"drugiej stronie przepaści."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[1,2],
+					[0,2],
+					[3],
+					[],
+					[],
+					[1],
+					[]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/recruit.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}					
+			]
+        },
+        "tutorial7kb": {
+            "sign": [
+				"Ilość sojuszników, którzy",
+				"podążają jednocześnie,",
+				"oraz rozkazy jakie możesz",
+				"wydawać zależą od,",
+				"wysokości umiejętności",
+				"DOWODZENIE.",
+				"",
+				"$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1],
+					[1],
+					[1,2,3],
+					[0],
+					[0,1],
+					[0]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#images/ui/SkillSheet/Icons/Leadership02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				}						
+			]
+        },		
+        "tutorial7l": {
+            "sign": [
+				"Dawaj rozkazy swoim",
+				"towarzyszom z rozwagą",
+				"i dbaj o nich.",
+				"",
+				"Nie są bohaterami tak",
+				"jak Ty, ale wystarczająco",
+				"dużo uwagi i czasu",
+				"i pokażą swoją wartość."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7m": {
+            "sign": [
+				"Sojusznicy ludzcy są",
+				"najbardziej wydajni z",
+				"większością osprzętu.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1],
+					[0],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/bowman_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_shortbow.png",
+					"sizex": 0,
+					"sizey": 0
+				}				
+			]
+        },
+        "tutorial7n": {
+            "sign": [
+				"UWAGA:",
+				"Ten przełącznik otworzy",
+				"wrota przed Tobą.",
+				"",
+				"Nie zalecamy",
+				"bratania się ze",
+				"szkieletami strażnikami."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+						"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[],
+					[],
+					[],
+					[0,1],
+					[],
+					[0,1]
+				],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial7o": {
+            "sign": [
+				"Możesz zwerbować",
+				"Kalinę przez wrota.",
+				"",
+				"Ciągnij za wajchę",
+				"jeśli jesteś gotów",
+				"uwolnić sojusznika."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[0,1],
+					[0,1,2],
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial7op": {
+            "sign": [
+				"Asysta celu interakcji",
+				"pomaga w używaniu",
+				"pobliskich objektów bez",
+				"precyzyjnego namierzania.",
+				"",
+				"Użyj$by przełączać się",
+				"między akcjami na objekcie."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": [
+					[0,1,2],
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/tooltipoff_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Interact Tooltip Next"
+				}
+			]
+        },				
+        "tutorial7p": {
+            "sign": [
+				"Użyj$by wydać to samo",
+				"polecenie co chwilę bez",
+				"potrzeby otwierania koła",
+				"z rozkazami."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,1,2,3],
+					[0,1,2]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Command NPC"
+				}			
+			]
+        },
+        "tutorial7q": {
+            "sign": [
+				"Sprawiłem, że nie możesz",
+				"walczyć sam za siebie!",
+				"To twój test.",
+				"",
+				"Ta trójka ludzi musi",
+				"Cię teraz wesprzeć.",
+				"Zrekrutuj ich i przygotuj",
+				"odpowiednio do bitki."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1,2,3],
+					[],
+					[],
+					[0,1],
+					[],
+					[0,1,3],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/partyrecruit.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7r": {
+            "sign": [
+				"Sprawdzaj stan sojusznika",
+				"w górnym prawym rogu",
+				"ekranu. Ostatni aktywny",
+				"sojusznik będzie zawsze",
+				"podświetlony.",
+				"",
+				"Przejdź do następnego",
+				"sojusznika wciskając$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2],
+					[1]
+				],
+                "word_highlights2": [
+					[1,2],
+					[],
+					[],
+					[0,1],
+					[0]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Cycle NPCs"
+				}					
+			]
+        },
+        "tutorial7s": {
+            "sign": [
+				"Użyj$ by szybko wybierać",
+				"wybranego sojusznika,",
+				"pozwalając Ci na wydanie",
+				"rozkazu każdemu z nich",
+				"używając$oraz$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,2,3],
+					[1],
+					[3],
+					[0],
+					[0]
+
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Cycle NPCs"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Show NPC Commands"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Command NPC"
+				}				
+			]
+        },
+        "tutorial7t": {
+            "sign": [
+				"UWAŻAJ:",
+				"",
+				"Musisz zarządzać",
+				"sojusznikami z pełną",
+				"ostrożnością i upewnić się,",
+				"że nie zmiażdży ich głaz",
+				"toczący się w ich stronę",
+				"po ścieżce przed wami."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+						"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1],
+					[0],
+					[],
+					[1,2,4],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/bouldermove.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial7z": {
+            "sign": [
+				"Każ swoim towarzyszom",
+				"[Odpocząć] raz na piętro,",
+				"co przywróci im PŻ.",
+				"$",
+				"Mogą je również odzyskać",
+				"jeśli wydasz im rozkaz",
+				"[Użyj] wskazując pokarm."
+		
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[0],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2,3],
+					[],
+					[3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/foodgive.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial7/sign_rest.png",
+					"sizex": 0,
+					"sizey": 0
+				}				
+			]
+        },		
+        "tutorial7u": {
+            "sign": [
+				"Mądrze by było kazać",
+				"[Poczekać] swoim kolegom",
+				"kiedy Ty się rozglądasz.",
+				"",
+				"Trzymaj$kiedy wydajesz",
+				"polecenie by skierować",
+				"wszystkich towarzyszy",
+				"jednym prostym rozkazem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[0],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[2,3],
+					[],
+					[],
+					[],
+					[0,1],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/allwait_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				}					
+			]
+        },
+        "tutorial7u_gamepad": {
+            "sign": [
+				"Mądrze by było kazać",
+				"[Poczekać] swoim kolegom",
+				"kiedy Ty się rozglądasz.",
+				"",
+				"Trzymaj$kiedy wydajesz",
+				"polecenie by skierować",
+				"wszystkich towarzyszy",
+				"jednym prostym rozkazem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[0],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[2,3],
+					[],
+					[],
+					[],
+					[0,1],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial7/allwait_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				}					
+			]
+        },		
+        "tutorial7up": {
+            "sign": [
+				"Te wrota otworzą się",
+				"przed tym kto pokona",
+				"wszystkich swoich",
+				"wrogów."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[3],
+					[0],
+					[0]
+				]
+            },
+            "variables": []
+        }		
+    }
+}

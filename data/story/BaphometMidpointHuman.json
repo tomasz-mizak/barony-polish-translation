@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    "*2Wyrąbując sobie ścieżkę przez każdego demona na swojej drodze, wskakujesz w portal^.\n",
+	"Nie ważne kto, śmiertelnik czy Bóg, nikt nie może stawić Ci teraz czoła.\n^",
+	"*2Stoisz zmęczony, w niekończącej się białej sali usianej ogromnymi filarami,\n",
+	"które rozciągają się wyżej, niż widzisz.\n",
+	"*2Poczucie spokoju przytłacza Cię i odświeża. Wiesz, że moc Herxa została\n",
+	"usunięta. Ale Bafomet to tylko jeden diabeł. Głos cię pociesza...\n^",
+	"*3\"Licz Herx zamienił się w pył, ale mądrzejsi wrogowie czerpią z piekielnego zła.\n",
+	"Hamlet jest na razie wolny, ale świat nie jest bezpieczny. W czasach takich jak te,\n",
+	"ktoś potężny musi przechylić szalę. Mamy dla Ciebie propozycję...\"\n^",
+	"*2Bez ostrzeżenia Twoje ciało wraca z powrotem do świata śmiertelników.\n",
+	"\"Musisz odciąć całe zło od Hamletu, inaczej nie będzie mowy o pokoju.\"\n^",
+	"*2Pełen odwagi i obowiązku stajesz w Hamlecie. Wszystko wskazuje na wielki \n",
+	"obrządek, który płynie aż od kopalnianych bram do karczmy.\n^",
+	"*1Wiesz, że Gildia Magów pomoże ci w twoim zadaniu..."
+    ],
+    "images": [
+	"images/ui/Main Menus/Story/black.png",
+	"images/ui/Main Menus/Story/white.png",
+	"images/ui/Main Menus/Story/NoEternals.png",
+	"images/ui/Main Menus/Story/Eternals.png",
+	"images/ui/Main Menus/Story/white.png",
+	"images/ui/Main Menus/Story/MagiciansGuild.png",
+	"images/ui/Main Menus/Story/black.png"
+    ]
+}

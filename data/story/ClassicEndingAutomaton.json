@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    "*3Odnosząc zwycięstwo wkraczasz do portalu. Nie wiesz, czego oczekiwać,\n",
+    "ale ogarnia Cię ulga. W jakiś sposób wiesz, że klątwa barona Herxchavena\n",
+	"została zdjęta z tej krainy.\n^",
+	"*4W oka mgnieniu ponownie stajesz przed kopalniami.\n",
+	"Ale coś jest inne; wycie odległych potworów ucichło,\n",
+	"a niebo, niegdyś groźne od czerni, przejaśnia się,\n",
+	"by ponownie ukazać światło dnia.\n^",
+	"*3Nagle drzwi do kopalni otwierają się szeroko. Niegdyś zapieczętowane na wieki,\n",
+	"by powstrzymać wewnętrzne zło, otwierają się od wewnątrz, gdy setka\n",
+	"wdzięcznych ludzi wybiega, by powitać tego, który zniszczył Barona.\n^",
+	"*4Piekielne źródło mocy Barona pozostaje dla ciebie tajemnicą,\n",
+	"po przemyśleniach wierzysz, że wymagana jest wizyta w Gildii Magów,\n",
+	"by głębiej zbadać temat. Ale na razie dołączasz do radości\n",
+	"i zabawy z ludźmi, których właśnie uratowałeś..."
+    ],
+    "images": [
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/intro4.png",
+	"*images/ui/Main Menus/Story/Hamlet_Rescue.png",
+	"*images/ui/Main Menus/Story/MagiciansGuild.png"
+    ]
+}

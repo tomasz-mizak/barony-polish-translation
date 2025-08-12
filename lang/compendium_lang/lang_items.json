@@ -1,0 +1,685 @@
+{
+    "alembic": {
+        "blurb": [
+            "ALEMBIK pozwala alchemikowi łączyć",
+            "płyny ze sobą, ostatecznie dając",
+            "przeróżne i zaskakujące efekty.",
+            "",
+            "Uzdolniony gorzelnik użyje go do",
+            "stworzenia przepotężnych wywarów."
+        ]
+    },
+    "arbalest": {
+        "blurb": [
+            "Arbalet to wyspecjalizowana kusza.",
+            "Zachowuje się podobnie do swojego",
+            "mniejszego brata, ale wolniej się",
+            "ją ładuje, ma krótki zasięg i odrzut.",
+            "",
+            "To mały koszt za piorunującą siłę."
+        ]
+    },
+    "axes": {
+        "blurb": [
+            "Może i niezbyt eleganckie, TOPORY",
+            "nadrabiają to w odbieraniu oddechu",
+            "wroga równie silnie co fentanyl.",
+            "Świetne przeciwko lekkozbrojnym,",
+            "ciężkie ostrze wgryzie się, nawet",
+            "w bardziej opancerzone cele."
+        ]
+    },
+    "backpacks": {
+        "blurb": [
+            "Doświadczeni krytykują nadmierne",
+            "zbieractwo, bo śmierć najszybciej",
+            "dogania najwolniejszych.",
+            "",
+            "Niektóre profesje zarzekają się,",
+            "że brak PLECAKA tworzy słabiaka."
+        ]
+    },
+    "beartrap": {
+        "blurb": [
+            "Okrutne a zarazem proste narzędzie,",
+            "wnyki zatrzaskują się na stopie",
+            "wroga w bolesny sposób.",
+            "Większość zostaje zatrzymana,",
+            "odsłaniając ich na ataki",
+            "aż szczęki wnyków nie puszczą."
+        ]
+    },
+    "blood vials": {
+        "blurb": [
+            "Z odpowiednią techniką, KREW można",
+            "wykraść ofiarom przed rozlaniem jej",
+            "na obleśną podłogę lochów.",
+            "",
+            "Tylko przeklęci i potępieni",
+            "mieliby z niej jakiś pożytek."
+        ]
+    },
+    "boomerang": {
+        "blurb": [
+            "Opowieści mówią o plemieniu, które",
+            "stworzyło broń, która zawsze wraca",
+            "do właściciela po rzuceniu jej.",
+            "Kiedy się zużyje, przekazuje się",
+            "ją pierworodnemu. Ci, którzy",
+            "odrestaurują BOOMERANG są go warci."
+        ]
+    },
+    "booze": {
+        "blurb": [
+            "Gorzała podniesie na duchu i oferuje",
+            "wzmocnienie siły i pewności siebie.",
+            "To wszystko za koszt precyzji,",
+            "otępienia i zhaftowania się.",
+            "Tylko Ty zdecydujesz czy gorzała to",
+            "nektar bogów czy niemoralny grzech."
+        ]
+    },
+    "bows": {
+        "blurb": [
+            "Kniazie i kawaleria je kochają,",
+            "łuki każdego rodzaju strzelają",
+            "na dystans i nękają wrogów.",
+            "",
+            "Dobrzy Łowcy i Łotry jedne często",
+            "trzymają specjalną amunicję."
+        ]
+    },
+    "chakrams and shurikens": {
+        "blurb": [
+            "Materiał z jakiego je wykonano",
+            "oferuje ostrzejsze krawędzie i",
+            "możliwość rykoszetowania od ścian.",
+            "Chytry podróżnik może zabijać",
+            "wrogów czyhających za rogiem!",
+            "Marzenie każdego miotacza."
+        ]
+    },
+    "cheese and apples": {
+        "blurb": [
+            "Zwykłe KĄSKI prostego pokarmu,",
+            "głodny podróżnik musi zjeść",
+            "parę takich by zaspokoić głód.",
+            "Czasem zaryzykujesz i zjesz zgniłe",
+            "jadło czy to z desperacji czy z",
+            "braku wyrafinowanego podniebienia."
+        ]
+    },
+    "cloaks & clothing": {
+        "blurb": [
+            "Zwykłe ODZIENIE jest niepraktyczne.",
+            "Nie to co zbroja, gdy trzeba walczyć.",
+            "",
+            "Czasem zaczarowane szaty mogą",
+            "zachęcić podróżników do założenia",
+            "lżejszego stroju dzięki bonusom."
+        ]
+    },
+    "cream pie": {
+        "blurb": [
+            "Przysmak w lochu, czasem używany",
+            "do rozsmarowania go na twarzy",
+            "głodnego, oślepiając go.",
+            "",
+            "Nie jesteś głodny? To rzuć KREMÓWKĄ",
+            "w twarz wroga by go zdezorientować."
+        ]
+    },
+    "crossbow": {
+        "blurb": [
+            "Kusza jest zasilana mechanizmem,",
+            "pozwalając na szybkie ładowanie i",
+            "natychmiastowy wystrzał.",
+            "Może i traci na zasięgu w porównaniu",
+            "z łukami, to wciąż możesz ją",
+            "załadować specjalną amunicję."
+        ]
+    },
+    "crowns & headdresses": {
+        "blurb": [
+            "Nakrycia głowy przenaczone tylko",
+            "dla osób politycznych i czarodziei.",
+            "",
+            "W swej naturze tylko symboliczne,",
+            "ale odpowiednio silny symbol",
+            "wywiera potężny wpływ."
+        ]
+    },
+    "crystal ammo": {
+        "blurb": [
+            "Gdy szukasz najlepszych, ostrych",
+            "jak brzytwa i śmiertelnych jak",
+            "Ojciec Święty o 21:37, nie ma",
+            "lepszej amunicji od KRYSZTAŁOWEJ.",
+            "",
+            "Nieskomplikowany a doskonały pocisk."
+        ]
+    },
+    "crystal armor": {
+        "blurb": [
+            "KRYSZTAŁ to rzadki minerał. Normalnie",
+            "nie zostałby użyty jako zbroja,",
+            "zwłaszcza wiedząc jak kruchy jest.",
+            "",
+            "Tylko niesamowita ilość magicznego",
+            "kruszcu uzasadniłaby taki twór."
+        ]
+    },
+    "crystal shard": {
+        "blurb": [
+            "O ile KRYSZTAŁOWY ODŁAMEK świeci",
+            "słabiej od pochodni, ich nieskończone",
+            "światło widzi tylko dzierżący.",
+            "",
+            "Są kruche, więc używanie ich aby",
+            "blokować to kiepski pomysł."
+        ]
+    },
+    "death box": {
+        "blurb": [
+            "Skrzynka na szpargały należące",
+            "do zmarłego podróżnika.",
+            "",
+            "Wzięcie jej na plecy spowolni o 25%.",
+            "Po otworzeniu, cała zawartość",
+            "rozsypuje się na ziemi jak cukierki."
+        ]
+    },
+    "defensive potions": {
+        "blurb": [
+            "ELIKSIRY OBRONNE zapewniają głównie",
+            "pozytywne efekty tym, którzy je piją.",
+            "",
+            "Gdy towarzysz ich potrzebuje, rzuć",
+            "im w twarz pełnym flakonem!"
+        ]
+    },
+    "djinnis brace": {
+        "blurb": [
+            "Znaleziono kiedyś lampę spełniającą,",
+            "życzenia, zamieszkałą przez Dżinolda.",
+            "",
+            "Podróżnik chciał uwolnić Dżina, ale",
+            "jego okowy pozostały nieskruszone.",
+            "Tylko życzenia zwróciłoby mu wolność."
+        ]
+    },
+    "dragons mail": {
+        "blurb": [
+            "Istnieje legenda o rywalizacji między",
+            "smokiem a poszukiwaczem. W toku ich",
+            "walki o sławę, zaprzyjaźnili się.",
+            "",
+            "Na łożu śmierci, smok zaoferował",
+            "swoje łuski poszukiwaczowi."
+        ]
+    },
+    "dummybot": {
+        "blurb": [
+            "Oryginalnie zaprojektowana jako",
+            "przenośna i wytrzymała KUKŁA, została",
+            "wzmocniona magicznie by irytować",
+            "i przyciągać uwagę przeciwników.",
+            "Rozproszonego wroga można",
+            "oflankować z mniejszym ryzykiem."
+        ]
+    },
+    "dyrnwyn": {
+        "blurb": [
+            "Legenda mówi o klindze służącej",
+            "szlachcie w ich honorowych wyprawach,",
+            "oferując płomień i boski gniew.",
+            "",
+            "Wiek i różne zastosowania stępiły",
+            "ostrze, ale można je naprawić."
+        ]
+    },
+    "empty bottle": {
+        "blurb": [
+            "Te kruche naczynie możesz użyć do",
+            "pozyskania zawartości z fontanny",
+            "lub wszechobecnych zlewów.",
+            "",
+            "Prawdziwy gorzelnik potrzebuje",
+            "każdej cieczy do warzenia mikstur."
+        ]
+    },
+    "face accessories": {
+        "blurb": [
+            "Podróżnicy mogą uzupełniać swoje",
+            "talenty korzystając z akcesorii na",
+            "twarz, a czasem i same usta.",
+            "",
+            "Te przedmioty różnią się bonusami!",
+            "Niektórzy patrzą tylko na wygląd..."
+        ]
+    },
+    "fire and hunting ammo": {
+        "blurb": [
+            "Część amunicji zostawia po sobie ślad.",
+            "",
+            "Ognista oświetli pokój i stawia wroga",
+            "w płomieniach a osłabiająca",
+            "MYŚLIWSKA może z łatwością zatruć",
+            "i spowolnić nacierające bestie."
+        ]
+    },
+    "fist weapons": {
+        "blurb": [
+            "Perfekcyjna dla tych, którzy boją się",
+            "zepsucia oręża w walce. Atak pięścią",
+            "wzmacnia kastet dodając trochę",
+            "więcej obrażeń do każdego ciosu.",
+            "Wszechstronni mistrzowie mogą",
+            "ogłuszyć wroga ciosem z zaskoczenia."
+        ]
+    },
+    "gungnir": {
+        "blurb": [
+            "Legendy mówią, że tę włócznię wykuto",
+            "dla Bogów by każdy cios trafiał",
+            "perfekcyjnie w ich wrogów.",
+            "",
+            "Nawet świeżak z GUNGNIREM jest groźny.",
+            "Tej broni strzeże Minotaur z Tartaru."
+        ]
+    },
+    "gyrobot": {
+        "blurb": [
+            "Stworzony przez majstrów jako prosty",
+            "towarzysz, funkcje ŻYROBOTA",
+            "rozrosły się do wszechstronności",
+            "i wielozadaniowości.",
+            "Utalentowany Majster ma dostęp do",
+            "wielu rozkazów dla ŻYROBOCIKA."
+        ]
+    },
+    "hats & hoods": {
+        "blurb": [
+            "Wiele profesji i grup nakrywa głowę",
+            "czymś praktycznym i stylowym.",
+            "",
+            "Pokaż swoją rolę swojej drużynie",
+            "nosząc pasujący KAPTUR lub CZAPKĘ."
+        ]
+    },
+    "iron armor": {
+        "blurb": [
+            "Cięższe niż skóra, ale dwukrotnie",
+            "efektywne w ochronie noszącego.",
+            "By zachować szybkość musisz mieć SIŁĘ.",
+            "",
+            "Hamlet oryginalnie zasłynął z",
+            "bogatych kopalni rudy ŻELAZA."
+        ]
+    },
+    "khryselakatos": {
+        "blurb": [
+            "Ukochany przez legendarnego łowcę,",
+            "KHRYSELAKATOS czerpie wzmocnioną",
+            "amunicję z bezdennego kołczanu.",
+            "",
+            "Mity mówią o właścicielu odartym",
+            "z Boskości i wygnanym do HADESU."
+        ]
+    },
+    "leather armor": {
+        "blurb": [
+            "Lekki, tani i popularny. Większość",
+            "podróżników przywdzieje SKÓRZANY",
+            "pancerz, niż pójdzie z gołą klatą.",
+            "",
+            "Pełny zestaw skórzanego pancerza",
+            "znacząco chroni przed słabym wrogiem."
+        ]
+    },
+    "lockpick": {
+        "blurb": [
+            "Utalentowani mechanicy używają ich",
+            "do otwierania zamków skrzyń i drzwi,",
+            "rozbrajają pułapki, lub dostosowują",
+            "sprężynki w swoich pułapkach.",
+            "",
+            "Przydatne przeciwko buntowi maszyn."
+        ]
+    },
+    "maces": {
+        "blurb": [
+            "Z głownią zaprojektowaną do miażdżenia",
+            "celów, Buzdygany są niezawodną bronią",
+            "niszczącą zbroje i gruchoczącą czaszki",
+            "nawet najbardziej opancerzonym celom.",
+            "Właściwie użytkowany, może odebrać",
+            "szansę na odwzajemnienie ciosu."
+        ]
+    },
+    "mail & lore books": {
+        "blurb": [
+            "Dla magów bezużyteczne podczas",
+            "poszukiwań mocy, w tych przyziemnych",
+            "kartkach, ciekawscy znajdą fascynującą",
+            "lekturę pełną poszlak i smaczków.",
+            "",
+            "Papier rozpali też bojler na plecach."
+        ]
+    },
+    "masks & visors": {
+        "blurb": [
+            "Niektórzy używają MASKI by ukryć ich",
+            "tożsamość lub przynależność",
+            "",
+            "Dla innych, praktyczne okrycie zapewni",
+            "wzmocnienie dla ich klasy postaci."
+        ]
+    },
+    "meat, fish, and bread": {
+        "blurb": [
+            "Duże porcje, doceniane przez głodnych",
+            "podróżników. Ci bardziej zdesperowani",
+            "mogą zjeść dwa pełne posiłki i",
+            "zapełnić swój żołądek, uważaj jednak",
+            "aby się nie przejeść i nie puścić pawia."
+        ]
+    },
+    "mining pick": {
+        "blurb": [
+            "To narzędzie pozwoli Ci przekopać się",
+            "przez ściany, tworząc skróty lub",
+            "otwierając dostęp do ukrytych skarbów.",
+            "",
+            "KILOFY szybko się niszczą, ale robią",
+            "różnicę gdy wpadniesz w zasadzkę."
+        ]
+    },
+    "mirrors": {
+        "blurb": [
+            "Brak naukowego dowodu na to, że lustra",
+            "kradną duszę, ale odbijają w sobie",
+            "zwykłe i magiczne rzeczywistości.",
+            "",
+            "Ten, który weń zajrzy, dowie się",
+            "więcej o sobie niż mógłby pomyśleć."
+        ]
+    },
+    "mystic orb": {
+        "blurb": [
+            "Tajemnicza sfera, którą przepełnia",
+            "magiczna energia.",
+            "Odpowiedni piedestał pozwoliłby",
+            "uwolnić jej wielką moc, jednakże są",
+            "ludzie, którzy oddadzą rzadkie skarby",
+            "za tak bezcenny artefakt jak to."
+        ]
+    },
+    "noisemaker": {
+        "blurb": [
+            "Zasilany sprężyną mechanizm, oparty",
+            "na zmyślnym projekcie. Generuje",
+            "intrygujący szum, który przyciąga",
+            "uwagę pobliskich wrogów.",
+            "Świetny do odwracania uwagi lub",
+            "wciągania oponentów w zasadzkę."
+        ]
+    },
+    "offensive potions": {
+        "blurb": [
+            "Wiele eliksirów może zadać krzywdę",
+            "wrogom, często siejąc dewastację i",
+            "nakładając dodatkowe efekty statusu.",
+            "",
+            "Można również wypić OFENSYWNY ELIKSIR,",
+            "najczęściej jednak z własnej głupoty."
+        ]
+    },
+    "oracles treads": {
+        "blurb": [
+            "Mityczny podróżnik wkroczył kiedyś",
+            "do Królestwa Cieni, które skrywało",
+            "całe zło i duszę dziadka Yugiego.",
+            "Świadkowie wspominali o tym, że",
+            "wyczuwał drgania ziemi by unikać,",
+            "zagrożenia, szybko pokonując Królestwo."
+        ]
+    },
+    "parashu": {
+        "blurb": [
+            "Każdy może nazwać swoją broń PARASHU,",
+            "ale tylko jeden wieczny topór może",
+            "odzyskać legendarną śmiertelność.",
+            "",
+            "Kiedyś był bronią Bogów, teraz",
+            "dzierżyć go może byle szkielet."
+        ]
+    },
+    "polearms": {
+        "blurb": [
+            "Kije oferują balans i zasięg,",
+            "będąc zjawiskowo wydajne na większe",
+            "i ciężkie bestyje.",
+            "",
+            "W sprawnych rękach, ataki tą bronią",
+            "mogą trzymać wrogów na dystans."
+        ]
+    },
+    "rocks & gems": {
+        "blurb": [
+            "Każdy kamień się nada gdy musisz",
+            "rzucić czymś w pułapkę lub wroga.",
+            "",
+            "Te szlachetniejsze przygarną",
+            "handlarze i każda Maszyna,",
+            "lub co chciwsza osoba."
+        ]
+    },
+    "sentrybot and magic sentry": {
+        "blurb": [
+            "Użyto tajemnych kryształów by dać",
+            "prymitywną inteligencję maszynom",
+            "wyposażonym w trójnóg i głowice,",
+            "która miota pociskami we wrogów.",
+            "Samotna wieżyczka postawiona daleko",
+            "może zadać poważne obrażenia."
+        ]
+    },
+    "sharur": {
+        "blurb": [
+            "Legendy mówią o mądrali podróżującym",
+            "po królestwach oferując przydatne rady.",
+            "",
+            "Każde królestwo rozkwitało, ale",
+            "prędzej czy później doradca",
+            "zostawał z jakiegoś powodu wygnany."
+        ]
+    },
+    "shields": {
+        "blurb": [
+            "Puklerz zapewni pasywny pancerz",
+            "każdego kto je dzierży, ale aktywny",
+            "blok zapewni jeszcze więcej obrony.",
+            "",
+            "Niektóre tarcze mają dodatkowy",
+            "efekt przy blokowaniu nimi."
+        ]
+    },
+    "silver and piercing ammo": {
+        "blurb": [
+            "Niektóre amunicje nadają się lepiej",
+            "na konkretną rasę wrogów.",
+            "",
+            "PRZEBIJAJĄCA pokona najznamienitszy",
+            "pancerz. Nieumarli i słudzy szatana",
+            "będą bali się SREBRNEJ AMUNICJI."
+        ]
+    },
+    "skeleton key": {
+        "blurb": [
+            "Ślusarz zaprojektował taki klucz,",
+            "który będzie pasował do każdego",
+            "prostego zamku skrzyń lub drzwi.",
+            "",
+            "Może nie zrobi tego co wytrych, ale",
+            "obsłuży go każde beztalencie."
+        ]
+    },
+    "slingshot": {
+        "blurb": [
+            "Najprostsza broń miotająca pociski,",
+            "proca wydaje się być pozornie słaba.",
+            "",
+            "Ale gdy możesz walczyć na dystans,",
+            "o wiele szybciej jest strzelić z procy",
+            "i wziąć nogi za pas."
+        ]
+    },
+    "sphinxs casque": {
+        "blurb": [
+            "Legendy mówią o podróżniku, który",
+            "spotkał Sfinksa oferującego zagadkę.",
+            "",
+            "Zagadka była niemożliwa do rozwiązania,",
+            "więc zadał pytanie, na które nawet",
+            "Sfinks nie mógł udzielić odpowiedzi."
+        ]
+    },
+    "steel armor": {
+        "blurb": [
+            "Mocniejsza od żelaza, i tylko odrobinę",
+            "cięższa, potrzeba szczęścia lub forsy",
+            "by nabyć i wdziać STALOWĄ zbroję.",
+            "",
+            "Garstka kowali wie jak wytworzyć STAL."
+        ]
+    },
+    "swift and springshot ammo": {
+        "blurb": [
+            "Zamiana celu w igielnik zanim",
+            "zdąży się z bliżyć to priorytet",
+            "wielu łuczników.",
+            "LEKKĄ AMUNICJĘ szybciej się ładuje,",
+            "podczas gdy SPRĘŻYNOWA oferuje",
+            "specjalny grot, który silnie odpycha."
+        ]
+    },
+    "swords": {
+        "blurb": [
+            "Śmiertelny przeciw tkance, MIECZ to",
+            "idealny wybór by kroić żywy cel.",
+            "Twardsza skóra może odbić atak, ale",
+            "legendarne cięcie nałoży krwawienie."
+        ]
+    },
+    "teleportation trap": {
+        "blurb": [
+            "Jak z innymi pułapkami, wytrych",
+            "sprawi, że zignoruje lub wybuchnie",
+            "w kontakcie z sojusznikiem.",
+            "Możesz również ustawić ją jako",
+            "punkt TELEPORTACJI, pozwalając",
+            "sobie na natychmiastową podróż."
+        ]
+    },
+    "tin and tin opener": {
+        "blurb": [
+            "W puszkach są zawsze ugotowane posiłki.",
+            "Warzywka lub mięso, to zawsze",
+            "pożywne i zapychające danie.",
+            "",
+            "Bez otwieracza nic nie zjesz a tłuszcz",
+            "z puszki potrafi być uciążliwy."
+        ]
+    },
+    "tinkered traps": {
+        "blurb": [
+            "WŁASNE PUŁAPKI można rozkładać na",
+            "podłogach, ścianach, drzwiach i",
+            "kufrach. Aktywują się przy",
+            "kontakcie, zaskakując cel.",
+            "Mechanicy odzyskują detonator",
+            "by zaoszczędzić trochę na złomie."
+        ]
+    },
+    "tinkering kit": {
+        "blurb": [
+            "ZESTAW MECHANIKA rozłoży",
+            "większość sprzętu na części.",
+            "",
+            "Uzdolniony mechanik złoży złom",
+            "w użyteczne maszyny, co raz silniejsze",
+            "wraz ze zdobytą wiedzą i talentem."
+        ]
+    },
+    "tomahawks & daggers": {
+        "blurb": [
+            "Broń stworzona z myślą o rzucaniu,",
+            "lecą dalej i trafiają dotkliwiej,",
+            "jeśli włożysz wysiłek w każdy rzut.",
+            "",
+            "Cięższe niż podstawowe pociski,",
+            "świetnie przebijają pancerz wrogów."
+        ]
+    },
+    "tomalley": {
+        "blurb": [
+            "SADŁO zwierzęce - Nie mylić z psim",
+            "sadłem luks z cybulką, to tłuszcz",
+            "z wątroby bezkręgowców.",
+            "Robaki w lochach są pokryte tym",
+            "śluzem, dzięki czemu ich małe",
+            "skrawki mięsa mogą być zjadliwe."
+        ]
+    },
+    "torch and lantern": {
+        "blurb": [
+            "Dzierżona, zapewni światło.",
+            "Uniesienie POCHODNI lub LATARNI",
+            "ciut wyżej może blokować ciosy!",
+            "",
+            "POCHODNIE I LATARNIE powolnie",
+            "wypalają się z biegiem czasu."
+        ]
+    },
+    "towel": {
+        "blurb": [
+            "Może i sam z siebie dużo nie oferuje,",
+            "we właściwych chwilach, RĘCZNIK może",
+            "uratować twoje jestestwo.",
+            "Z ręcznika zrobisz bandaż i",
+            "wytrzesz ręce i twarz z tłuszczu,",
+            "który zrujnowałby następną walkę."
+        ]
+    },
+    "water": {
+        "blurb": [
+            "Czysta, świeża WODA to rzadki luksus",
+            "w lochach. Na krótki czas zapełni",
+            "pusty żołądek, a gorzelnik potrzebuje",
+            "całego zapasu wody.",
+            "Poza tym możesz użyć jej do zmycia",
+            "niektórych magicznych efektów."
+        ]
+    },
+    "whip": {
+        "blurb": [
+            "Specjalna broń w rękach Kata,",
+            "Wyćwiczeni mogą odebrać broń z rąk",
+            "nieświadomego celu, używając bicza.",
+            "",
+            "Podczas gdy atakuje wolniej od reszty,",
+            "ma o wiele większy zasięg walki wręcz."
+        ]
+    },
+    "wraiths gown": {
+        "blurb": [
+            "Chcąc przezwyciężyć śmierć, podróżnik",
+            "z baśni przemierzał odmęty Zaświatów.",
+            "Mieszkała tam dusza, która chciała żyć.",
+            "",
+            "Podróżnik zabrał duszę ze sobą, ale",
+            "po wyjściu zostały jej same szaty."
+        ]
+    }
+}

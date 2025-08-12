@@ -1,0 +1,30 @@
+
+	Atrybuty Postaci
+
+	Autor: Mistrz Gildii Słownik
+
+
+
+	Ponieważ testy wigoru i charakteru nowych kandydatów stały się priorytetem w następstwie katastrofy Zmierzchu Lata, która zrujnowała wszystkim świętowanie w zeszłym sezonie, podjąłem się stworzenia nowego kodeksu oceny, zorganizowanego wzdłuż sześciu oddzielnych osi, aby ocenić cechy każdej konkretnej osoby.
+
+	Niech będzie wiadome, że dla każdej z tych skal punktem odniesienia, według którego oceniane są wszystkie rangi, będzie 0, które reprezentuje najwyższą średnią wszystkich w gildii; i że liczba dodatnia będzie oznaczać rangę wyższą niż średnia wśród rówieśników, podczas gdy liczba ujemna będzie oznaczać coś przeciwnego.
+
+	Przejdźmy teraz do samych atrybutów:
+
+	Siła (SIŁ): Skala reprezentująca siłę danej osoby. Osoby o większej sile uderzają mocniej i mogą nosić więcej sprzętu bez zmęczenia.
+
+	Zręczność (ZRĘ): Skala reprezentująca szybkość i zwinność danej osoby. Osoby o wyższej zręczności mogą zarówno poruszać się szybciej, jak i być celniejszym w swoich uderzeniach, a także są bardziej sprawni w posługiwaniu się bronią dystansową.
+
+	Kondycja (KON): Skala reprezentująca hart ducha danej osoby. Osoby o wyższej Kondycji lepiej znoszą ból i trudności niż te o niższej, a także mogą szybciej wracać do zdrowia pomimo wszelakich dolegliwości. (Uwaga redaktora: współczesne badania mogą odrzucić tę ostatnią miarę, ponieważ odkryliśmy, że jad gigantycznych stawonogów ustępuje w ciągu 10 sekund w prawie wszystkich przypadkach).
+
+	Inteligencja (INT): Skala reprezentująca spryt danej osoby. Osoby o wyższej inteligencji są w stanie wydedukować i zastosować nasze mistyczne i magiczne metody lepiej niż osoby o niższej inteligencji. Silny umysł jest również bardziej połączony z energiami magicznymi, co pozwala na większą moc magiczną i jej regenerację.
+
+	Percepcja (PER): Skala reprezentująca siłę zmysłów danej osoby. Osoby o wyższej percepcji mogą lepiej przenikać cienie nocy niż osoby o niższej percepcji, a ich wyostrzone zmysły zapewniają większą precyzję przy bardzo wymagających zadaniach w strzelaniu i majsterkowaniu.
+
+	Charyzma (CHR): Skala reprezentująca urok danej osoby. Osoby z wyższą charyzmą mogą mieć więcej szczęścia w przymuszaniu innych, szczególnie w handlu i na polu bitwy. Sojusznicy szybciej reagują na rozkaz charyzmatycznego przywódcy.
+
+	Niech Gildia Magów korzysta z tego przewodnika, dopóki przyszli mistrzowie gildii nie uznają go za zbędny.
+
+	~ Mistrz Gildii Słownik
+
+	6/16/158

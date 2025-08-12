@@ -1,0 +1,1049 @@
+{
+    "algernon": {
+        "blurb": [
+            "Przez braki jedzenia, szczurom ciężej żyć",
+            "w lochach. Czasem jednak pojawia się duże",
+            "źródło jedzenia, które spowoduje nagły",
+            "rozrost populacji szczurów.",
+            "W takich czasach, najmądrzejszy z nich",
+            "zostaje wybrany na Króla szczurów."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Szmaragdy",
+            "- Mięso, Ser"
+        ]
+    },
+    "artemisia": {
+        "blurb": [
+            "Skazana do Zaświatów za zdradę jej",
+            "Wiecznych braci, ARTEMIDA używa",
+            "swoich duchowych talentów by być",
+            "jeszcze lepszą łowczynią.",
+            "Nawet śmierć nie wyrwała",
+            "z jej rąk magicznego łuku."
+        ],
+        "abilities": [
+            "- Naśladowanie",
+            "- Lewitacja",
+            "- Teleportacja",
+            "- Odporność na Dominację"
+        ],
+        "inventory": [
+            "- Khryselakatos",
+            "- Kołczany Srebrnej Amunicji",
+            "- Upiorne Maski"
+        ]
+    },
+    "automaton": {
+        "blurb": [
+            "Konstrukt projektu gildii Magów,",
+            "magia i technologia dała MASZYNIE",
+            "dar życia jako ich sługa.",
+            "",
+            "Stają się agresywne tylko, jeśli",
+            "dostaną takie polecenie od ich mistrza."
+        ],
+        "abilities": [
+            "- Odzysk",
+            "- Autodestrukcja"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "baratheon": {
+        "blurb": [
+            "Zrodzony z gniewu, ten mroczny duch",
+            "szuka tych, którzy mają ambitny cel.",
+            "",
+            "BARATEON nie dba o własną przyszłość,",
+            "istniejąc tylko po to, by trzymać",
+            "bohaterów z dala od ich przeznaczenia."
+        ],
+        "abilities": [
+            "- Naśladowanie",
+            "- Lewitacja",
+            "- Teleportacja",
+            "- Odporność na Dominację"
+        ],
+        "inventory": [
+            "- Upiór w Masce",
+            "- Maska Upiora"
+        ]
+    },
+    "bat": {
+        "blurb": [
+            "Dzikie nietoperze wysysające krew",
+            "osiedliły się niedawno w kopalniach.",
+            "Chociaż małe, ich dziki trzepot sprawia,",
+            "że są trudnym celem nawet dla wprawionych",
+            "podróżników. Conajmniej połowa twoich",
+            "ataków nie trafi w tych szkodników!"
+        ],
+        "abilities": [
+            "- Lewitacja",
+            "- Uniki",
+            "- Ataki zadające Krwawienie",
+            "- Odporność na Dominację"
+        ],
+        "inventory": []
+    },
+    "bram kindly": {
+        "blurb": [
+            "Enigmatyczny mistrz Gildii Łowców,",
+            "Mówi się, że BRAM KINDLY zaginął",
+            "podczas badania kwestii nieumarłych.",
+            "",
+            "Wygląda na to, że znalazł dokładnie",
+            "to czego od dawna poszukiwał."
+        ],
+        "abilities": [
+            "- Drenaż Duszy",
+            "- Wampiryczna Aura",
+            "- Odporność na Dominację"
+        ],
+        "inventory": [
+            "- Szata Widma",
+            "- Kostury Upuszczania Krwi",
+            "- Kubrak Wampira"
+        ]
+    },
+    "bram succubi": {
+        "blurb": [
+            "Istoty o ogromnej mocy przyciągają",
+            "zwolenników. Verona, Aleera i Marishka",
+            "oddały się potężnemu wampirowi.",
+            "",
+            "Chętnie uczył ich wampirycznej magii",
+            "w pieleszach swojego ponurego zamku."
+        ],
+        "abilities": [
+            "- Urok",
+            "- Teleportacja"
+        ],
+        "inventory": [
+            "- Tomy Zaklęć Upuszczania Krwi",
+            "- Kostury Uroku",
+            "- Maski Balowe"
+        ]
+    },
+    "bubbles": {
+        "blurb": [
+            "Ci, którzy przeżyli walkę z BAŃKĄ sądzą,",
+            "że nie jest krabem. Uważają ją raczej",
+            "za wcielenie córki diabła w ciele kraba.",
+            "",
+            "Często nosi ze sobą skarby",
+            "swoich poległych ofiar."
+        ],
+        "abilities": [
+            "- Zatruwające Ataki",
+            "- Przędź Sieć"
+        ],
+        "inventory": [
+            "- Dyrnwyn",
+            "- Pierścień Niewidzialności"
+        ]
+    },
+    "bugbear": {
+        "blurb": [
+            "Te durnowate łobuzy nie potrafią zacząć",
+            "otwartej wojny przeciw powierzchniowcom.",
+            "Niemniej jednak tworzą koalicje pełne",
+            "brutalnych najeźdźców, przejmując osady.",
+            "STRACHUNY często wykorzystują ruiny jako",
+            "domy, a ostatnio rozbili obóz pod Osadą."
+        ],
+        "abilities": [
+            "- Krok w Bok",
+            "- Serdeczna Tarcza"
+        ],
+        "inventory": [
+            "- Stalowe Miecze/Topory",
+            "- Arbalety",
+            "- Tarcze"
+        ]
+    },
+    "cockatrice": {
+        "blurb": [
+            "Stworzenie od dawna uważane za wymarłe,",
+            "KUROLISZEK to potężna latająca bestia.",
+            "",
+            "Ostrymi jak brzytwa szponami zabija",
+            "ofiary, które sparaliżował swoim oddechem.",
+            "Jego pióra są uważane za magiczne."
+        ],
+        "abilities": [
+            "- Kamienna Krew",
+            "- Lewitacja",
+            "- Podwójny Cios"
+        ],
+        "inventory": [
+            "- Zaczarowane Pióra",
+            "- Księga Kamiennej Krwi",
+            "- Klejnoty",
+            "- Eliksiry"
+        ]
+    },
+    "coral grimes": {
+        "blurb": [
+            "Łowca upiorów KORAL GRIMES i jego ekipa",
+            "zdobyli sławę, a kościelni ostrzegali,",
+            "że zmarli zachowują nawyki za życia.",
+            "",
+            "Gdy grupa GRIMESA została zabita,",
+            "wszyscy modlili się, by nie zmartwychwstał."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Kapelusz Łowcy Nagród",
+            "- Rubin",
+            "- Mięso"
+        ]
+    },
+    "crab": {
+        "blurb": [
+            "Wielkie, żyjące w lochu KRABY",
+            "to cierpliwi łowcy.",
+            "",
+            "Ich powolny metabolizm i zatrute",
+            "szczypce pozwalają im zastawić zasadzkę",
+            "na ofiarę, by ją rozszarpać i pożreć."
+        ],
+        "abilities": [
+            "- Zatruwające Ataki",
+            "- Przędź Sieć"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "crystalgolem": {
+        "blurb": [
+            "Większy brat Maszyny,",
+            "KRYSZTAŁOWY GROLEM 13 powstał z nadmiaru",
+            "magicznych materiałów i siły woli.",
+            "",
+            "Kiedy podnosi swoje łapska,",
+            "najlepiej być gdzie indziej."
+        ],
+        "abilities": [
+            "- Silny Cios"
+        ],
+        "inventory": [
+            "- Kryształowy ekwipunek",
+            "- Klejnoty"
+        ]
+    },
+    "demon": {
+        "blurb": [
+            "Uważane za przejaw pierwotnej przemocy",
+            "DEMONY znajdują się w pobliżu",
+            "największych źródeł zła.",
+            "",
+            "Wypatroszają wrogów swoimi pazurami,",
+            "lub opiekają ofiary ogniem piekielnym."
+        ],
+        "abilities": [
+            "- Kula Ognia"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "deudebreau": {
+        "blurb": [
+            "Choć demony są plugawe, są jeszcze gorsi",
+            "wyżej na drabinie plugawości.",
+            "",
+            "Założyciel nikczemnego bractwa,",
+            "PODSOO' MOOY to straszny ch... Cham...",
+            "I zawsze towarzyszą mu demony pochlebcy."
+        ],
+        "abilities": [
+            "- Kula Ognia"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "devil": {
+        "blurb": [
+            "Diabeł BAFOMET rozkazuje otaczającym go",
+            "wymiarom piekielnym, używając sługusów,",
+            "magii i kotów wypchanych siarką.",
+            "",
+            "Nie pozwoli, by intruzi stłumili",
+            "jego ambicje i ostudzili jego zapał."
+        ],
+        "abilities": [
+            "- Mała Burza Ognista",
+            "- Przywołaj Pomiot Piekielny",
+            "- Przywołaj Cień",
+            "- Gradobicie Głazów",
+            "- Odporność na Dominację",
+            "- Telepatia",
+            "- Lawo-Portacja"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "dummybot": {
+        "blurb": [
+            "KUKŁA jest niesamowicie wytrzymała.",
+            "Przy odpowiednim utrzymaniu, twój kompan",
+            "odwróci uwagę wroga jako potężny",
+            "strażnik podczas gdy Ty robisz swoje!"
+        ],
+        "abilities": [
+            "- Prowokacja"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "enslaved ghoul": {
+        "blurb": [
+            "Ci ZNIEWOLENI przed śmiercią, są",
+            "napędzani nienawiścią do swojego Pana",
+            "oraz nadnaturalnym głodem.",
+            "",
+            "Pożeranie żywych, nakręca ich głód",
+            "zwiększając znacznie ich prędkość."
+        ],
+        "abilities": [
+            "- Wampiryczna Aura"
+        ],
+        "inventory": [
+            "- Mięso",
+            "- Rozmaite narzędzia",
+            "- Błogosławiona Woda"
+        ]
+    },
+    "funny bones": {
+        "blurb": [
+            "Bardzo brutalny Herszt najemników",
+            "odpowiedzialny za bezpieczeństwo oraz",
+            "dyscyplinę niewolników w kopalni.",
+            "",
+            "Przez jego żałosną znajomość anatomii",
+            "otrzymał ten ironiczny pseudonim."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Parashu",
+            "- Płaszcz Ochrony",
+            "- Opaska na oko",
+            "- Skórzane, Drewniane, Żelazne tarcze/",
+            "    nakrycia głowy"
+        ]
+    },
+    "gharbad": {
+        "blurb": [
+            "Rzadko kiedy Satyr żyje tak długo aż",
+            "jego futro zsiwieje a jeszcze rzadziej",
+            "rodzi się z takim naturalnie.",
+            "",
+            "Zasłużenie czy nie, Ci szczęśliwcy",
+            "przyciągają wiernych popleczników."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Żelazny, Stalowy, Kryształowy Pancerz",
+            "- Stalowe, Kryształowe Topory/Buzdygany",
+            "- Kryształowe Shurikeny",
+            "- Stalowe Czakramy",
+            "- Eliksiry leczące",
+            "- Butelki z Gorzałą"
+        ]
+    },
+    "ghost": {
+        "blurb": [
+            "Klątwa Osady pozwala zżytej grupie",
+            "podróżników trwać razem na wieki,",
+            "nawet po śmierci, dosłownie.",
+            "",
+            "Przebywając w otoczeniu nekromancji",
+            "można zrematerializować swoje ciało."
+        ],
+        "abilities": [
+            "- Skradanie",
+            "- Pchnięcie",
+            "- Nawiedzenie",
+            "- Mityczny Chłód",
+            "- Wywołanie",
+            "- Lewitacja"
+        ],
+        "inventory": []
+    },
+    "ghoul": {
+        "blurb": [
+            "Z pierwotną nienawiścią do żywych, GHULE",
+            "atakują, gdy zakłócisz ich wieczny sen.",
+            "",
+            "Nikt nie wie, co zmienia zmarłego",
+            "w GHULA, ale niektórzy próbują temu",
+            "zapobiec poprzez rytuały pogrzebowe."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Mięso",
+            "- Rozmaite narzędzia",
+            "- Błogosławiona Woda"
+        ]
+    },
+    "gnome": {
+        "blurb": [
+            "GNOMY są znane ze swoich psot a te,",
+            "które uzależnią się od przekopywania",
+            "żył złota, tracą resztki rozsądku.",
+            "",
+            "Zachowaj ostrożność, jeśli chcesz",
+            "zrabować żywność i bogactwa gnomów."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Kilofy",
+            "- Kostury Gromu",
+            "- Ryby",
+            "- Fajki, Fajeczki",
+            "- Lampiony",
+            "- Klejnoty",
+            "- Zaczarowane Pióra"
+        ]
+    },
+    "gnome thief": {
+        "blurb": [
+            "Kiedy uzależnione od złota gnomy nie",
+            "mają co wydobywać, organizują szaberek.",
+            "",
+            "Uważaj na zasadzki ŚMIETANKI",
+            "ZŁODZIEJSKIEJ, która z zabójczą wprawą",
+            "używa pułapek i broni."
+        ],
+        "abilities": [
+            "- Rozłóż pułapkę"
+        ],
+        "inventory": [
+            "- Stalowe Miecze/Buzdygany",
+            "- Łuki/Kusze i Kołczany",
+            "- Robin Hoodki (Herszt złodziei)",
+            "- Kaptury Podszeptów",
+            "- Bandany",
+            "- Maski bandytów",
+            "- Noże w zębach",
+            "- Wnyki/Mechaniczne pułapki",
+            "- Zaczarowane Pióra"
+        ]
+    },
+    "goatman": {
+        "blurb": [
+            "SATYRZY to plemienny lud",
+            "z sąsiednich gór, twardzi jak skała",
+            "a zarazem tępi jak kilo gwoździ.",
+            "Ich kultura kręci się wokół picia,",
+            "choć mogą być kompetentni w wielu",
+            "umiejętnościach gdy są nietrzeźwi."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Żelazny, Stalowy, Kryształowy Pancerz",
+            "- Stalowe, Kryształowe Topory/Buzdygany",
+            "- Rozmaite Kostury",
+            "- Lampiony, Kryształowe Odłamki",
+            "- Mirror Tarcze",
+            "- Stalowe Czakramy",
+            "- Eliksiry leczące",
+            "- Butelki z Gorzałą"
+        ]
+    },
+    "goblin": {
+        "blurb": [
+            "GOBLINY z lochów są podobne do ludzi,",
+            "ale żyją w brutalnych, dzikich warunkach.",
+            "",
+            "Mimo zaradności, ich umysły uległy",
+            "atrofii, przez co wielu z nich jest",
+            "uzależnionych od napadów na ludzi."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Spiżowe, Żelazne Buzdygany/Topory",
+            "- Łuki i Kołczany",
+            "- Kostury Ognia",
+            "- Płaszcze Odbicia Magii",
+            "- Gałązki Żubrówki",
+            "- Skórzany, Spiżowy Pancerz",
+            "- Płaszcze",
+            "- Zwierzęce Kaptury",
+            "- Nakrycia Głowy Magów"
+        ]
+    },
+    "gyrobot": {
+        "blurb": [
+            "Podczas gdy latający ŻYROBOT uniknie",
+            "większości zagrożeń, niektóre z nich",
+            "są za DUŻE, aby można było je ominąć.",
+            "Ciekawskie ŻYROBOTY mogą nieumyślnie",
+            "uruchomić pułapki i przestać działać."
+        ],
+        "abilities": [
+            "- Lewitacja",
+            "- Wykrywanie",
+            "- Światło"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "human": {
+        "blurb": [
+            "Zwykli ludzie z Osady pochodzili kiedyś",
+            " z wielu narodów, aby handlować",
+            "i pokojowo współpracować.",
+            "",
+            "Przy odpowiednim skupieniu LUDZIE",
+            "stają się biegli w tym czego chcieli."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Broń wręcz i dystansowa",
+            "- Skórzany, Spiżowy, Żelazny, Stalowy",
+            "Pancerz"
+        ]
+    },
+    "imp": {
+        "blurb": [
+            "Chochliki to potworni psotnicy, wędrują",
+            "tam gdzie mogą wyrządzić komuś krzywdę.",
+            "",
+            "Ich skrzydła i zdolności magiczne",
+            "pozwalają im zniszczyć swoich wrogów,",
+            "znajdujących się poza zasięgiem."
+        ],
+        "abilities": [
+            "- Kula Ognia",
+            "- Lewitacja"
+        ],
+        "inventory": [
+            "- Rozmaite Tomy Zaklęć"
+        ]
+    },
+    "incubus": {
+        "blurb": [
+            "Ucieleśnienie grzechu pychy, INKUB",
+            "ma obsesję na punkcie kontroli innych.",
+            "",
+            "Używa czarów i broni by bawić się swoimi",
+            "ofiarami, niektórzy z nich podchodzą",
+            "bardziej bezpośrednio do swoich celów."
+        ],
+        "abilities": [
+            "- Teleportacja",
+            "- Ukradnij Broń"
+        ],
+        "inventory": [
+            "- Kostury Mrozu",
+            "- Kusze",
+            "- Stalowe, Kryształowe Kije",
+            "- Butelki z Gorzałą",
+            "- Eliksiry dezorientacji",
+            "- Maski Balowe",
+            "- Lustrzany Puklerz"
+        ]
+    },
+    "insectoid": {
+        "blurb": [
+            "Mało wiemy o nieuchwytnych insektach,",
+            "które wędrują po odległych miejscach.",
+            "",
+            "Ich umiejętności i tajemnicza fizjologia",
+            "dają im przewagę na polu bitwy,",
+            "budząc strach w wielu ludziach."
+        ],
+        "abilities": [
+            "- Rozpyl Kwasior"
+        ],
+        "inventory": [
+            "- Żelazny, Stalowy, Kryształowy Pancerz",
+            "- Stalowe, Kryształowe Miecze/Kije",
+            "- Krótkie, długie i kompozytowe",
+            "    Łuki",
+            "- Kusze",
+            "- Żelazne Daggers"
+        ]
+    },
+    "kobold": {
+        "blurb": [
+            "KOBOLDY są małe i łuskowate, często",
+            "są kultystami i bandytami.",
+            "",
+            "Od dawna stanowią problem dla",
+            "Gildii Magów, dzięki swojej wrodzonej",
+            "odporności na magię."
+        ],
+        "abilities": [
+            "- Spowolnienie"
+        ],
+        "inventory": [
+            "- Żelazny, Stalowy oręż",
+            "    wręcz/dystansowy",
+            "- Zaczarowane Pióra",
+            "- Otwieracz do konserw",
+            "- Ręczniki"
+        ]
+    },
+    "lich": {
+        "blurb": [
+            "Ciało BARONA HERXA jest poczerniałe",
+            "po śmierci jego ciała, ale włada ogromną",
+            "magiczną mocą i mroczną więzią z piekłem.",
+            "",
+            "Ci, którzy chcą się z nim zmierzyć",
+            "muszą uważać na jego potężne zaklęcia."
+        ],
+        "abilities": [
+            "- Łancuch Piorunów",
+            "- Przywołaj Pomiot Piekielny",
+            "- Rozkazuj Ciemności",
+            "- Lewitacja",
+            "- Odporność na Dominację",
+            "- Zryw"
+        ],
+        "inventory": [
+            "- Fioletowa Mistyczna Kula",
+            "- Złoto"
+        ]
+    },
+    "lichfire": {
+        "blurb": [
+            "ORFEUSZ wykorzystuje swoją pasję do",
+            "wzmacniania magii. Lubi dominować",
+            "swoje ofiary stojąc twarzą w twarz.",
+            "",
+            "Duże, potężne zaklęcia i zastraszanie",
+            "pozwalają mu od ręki kończyć sprawy."
+        ],
+        "abilities": [
+            "- Kula Ognia",
+            "- Telepatia",
+            "- Lewitacja",
+            "- Odporność na Dominację",
+            "- Duża Burza Ognista",
+            "- Teleportacja",
+            "- Pole Krwi"
+        ],
+        "inventory": [
+            "- Kryształowy Miecz",
+            "- Złota Maska"
+        ]
+    },
+    "lichice": {
+        "blurb": [
+            "EURYDYKA preferuje odpowiednie zaklęcie",
+            "rzucone z poważnym zamiarem, aby",
+            "obrócić wydarzenia na swoją korzyść.",
+            "",
+            "Pozwala innym konfrontować się za nią,",
+            "zachowując pełną kontrolę zza kulis."
+        ],
+        "abilities": [
+            "- Mróz",
+            "- Lewitacja",
+            "- Telepatia",
+            "- Odporność na Dominację",
+            "- Łańcuch Magicznych Pocisków",
+            "- Pole Krwi",
+            "- Teleportacja",
+            "- Rozkazuj Maszynie"
+        ],
+        "inventory": [
+            "- Kostur Mrozu",
+            "- Nakrycie głowy Maga"
+        ]
+    },
+    "lilith": {
+        "blurb": [
+            "Imię to mitycznie przypisuje się",
+            "pierwotnemu sukkubowi. Przewodzące",
+            "sukkubami czasami otrzymują ten tytuł.",
+            "",
+            "Należy uważać na jej wpływy, gdyż jej",
+            "wrogowie potrafią zmieniać strony."
+        ],
+        "abilities": [
+            "- Urok",
+            "- Teleportacja"
+        ],
+        "inventory": [
+            "- Kostury Uroku",
+            "- Róże"
+        ]
+    },
+    "mimic": {
+        "blurb": [
+            "Niewiele wiadomo o prawdziwej naturze",
+            "MIMIKÓW, ale zakłada się, że nie zawsze",
+            "wyglądały jak skrzynie ze skarbami.",
+            "",
+            "Dalsze badania były niemożliwe, ponieważ",
+            "zjadały one badaczy i ich notatki."
+        ],
+        "abilities": [
+            "- Pożryj ekwipunek",
+            "- Odporność na Dominację"
+        ],
+        "inventory": [
+            "- Standardowa zawartość kufrów",
+            "- Złoto"
+        ]
+    },
+    "minotaur": {
+        "blurb": [
+            "Ogromna legendarna bestia nieznanego",
+            "pochodzenia, MINOTAUR, może przebić się",
+            "przez ściany lochów a jego kopyta są",
+            "zaczarowane dzięki czemu może lewitować.",
+            "Jest bezwzględny w ściganiu wrogów",
+            "swojego pana."
+        ],
+        "abilities": [
+            "- Lewitacja",
+            "- Zniszcz Przeszkodę",
+            "- Telepatia",
+            "- Odporność na Dominację"
+        ],
+        "inventory": [
+            "- Drogocenne Klejnoty"
+        ]
+    },
+    "mysterious shop": {
+        "blurb": [
+            "Ten TAJEMNICZY CZŁOWIEK wie rzeczy,",
+            "których nie mógłby wiedzieć i nosi",
+            "artefakty, których nie mógłby posiadać.",
+            "",
+            "Wymienia się tylko za mistyczne kule,",
+            "jeśli jesteś w stanie mu je zaoferować."
+        ],
+        "abilities": [
+            "- Magiczny Pocisk",
+            "- Odporność na Dominację",
+            "- Drenaż Duszy",
+            "- Upuszczanie Krwi",
+            "- Teleportacja"
+        ],
+        "inventory": [
+            "- Rozmaite towary sklepowe"
+        ]
+    },
+    "potato king": {
+        "blurb": [
+            "W przeciwieństwie do swoich pobratymców,",
+            "OGÓRKOWY KRÓL VV wydaje się wesoły",
+            "i beztroski, choć szalony.",
+            "Sporo goblinów przyciąga jego",
+            "chaotyczna osobowość, bo desperacko",
+            "szukają ucieczki od życia na bagnach."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Sharur",
+            "- Kapelusz Błazna",
+            "- Płaszcze Odbicia Magii",
+            "- Gałązki Żubrówki",
+            "- Skórzany, Spiżowy Pancerz",
+            "- Płaszcze"
+        ]
+    },
+    "rat": {
+        "blurb": [
+            "W lochu wychowały się szczury o",
+            "szczególnej agresji i rozmiarze.",
+            "",
+            "Chociaż mądrze byłoby uważać na roje",
+            "podstępnych SZCZURÓW, zwykle ich widok",
+            "oznacza potencjalne źródło pożywienia."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Mięso, Ser"
+        ]
+    },
+    "scarab": {
+        "blurb": [
+            "Ponoć odporny SKARABEUSZ wwierca się",
+            "w gęste, magiczne materiały, zwiększając",
+            "odporność magiczną swojej skorupy.",
+            "",
+            "Ich oślizgłe sadło jest dla niektórych",
+            "niesmaczne, ale jest całkiem pożywne."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Sadło",
+            "- Tanie Klejnoty"
+        ]
+    },
+    "scorpion": {
+        "blurb": [
+            "Dobra tarcza we wprawnych rękach może",
+            "zablokować paraliżujące żądło SKORPIONA.",
+            "",
+            "Ofiary SKORPIONÓW zazwyczaj mają wyraz",
+            "zaskoczenia na twarzy, gdy ich ciało",
+            "zostaje znalezione..."
+        ],
+        "abilities": [
+            "- Paraliżujące Ataki"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "sentrybot": {
+        "blurb": [
+            "Często uważa się, że BOT WARTOWNIK jest",
+            "nowoczesnym wynalazkiem, jednak jego",
+            "archetyp znaleziono w prastarych ruinach.",
+            "",
+            "Choć łatwo je zepsuć, mechanicy",
+            "polegają na nich, zadając duże obrażenia."
+        ],
+        "abilities": [],
+        "inventory": [
+            ""
+        ]
+    },
+    "shadow": {
+        "blurb": [
+            "Zły duch, który błąka się i wydaje się",
+            "nie mieć poczucia własnej tożsamości.",
+            "",
+            "CIEŃ kradnie tożsamość każdego, kogo",
+            "napotka, i bezskutecznie próbuje zastąpić",
+            "swój cel, mordując oryginał."
+        ],
+        "abilities": [
+            "- Naśladowanie",
+            "- Lewitacja",
+            "- Teleportacja",
+            "- Odporność na Dominację"
+        ],
+        "inventory": [
+            "- Upiorne Maski"
+        ]
+    },
+    "shelob": {
+        "blurb": [
+            "Ci, którzy przeżyli walkę z SZELOBĄ sądzą,",
+            "że nie jest pająkiem. Uważają ją raczej",
+            "za wcielenie córki diabła w ciele pająka.",
+            "",
+            "Często nosi ze sobą skarby",
+            "swoich poległych ofiar."
+        ],
+        "abilities": [
+            "- Zatruwające Ataki",
+            "- Przędź Sieć"
+        ],
+        "inventory": [
+            "- Dyrnwyn",
+            "- Pierścień Niewidzialności"
+        ]
+    },
+    "shopkeeper": {
+        "blurb": [
+            "Dobrzy SPRZEDAWCY sprawiają, że ich",
+            "biznes rozkwita wszędzie.",
+            "Są wybredni w kwestii zakupów",
+            "i nie tolerują złodzieji.",
+            "W Gildii Kupców",
+            "wieści szybko się rozchodzą."
+        ],
+        "abilities": [
+            "- Magiczny Pocisk",
+            "- Drenaż Duszy",
+            "- Odporność na Dominację",
+            "- Upuszczanie Krwi"
+        ],
+        "inventory": [
+            "- Rozmaite towary sklepowe"
+        ]
+    },
+    "skeleton": {
+        "blurb": [
+            "Przeklęte szczątki armii najemników,",
+            "SZKIELETY noszą różnorodny sprzęt.",
+            "",
+            "Należy zachować ostrożność podczas walk,",
+            "jak i grabieży, ponieważ zniszczony",
+            "sprzęt może bardziej zaszkodzić niż pomóc."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Spiżowe, Żelazne Topory/Miecze/",
+            "    Kije",
+            "- Skórzane, Drewniane, Żelazne tarcze/",
+            "    nakrycia głowy"
+        ]
+    },
+    "skrabblag": {
+        "blurb": [
+            "Egzoszkielet tej bestii nosi niezliczone",
+            "rozszczepienia i zadrapania od walki",
+            "ze słabszymi osobnikami.",
+            "Przyrodnicy twierdzą, że skorpiony",
+            "takie jak SKRABBLAG są zdolne",
+            "do nieśmiertelnego starzenia się."
+        ],
+        "abilities": [
+            "- Paraliżujące Ataki"
+        ],
+        "inventory": [
+            "- Rubiny"
+        ]
+    },
+    "slime": {
+        "blurb": [
+            "Występujący w różnych kolorach SZLAM to",
+            "bezmyślna istota dążąca do niekończącej",
+            "się konsumpcji.",
+            "Często prześlizgują się przez rury lub",
+            "kanały wodne w poszukiwaniu materii",
+            "organicznej do upłynnienia."
+        ],
+        "abilities": [
+            "- Chodzi po wodzie (Niebieski/Fiolet)",
+            "- Chodzi po lawie (Pomarańczowy)",
+            "- Rozpyla Kwasior (Zielony)",
+            "- Rozpyla Wodę (Niebieski)",
+            "- Rozpyla Ogień (Pomarańczowy)",
+            "- Rozpyla Smołę (Fioletowy)",
+            "- Rozpyla Śluz (Srebrny)"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "spellbot": {
+        "blurb": [
+            "Zautomatyzowane mechanizmy polegają",
+            "na magicznym złomie do konkretnych",
+            "zastosowań. BOT MAGICZNY wyposażony",
+            "jest w jego spory zapas pozwalając",
+            "na zadawanie obrażeń magicznych."
+        ],
+        "abilities": [
+            "- Pocisk Energii",
+            "- Magiczny Pocisk"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "spider": {
+        "blurb": [
+            "Wielkie, żyjące w lochu PAJĄKI",
+            "to cierpliwi łowcy.",
+            "",
+            "Ich powolny metabolizm i zatrute kły",
+            "pozwalają im zastawić zasadzkę",
+            "na ofiarę, by ją rozszarpać i pożreć."
+        ],
+        "abilities": [
+            "- Zatruwające Ataki",
+            "- Przędź Sieć"
+        ],
+        "inventory": [
+            ""
+        ]
+    },
+    "succubus": {
+        "blurb": [
+            "Uosobienie grzechu pożądania, SUKKUB",
+            "jest przebiegły i okrutny.",
+            "",
+            "Ma wszystko, czego potrzebuje, by",
+            "manipulować innymi, choć niektóre",
+            "wybierają własną ścieżkę zła."
+        ],
+        "abilities": [
+            "- Urok",
+            "- Teleportacja"
+        ],
+        "inventory": [
+            "- Kostury Uroku",
+            "- Maski Balowe"
+        ]
+    },
+    "thumpus": {
+        "blurb": [
+            "Przyjaźń między trollami i gnomami jest",
+            "dobrze udokumentowana, zazwyczaj gnomy",
+            "lubią bawić się z większymi bestiami.",
+            "",
+            "Wygląda na to, że",
+            "UDERZUŚ zdobył szacunek gnomów."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Rozmaite łupy z piętra lochu",
+            "- Róże"
+        ]
+    },
+    "troll": {
+        "blurb": [
+            "Te prawie ślepe olbrzymy wydają się",
+            "wędrować po lochach przez przypadek.",
+            "TROLLE wolą żyć w izolacji",
+            "nawet od siebie nawzajem.",
+            "Jeśli ktoś mu na drodze stanie,",
+            "niech przygotuje się na potężne lanie."
+        ],
+        "abilities": [],
+        "inventory": [
+            "- Rozmaite łupy z piętra lochu",
+            "- Róże"
+        ]
+    },
+    "vampire": {
+        "blurb": [
+            "Aby utrzymać swoją klątwę",
+            "nieśmiertelności, WAMPIRY muszą spożywać",
+            "krew żywych.",
+            "Posiadają cudowne magiczne zdolności,",
+            "które podobno uzyskuje się poprzez",
+            "utratę własnej duszy."
+        ],
+        "abilities": [
+            "- Drenaż Duszy",
+            "- Wampiryczna Aura"
+        ],
+        "inventory": [
+            "- Kostur Upuszczania Krwi",
+            "- Wampirzy Kubrak"
+        ]
+    },
+    "xyggi": {
+        "blurb": [
+            "Kult czarnoksiężników wierzy, że wszelki",
+            "intelekt rodzi się z magii, twierdząc, że",
+            "tam, gdzie znajdziesz jedno,",
+            "drugie podąży za nim.",
+            "Podobno Skarabeusz ŻYGGI",
+            "ma przeraźliwą ilość obu tych cech."
+        ],
+        "abilities": [
+            "- Mróz",
+            "- Odbicie Magii"
+        ],
+        "inventory": [
+            "- Zaczarowane Pióra",
+            "- Sadło",
+            "- Tanie Klejnoty"
+        ]
+    }
+}

@@ -1,0 +1,687 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+        "tutorial2a": {
+            "sign": [
+				"Używając kombinacji",
+				"łuków, strzał, i miotanej",
+				"broni, podróżnicy",
+				"mogą trzymać się zdala",
+				"od zagrożeń czyhających",
+				"w lochach."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+				[],
+				[],
+				[],
+				[0,1,2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial2b": {
+            "sign": [
+				"Myśliwskie strzały",
+				"$",
+				"Zatrują i spowolnią wroga."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[0,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/hunting.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_hunting.png",
+					"sizex": 0,
+					"sizey": 0
+				}]
+        },
+        "tutorial2c": {
+            "sign": [
+				"Lekkie strzały",
+				"$",
+				"Większa szybkostrzelność",
+				"ale mniejsze obrażenia."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[1,2]
+				],
+				"word_highlights2": [
+					[],
+					[],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/swift.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_swift.png",
+					"sizex": 74,
+					"sizey": 74
+				}]
+        },
+        "tutorial2d": {
+            "sign": [
+				"Sprężynowe strzały",
+				"$",
+				"Odpychają w tył."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/springshot.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_springshot.png",
+					"sizex": 74,
+					"sizey": 74
+				}]
+        },
+        "tutorial2e": {
+            "sign": [
+				"Twoje zdolności",
+				"dystansowe zostaną",
+				"teraz sprawdzone.",
+				"",
+				"Przygotuj się!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+            },
+            "variables": []
+        },
+        "tutorial2f": {
+            "sign": [
+				"By trzymać dystans",
+				"od wrogów, możesz",
+				"odwracać się i biec."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial2f_gamepad": {
+            "sign": [
+				"By trzymać dystans",
+				"od wrogów, możesz",
+				"odwracać się i biec.",
+				"",
+				"Wciśnij$ by wykonać",
+				"szybki obrót."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[2,3],
+					[],
+					[0],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/backpedal.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [				{
+					"type": "input_glyph",
+					"value": "Quick Turn"
+				}]
+        },		
+        "tutorial2g": {
+            "sign": [
+				"Chodzenie do przodu",
+				"będzie szybsze niż",
+				"do tyłu i na boki."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/backpedal.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial2h": {
+            "sign": [
+				"$",			
+				"Silnie rzucone czakramy",
+				"odbiją się od ściany.",
+				"Płytki naciskowe za tą",
+				"bramą otworzą ją."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},
+				"line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[0,1],
+					[0,1],
+					[1],
+					[1]
+				]
+            },
+            "variables": [{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_chakram.png",
+					"sizex": 0,
+					"sizey": 0
+				}]
+        },
+        "tutorial2i": {
+            "sign": [
+				"Niektórymi rzeczami",
+				"można rzucać.",
+				"$",
+				"Użyj ich by atakować wrogów",
+				"lub aktywować płytki naciskowe."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[1],
+					[1],
+					[],
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/rockthrow.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_rock.png",
+					"sizex": 0,
+					"sizey": 0
+				}]
+        },
+        "tutorial2j": {
+            "sign": [
+				"$",
+				"Kołczany strzał",
+				"wzmocnią Twoje",
+				"ataki łukiem.",
+				"",
+				"Zakładaj różne kołczany",
+				"dla rozmaitych efektów."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[0],
+					[2]
+				]
+            },
+            "variables": [{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_quiver.png",
+					"sizex": 0,
+					"sizey": 0
+				}]
+        },
+        "tutorial2k": {
+            "sign": [
+				"Zasięg strzał",
+				"jest silnie powiązany",
+				"z używanym łukiem.",
+				"$",
+				"Długi łuk wystrzeli daleko,",
+				"ale w użyciu będzie wolny."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[3,4]
+				],		
+				"word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[2,3,4]
+				]
+            },
+            "variables": [{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_longbow.png",
+					"sizex": 0,
+					"sizey": 0
+				}]
+        },
+        "tutorial2l": {
+            "sign": [
+				"Utopienie się w lawie",
+				"to szybka śmierć.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+            },
+            "variables": [{
+					"type": "image",
+					"value": "*#images/ui/HUD/statusfx/burning.png",
+					"sizex": 32,
+					"sizey": 32
+				}]
+        },
+        "tutorial2m": {
+            "sign": [
+				"$",
+				"Dzierż krótki łuk",
+				"i pokaż swoją celność.",
+				"Przytrzymaj$ by strzelić."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": -4,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/bows.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_shortbow.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}
+			]
+        },
+        "tutorial2n": {
+            "sign": [
+				"Strzały nie mogą być",
+				"odzyskane po wystrzale.",
+				"",
+				"Broń miotana",
+				"może zostać podniesiona",
+				"by znów nią rzucić."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": []
+            },
+            "variables": []
+        },
+        "tutorial2o": {
+            "sign": [
+				"Przytrzymaj$ by naładować",
+				"atak miotany.",
+				"",
+				"Naładowany rzut leci dalej",
+				"i zada więcej obrażeń."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": -4,
+				"word_highlights": [
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/hardthrow.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}]
+        },
+        "tutorial2q": {
+            "sign": [
+				"Ta kukła ma pancerz.",
+				"$$",
+				"Przebijające strzały",
+				"pomjają pancerz, zadając",
+				"więcej obrażeń wrogom."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},							
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[4],
+					[],
+					[],
+					[],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/longbow.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_longbow.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_pierce.png",
+					"sizex": 0,
+					"sizey": 0
+		}]
+        },		
+        "tutorial2p": {
+            "sign": [
+				"Srebrne strzały",
+				"",
+				"$",
+				"Są śmiertelne dla",
+				"Demonów i Nieumarłych."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 64,
+					"g": 192,
+					"b": 255,
+					"a": 255
+					},				
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+				"inline_img_adjust_x": 0,
+				"word_highlights": [
+					[],
+					[],
+					[],
+					[1],
+					[0,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial2/silver.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [{
+					"type": "image",
+					"value": "*#data/scripts/tutorial2/sign_silver.png",
+					"sizex": 74,
+					"sizey": 74
+				}]
+        }
+    }
+}

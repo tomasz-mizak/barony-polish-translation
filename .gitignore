@@ -1,0 +1,28 @@
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Archive files
+*.zip
+*.rar
+*.7z

@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    	"*3Wyrąbując sobie ścieżkę przez każdego demona na swojej drodze,\n",
+	"bez chwili wahania przeskakujesz przez portal. Wszędzie jest lepiej niż tutaj;\n",
+	"*3A przynajmniej tak myślisz.\n^",
+	"Nagle stajesz zmęczony w niekończącej się białej sali usianej ogromnymi filarami,\n",
+	"*3które rozciągają się wyżej, niż widzisz. W twoim oddechu czuć gęsty zapach#\n",
+	"krwi ale podejrzewasz, że być może trzeba będzie przelać więcej..\n",
+	"*2Czy to nieludzkie miejsce może konkurować z Minotaurem, Demonami;\n",
+	"Choćby samym Bafometem? Pomieszczenie wypełnia silna magia. Denerwujesz się.\n^",
+	"*3\"Byliśmy świadkami Waszej siły i żądzy władzy. Nie spodziewaliśmy się Ciebie.\n",
+	"Jesteśmy jednak pod wrażeniem Waszej zaciekłości i skupienia.\n",
+	"Prosimy o rozważenie tej propozycji, o potężny...\"\n^",
+	"*3Gdy głos zwraca się do Ciebie, okazuje się, że albo nie chcesz lub nie możesz\n",
+	"odrzucić tego, co Ci mówi. W końcu następuje niewytłumaczalna zmiana w twojej\n",
+	"śmiertelnej istocie i czujesz jakbyś zanikał...\n^",
+	"*3Kiedy opuszczasz świat śmiertelników, wyczuwasz najwyższą moc wielkiego umysłu.\n",
+	"Pierwszy wiek dobiega końca a zaczyna się wiek chaosu. Jesteś pewny, że\n",
+	"twój czas jest bliski i twój cel zostanie spełniony."
+    ],
+    "images": [
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/NoEternals.png",
+	"*images/ui/Main Menus/Story/Eternals.png",
+	"*images/ui/Main Menus/Story/white.png",
+	"*images/ui/Main Menus/Story/black.png"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "press_a_to_advance": false,
+    "text": [
+    	"Dawno, dawno temu w odległej krainie,## znajdowało się tętniące życiem miasteczko zwane\n",
+    	"Hamlet.#### Centrum handlu,## zamożność tego miejsca nie miało sobie równych.\n",
+    	"Zazdrośni sąsiedzi wierzyli, że miasto jest pobłogosławione...####\n",
+    	"Tak było do czasu aż baron Herx nie zaczął rządzić krainą.\n^",
+    	"Baron w swojej nieskończonej chciwości,## zmusił swoich poddanych\n",
+    	"do przekopania okolicznych wzgórz,## w poszukiwaniu legendarnego, pradawnego skarbu.\n",
+    	"Uginając się pod jarzmem swego pana,## ludzie knuli zamach na jego życie.####\n",
+    	"Udało im się go oszukać, obiecując złoto i zapieczętowali go w samych kopalniach.\n^",
+    	"Uwolnieni od okrutnego Herxa,## ludzie z Hamlet rozkwitali na nowo.####\n",
+    	"Ale z czasem,## zaczęły się dziać co raz to dziwniejsze rzeczy w mieście.\n",
+    	"Złe chmury, pełne mroku zalały ulice,## z ziemi wokół miasta zaczęły wyłazić\n",
+    	"potwory,## a w kopalni ponownie zamigotały złowrogie światła.\n^",
+    	"Wielu poszukiwaczy przygód zeszło do kopalni, aby przerwać\n",
+		"klątwę Barona Herxa,## ale żaden nie wrócił.\n",
+		"Cały Hamlet krzyczy, prosząc o ratunek,##\n",
+		"a jedynym bohaterem zdolnym uratować ich od klątwy jest..."
+    ],
+    "images": [
+    	"images/ui/Main Menus/Story/intro1.png",
+    	"images/ui/Main Menus/Story/intro2.png",
+    	"images/ui/Main Menus/Story/intro3.png",
+    	"images/ui/Main Menus/Story/intro4.png"
+    ]
+}

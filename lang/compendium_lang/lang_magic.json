@@ -1,0 +1,171 @@
+{
+    "blessings": {
+        "blurb": [
+            "Na wojnie jak i w podróży Ci, którzy",
+            "oferują BŁOGOSŁAWIEŃSTWA są potrzebni.",
+            "Dają one korzyści Taumaturgowi oraz",
+            "jego najbliższym sojusznikom.",
+            "Niektóre błogosławieństwa mają",
+            "długotrwałe efekty."
+        ]
+    },
+    "contravention": {
+        "blurb": [
+            "Większość magii można zaliczyć do łamania",
+            "zasad rzeczywistości. Studiowanie",
+            "PRZEŁAMAŃ pozwala czarodzielom zmianę",
+            "tego jak zasady dotyczą ich samych.",
+            "Wymaga to zapasu magii do utrzymania",
+            "czaru i można to przerwać w każdej chwili."
+        ]
+    },
+    "daimonia": {
+        "blurb": [
+            "DAIMONIA to sztuka używania magii by",
+            "łączyć się z wolą duchów, dopełniając ich",
+            "wpływy z transformatywnymi rezultatami.",
+            "Mimo złego odbioru przez społeczeństwo,",
+            "niektórzy mistycy twierdzą, że ich dusza",
+            "jest niepełna bez tego połączenia."
+        ]
+    },
+    "divinations": {
+        "blurb": [
+            "WRÓŻBIARSTWO zapewnia dostęp do tajnej",
+            "wiedzy, odkrywając informację, których",
+            "nie masz logicznie prawa znać.",
+            "",
+            "Praktykujący Taumaturg powie Ci, że",
+            "wiedza to Potęga. A on wie sporo."
+        ]
+    },
+    "enchanted amulets": {
+        "blurb": [
+            "AMULETY zapewniają reaktywne bonusy",
+            "noszącemu, często chroniąc ich przed",
+            "krzywdą parokrotnie zanim ich",
+            "magia ochronna całkowicie pryśnie.",
+            "Niektóre amulety działają na opak.",
+            "Lepiej oceń je zanim zaczną cię dusić."
+        ]
+    },
+    "enchanted feather": {
+        "blurb": [
+            "ZACZAROWANE PIÓRO można wykorzystać by",
+            "odświeżyć tom zaklęć lub zapisać magiczne",
+            "zgłoski na pustym zwoju.",
+            "Tylko Ci znający magiczne słowa mocy",
+            "mogą zapisać je zgodnie z intencją.",
+            "Zużyte pióro można ponownie naładować."
+        ]
+    },
+    "enchanted rings": {
+        "blurb": [
+            "Wszyscy pożądają magicznych,",
+            "PIERŚCIENI pasywnej mocy magicznej",
+            "jaką zapewniają z szerokimi efektami",
+            "od doraźnych do sytuacyjnych,",
+            "po niesamowicie potężne.",
+            "Pierścienie mogą zapewnić ci władzę."
+        ]
+    },
+    "evocation": {
+        "blurb": [
+            "Czarodzieje PRZYWOŁUJĄ energię",
+            "gromadząc materiały używając umysłu.",
+            "Często używane do strzelania magicznymi",
+            "pociskami we wrogów z czego wiele,",
+            "zostawia po sobie bolesne efekty,",
+            "które ranią cel w czasie."
+        ]
+    },
+    "impeturia": {
+        "blurb": [
+            "Mistycy ćwiczą IMPETURIĘ by wzywać",
+            "duch celu, którym chcą manipulować,",
+            "i zmusić go do zmiany ich stanu.",
+            "Czarodzieje próbowali tego samego",
+            "z kinezą i póki co ich próby kończyły",
+            "się katastrofalnym fiaskiem."
+        ]
+    },
+    "kinesis": {
+        "blurb": [
+            "Czarodzieje cwiczą KINEZĘ by ruszać",
+            "obiekty siłą woli. Próbując poprawić",
+            "kontrolę i celność, natknęli się na",
+            "różne innowacje, ale precyzyjna",
+            "kontrola wciąż zostaje poza zasięgiem."
+        ]
+    },
+    "magicstaffs": {
+        "blurb": [
+            "Ta broń pozwala każdemu, nawet laikowi",
+            "wystrzeliwywać magiczne zaklęcia.",
+            "",
+            "Kolor różdżki definiuje jakimi czarami",
+            "może dysponować. Ten przedmiot zawsze",
+            "ulega zniszczeniu po zużyciu ładunków."
+        ]
+    },
+    "meditations": {
+        "blurb": [
+            "Prosta MEDYTACJA to pierwsza'",
+            "styczność maga z Taumaturgią.",
+            "",
+            "Te zaklęcia wymagają koncentracji by je",
+            "utrzymać i wpłyną jedynie na rzucającego",
+            "ale można je w każdej chwili przerwać."
+        ]
+    },
+    "miraculous feats": {
+        "blurb": [
+            "Ci, którzy przed laty dokonywali",
+            "CUDOWNYCH CZYNÓW są znani jako pierwsi",
+            "Taumaturdzy. Rzucenie natychmiastowo",
+            "wykonuje jedno wspaniałe czarodzieło.",
+            "Mówią, że kierowanie siebie ku wyższemu",
+            "celowi pozwoli otrzymać Ci takie moce."
+        ]
+    },
+    "psianimus": {
+        "blurb": [
+            "Najczęściej praktykowana mistyczna",
+            "sztuka, PSIANIMUSY polegają na użyciu",
+            "magii do zmian w umyśle żywych",
+            "(lub nieumarłych) celów.",
+            "Te efekty są najczęściej tymczasowe,",
+            "inaczej straciłyby na reputacji."
+        ]
+    },
+    "sarkomancy": {
+        "blurb": [
+            "Uznane za zakazaną czarną magię przez",
+            "kościół, SARKOMANCJA to sztuka użycia",
+            "magii do manipulacji ciała wbrew woli.",
+            "Podobne do tkania krwi przez magów wody.",
+            "Używanie tego typu magii na własnym",
+            "ciele jest ponoć jedynie plotkami."
+        ]
+    },
+    "scrolls": {
+        "blurb": [
+            "Zwój może zostać odczytany przez każdego",
+            "by wykorzystać zagnieżdżone zaklęcie,",
+            "zuzywając zwój przy użyciu.",
+            "Niektóre zaklęcia można znaleźć tylko.",
+            "w zwoju. Pusty zwój można zapisać",
+            "używając pióra i odpowiedniej wiedzy."
+        ]
+    },
+    "temulturgy": {
+        "blurb": [
+            "Czasem potrzeba magii, która nie rzuca",
+            "czymś bolesnym w jednego z drugim.",
+            "Studium TEMULTURGII specjalizuje się w",
+            "rozkładaniu struktury przedmiotu.",
+            "Na szczęście czarodzieje nie odkryli",
+            "jak użyć tego na żywych celach."
+        ]
+    }
+}

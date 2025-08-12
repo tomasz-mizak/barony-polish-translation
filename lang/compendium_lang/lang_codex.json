@@ -1,0 +1,1397 @@
+{
+    "ac": {
+        "blurb": [
+            "KLASA PANCERZA (KP) redukuje",
+            "obrażenia o 1 za każdy punkt, aż do",
+            "maksimum 75% łącznej wartości ataku.",
+            "Kiedy blokujesz, KP zablokuje",
+            "nawet do 100% obrażeń fizycznych."
+        ],
+        "details": [
+            "Nakładanie tak dużo KP jak możesz",
+            "sprawi, że poczujesz się jak Bóg",
+            "pośród ludzi, Wszechstronny Mistrz",
+            "niewrażliwy na cios.",
+            "",
+            "Jednakże zagrożenie z pułapek,",
+            "magii, i statusów pozostaje",
+            "niewzruszony przez KP. Niektóra broń",
+            "została zaprojektowana tak by",
+            "celowo przebijać pancerz.",
+            "",
+            "Mądrze jest dbać o dużą KP, ale",
+            "pamiętaj o innych zagrożeniach!"
+        ],
+        "details_line_highlights": []
+    },
+    "alchemy skill": {
+        "blurb": [
+            "Przy pomocy alembiku, alchemik warzy",
+            "różne rodzaje eliksirów w tym także",
+            "niestabilne mikstury, które skalują się",
+            "z talentem. Picie i rzucanie eliksirami",
+            "pozwala rozwijać umiejętność alchemii."
+        ],
+        "details": [
+            "Mimo tego, że rozwijasz umiejętność",
+            "pijąc i rzucając eliksirami, alchemia",
+            "na prawdę rozwija się przy użyciu",
+            "alembiku.",
+            "",
+            "Połącz główny składnik z pobocznym",
+            "a utworzysz wtedy nowy przepis.",
+            "Nowy przepis rozwinie Twój talent.",
+            "",
+            "Zachowaj puste flakony i zlewy jako",
+            "zapas wody do rozcieńczania, czyli",
+            "duplikacji eliksirów, zapewniając",
+            "więcej rozwiązań różnych problemów."
+        ],
+        "details_line_highlights": []
+    },
+    "appraisal skill": {
+        "blurb": [
+            "Mimo, że każdy podróżnik może zobaczyć",
+            "czym jest dana rzecz patrząc na nią, OCENA",
+            "odkryje niuanse, zwłaszcza te magiczne.",
+            "Im droższy przedmiot, tym trudniej go",
+            "poprawnie ocenić."
+        ],
+        "details": [
+            "Ocenianie tanich przedmiotów, jak",
+            "ser czy słaby pancerz, jest zazwyczaj",
+            "idealne dla nowych poszukiwaczy.",
+            "",
+            "Część klas zaczyna bez talentu OCENY",
+            "głównie przez ich niską Percepcję.",
+            "Niektórzy głową tylko jedzą.",
+            "",
+            "Użycie nieznanego eliksiru lub zwoju",
+            "może podnieść umiejętność oceny aż do,",
+            "podstawowego limitu (20) pkt talentu.",
+            "",
+            "Okulary również to ułatwią."
+        ],
+        "details_line_highlights": []
+    },
+    "axe skill": {
+        "blurb": [
+            "Potężny topór zapewnia premię do ATAKU w",
+            "drewniany cel, dobre do przebicia się w",
+            "nagłych przypadkach takich jak zamknięte",
+            "drzwi lub nadchodzący mimik.",
+            "Legenda w umiejętności walki TOPORAMI",
+            "zawsze spowolni przy naładowanym ciosie."
+        ],
+        "details": [
+            "Topory są niezawodne, nawet jeśli są",
+            "alternatywą, bo raptem paru wrogów",
+            "oprze się jego potężnemu ostrzu.",
+            "",
+            "Jego moc rąbania zapewnia bonusowy",
+            "punkt obrażeń, sprawiając, że nadaje",
+            "się do zgładzenia grzechów tego",
+            "świata nawet jeśli noszą",
+	   "jakiś pancerz"
+        ],
+        "details_line_highlights": []
+    },
+    "backstabs": {
+        "blurb": [
+            "By zadać cios w plecy zaatakuj od tyłu",
+            "nieświadomego przeciwnika walcząc wręcz,",
+            "w efekcie zadając większe obrażenia.",
+            "Jeśli zabijesz takim ciosem przeciwnika",
+            "zaliczy się to jako skrytobójstwo!"
+        ],
+        "details": [
+            "Możesz uciec od cięższej potyczki,",
+            "potem powrócić do swojej ofiary kiedy",
+            "przestała Ciebie szukać. W ten sposób",
+            "masz kolejną szansę na ponowny",
+            "cios w plecy i skrytobójstwo na celu,",
+            "którego pula zdrowia mogłaby być",
+            "ciut za duża na pojedynczą walkę.",
+            "",
+            "Używaj szybkiego obrotu by uciec",
+            "jak najszybciej po zadaniu ciosu!"
+        ],
+        "details_line_highlights": []
+    },
+    "blocking": {
+        "blurb": [
+            "Nosząc puklerz lub pochodnię w drugiej",
+            "dłoni, możesz sparować nadchodzący",
+            "fizyczny atak, ale przedmiot może się",
+            "uszkodzić. Wyższa umiejętność zwiększa",
+            "wielkość zablokowanych obrażeń."
+        ],
+        "details": [
+            "Podczas blokowania, podróżnik może",
+            "bronić się z każdego kierunku.",
+            "Jeśli musisz już wiać to blokowanie",
+            "mimo bycia odwróconymi plecami może",
+            "uratować Ci życie przy odwrocie!",
+            "",
+            "Zazwyczaj mądrze blokować każdy",
+            "cios w walce wręcz, jednakże samemu",
+            "atakując i przyjmując parę ciosów",
+            "możesz ostatecznie stracić mniej PŻ.",
+            "",
+            "Pamiętaj, że KP nie blokuje obrażeń",
+            "od zaklęć. Blokowanie tych ataków ma",
+            "sens tylko gdy masz specjalną tarczę."
+        ],
+        "details_line_highlights": []
+    },
+    "blocking skill": {
+        "blurb": [
+            "BLOKOWANIE zapewnia bonusowe KP gdy",
+            "trzymasz w ręce tarczę. Nawet nie",
+            "blokując. Legendy w BLOKOWANIU mogą",
+            "parować każdy cios bez degradacji",
+            "jakości tarczy używanej do blokowania."
+        ],
+        "details": [
+            "Do rozwoju umiejętności BLOKOWANIA",
+            "najważniejsze są ćwiczenia.",
+            "",
+            "Nie zabijaj od razu i noś ze sobą",
+            "zapasowe tarcze, abyś mógł blokować",
+            "wiele razy przed likwidacją wroga",
+            "bez ryzykowania swojego zdrowia.",
+            "",
+            "Blokowanie przy pomocy pochodni ma",
+            "limit w postaci 40 pkt talentu.",
+            "By kontymuować rozwój musisz",
+            "chwycić za jakąkolwiek tarczę."
+        ],
+        "details_line_highlights": []
+    },
+    "casting skill": {
+        "blurb": [
+            "Rozwój INKANTACJI zmniejsza szansę na",
+            "popsucie zaklęcia, zwiększa REGEN PM.",
+            "Osiągając poziom legendy w INKANTACJI,",
+            "podróżnik zyskuje na stałe pocisk mocy",
+            "jako czarodziejską sztuczkę."
+        ],
+        "details": [
+            "Kiedy Twoja inkantacja jest niska,",
+            "tanie zaklęcia są najsensowniejszą",
+            "ścieżką rozwoju tej umiejętności.",
+            "",
+            "Chcesz rzucić potężne Czarodzieło?",
+            "Psując zaklecie stracisz sporo Many!",
+            "Many na rzucanie tańszych zaklęć",
+            "opróżniając swoją pulę PM/EN/TMP."
+        ],
+        "details_line_highlights": []
+    },
+    "chr": {
+        "blurb": [
+            "Każdy punkt CHARYZMY (CHR) poprawi",
+            "stawki przy handlu ze sklepikarzami.",
+            "Poprawi również Dowodzenie, prędkość",
+            "towarzyszy i zaklęcia oparte o CHR."
+        ],
+        "details": [
+            "Po co kłaść się pod topór Minotaura",
+            "kiedy podróżnik mający wysoką",
+            "CHARYZMĘ może zlecić brudną robotę",
+            "swoim oddanym poplecznikom.",
+            "",
+            "Talent główny dla CHR to Dowództwo.",
+            "Wysoka CHR zrekompensuje brak DOŚW,",
+            "oferując wczesny dostęp do rozkazów",
+            "towarzyszom i silniejszy Urok.",
+            "",
+            "Co ważniejsze sam Handel, którego",
+            "nie wolno niedoceniać, oferuje",
+            "lepsze ceny w każdym sklepie.",
+            "Dostęp za kontuar Handlarza",
+            "zamieni walkę o przetrwanie",
+            "w wiosenny spacer po parku, mając",
+            "dostęp do ukrytego asortymentu."
+        ],
+        "details_line_highlights": []
+    },
+    "class": {
+        "blurb": [
+            "Klasa postaci determinuje startowe",
+            "umiejętności, PŻ jak i PM/KON/SIŁ,",
+            "wyposażenie i czary, statystyki i",
+            "szansę na wzrost każdej statystyki",
+            "przy zdobywaniu nowego poziomu."
+        ],
+        "details": [
+            "Większość podróżników osiąga sukces",
+            "grając ich mocnymi stronami, część",
+            "skupia się na eliminacji słabości.",
+            "",
+            "Zaradność będzie więcej warta",
+            "niż surowa umiejętność, zależnie od",
+            "sytuacji w jakiej się znajdujesz.",
+            "",
+            "Tworząc zespół, omówcie wybór klas",
+            "tak żeby pokrywać swoje własne",
+            "słabości, lub na odwrót by",
+            "wzmocnić do przesady zalety."
+        ],
+        "details_line_highlights": []
+    },
+    "classes list": {
+        "blurb": [
+            "Podróżnik może adaptować się wraz z",
+            "rozwojem talentów, nowym ekwipunkiem",
+            "by sprostać wyzwaniom w lochach.",
+            "Tak czy inaczej to startowy wybór",
+            "przesądzi o rozwoju i sukcesie."
+        ],
+        "details": [
+            ""
+        ],
+        "details_line_highlights": []
+    },
+    "con": {
+        "blurb": [
+            "Każdy punkt KONDYCJI (KON) dodaje",
+            "naturalny pancerz (KP). Ci z wysoką",
+            "kondycją szybciej otrząsną się ze",
+            "złych statusów i odzyskają więcej",
+            "zdrowia lecząc swoje rany."
+        ],
+        "details": [
+            "Klasy z silnym wzrostem KON mogą",
+            "dopasować swój ekwipunek nie",
+            "patrząc ściśle na benefity jakie",
+            "oferuje wysokie KP pancerza.",
+            "",
+            "Ci z małą KP muszą kierować się",
+            "pancerzem i efektami ochronnymi.",
+            "Ot taka Ci to sytuacja.",
+            "",
+            "W obu przypadkach, KP jest ważne",
+            "by nie zbierać cięgów zadawanych",
+            "przez fizyczne ataki Twoich",
+            "potencjalnych adwersarzy."
+        ],
+        "details_line_highlights": []
+    },
+    "crits": {
+        "blurb": [
+            "Przytrzymując klawisz ataku naładujesz",
+            "swój atak, poznasz to po drżeniu ręki",
+            "postaci. Puszczając klawisz ataku",
+            "zadajesz CIOS KRYTYCZNY, w efekcie",
+            "zwiększaszając wychodzące obrażenia!"
+        ],
+        "details": [
+            "Atak staje się ciosem krytycznym",
+            "od razu w momencie gdy Twoja broń",
+            "zaczyna się już trząść jak osika.",
+            "",
+            "Wymierz swój cios, zbliżając się",
+            "do celu. Wzmocnisz moc tego ciosu",
+            "jeśli wróg jest odwrócony do Ciebie",
+            "swoimi bezbronnymi plecami.",
+            "",
+            "Zazwyczaj po rozpoczęciu walki",
+            "lepiej nie ładować swoich ciosów i",
+            "skupić się na serii szybkich ataków."
+        ],
+        "details_line_highlights": []
+    },
+    "dex": {
+        "blurb": [
+            "Każdy punkt ZRĘCZNOŚCI (ZRĘ) wzmacnia",
+            "potencjalną prędkość podróżnika oraz",
+            "obrażenia (ATAK) broni dystansowej."
+        ],
+        "details": [
+            "Każda postać chciałaby być szybka",
+            "jak śmieszny niebieski jeż, ale",
+            "to postać walcząca na dystans i jej",
+            "ataki wzmocnią się razem ze ZRĘ.",
+            "",
+            "Zręczność wzmocni atak dystansowy,",
+            "ale to większa prędkość ułatwi",
+            "potyczki. Żwawy podróżnik może",
+            "łatwiej trzymać się poza zasięgiem",
+            "wroga, uciec od pułapki czy",
+            "ominąć nadlatujący pocisk.",
+            "",
+            "Kiedy chcesz być jak błyskawica",
+            "wysoka ZRĘCZNOŚĆ to mus!"
+        ],
+        "details_line_highlights": []
+    },
+    "equipment degradation": {
+        "blurb": [
+            "Większość sprzętu zużywa się podczas",
+            "użytkowania, czy to cios w zbroję,",
+            "kolejny ładunek z magicznej różdżki,",
+            "czy atak zwykłą bronią. Taki sprzęt",
+            "będzie słabszy od nówki sztuki."
+        ],
+        "details": [
+            "Szansy by naprawić swój ekwipunek",
+            "potrafią być rzadkie lub drogie,",
+            "a zepsucie się sprzętu w trakcie",
+            "walki może doprowadzić do śmierci.",
+            "",
+            "Wymieniaj swój sprzęt na bieżąco!",
+            "Oceń stan przedmiotów i ich jakość.",
+            "Legendarna broń nie zużywa się!",
+            "",
+            "Mechanik to kowal swojego losu",
+            "i sprzętu rozwijając swój talent!",
+            "Naprawi przeróżny sprzęt złomem.",
+            "Zwój naprawy to rzadkość, ratuje",
+            "niemajsterkujących z opałów."
+        ],
+        "details_line_highlights": []
+    },
+    "flanking": {
+        "blurb": [
+            "Jeśli Twój wróg z kimś walczy, będzie",
+            "miał kłopot by bronić się przed Tobą!",
+            "Atakuj zza pleców, flankując wroga",
+            "zadając tym samym większe obrażenia."
+        ],
+        "details": [
+            "Kiedy wróg jest skupiony na kimś",
+            "szybkie ciosy będą najlepszą drogą",
+            "by zaciągnąć go wprost do grobu,",
+            "korzystając z przewagi jaką masz",
+            "zadając obrażenia flankując.",
+            "",
+            "Będąc samotnikiem, nie licz na",
+            "szansę na oflankowanie. Natomiast",
+            "mając jakiegoś sojusznika, jeden z",
+            "was może blokować, ściągając uwagę",
+            "a drugi atakować z flanki!"
+        ],
+        "details_line_highlights": []
+    },
+    "hp": {
+        "blurb": [
+            "PUNKTY ŻYCIA (PŻ) określą witalność",
+            "gdzie każdy punkt trafień zabierze",
+            "równo 1 PŻ, a każdy punkt leczenia",
+            "przywróci 1 PŻ. Umierasz kiedy PŻ",
+            "spadną do 0 lub mniej."
+        ],
+        "details": [
+            "O ile maksimum PŻ rośnie znacząco",
+            "w trakcie podróży z każdym nowym",
+            "poziomem, to stopień regeneracji",
+            "PŻ generalnie już nie.",
+            "",
+            "W związku z tym nadal trzeba mądrze",
+            "gospodarować utratą zdrowia w walce",
+            "i mieć opcję przywrócenia PŻ po",
+            "większych starciach."
+        ],
+        "details_line_highlights": []
+    },
+    "int": {
+        "blurb": [
+            "Punkt INTELIGENCJI (INT) wzmacnia",
+            "moc zaklęć i regenerację PM o jakiś",
+            "procent. Dotyczy to też talentu",
+            "magicznego, ułatwiając zapamiętanie",
+            "co trudniejszych zaklęć np. Uroku."
+        ],
+        "details": [
+            "INT służy do wzmacniania zaklęć",
+            "ogółem, zwiększona RGN i MOC",
+            "ułatwi Ci naukę nowych zaklęć.",
+            "",
+            "Czasem warto wybrać coś co",
+            "zwiększa RGN i MOC bezpośrednio,",
+            "a nie surowy wzrost do INT dla",
+            "wszechpotężnej czarodzieli."
+        ],
+        "details_line_highlights": []
+    },
+    "leadership skill": {
+        "blurb": [
+            "Niewyćwiczony podróżnik może mieć",
+            "4 sojuszników, ale nie słuchają",
+            "oni żadnych poleceń. Wyższy poziom",
+            "DOWODZENIA zapewni dostęp do wielu",
+            "przydatnych rozkazów."
+        ],
+        "details": [
+            "Przywołańce i twoi towarzysze",
+            "rosną w siłę jeśli o nich dbasz.",
+            "Jeśli dasz im dobijać wrogów to",
+            "zobaczysz jak rośnie im pewność",
+            "siebie (no i również poziom).",
+            "Pewności nie zmierzymy. ;)",
+            "",
+            "Wyposaż ich w broń dystansową,",
+            "zapewnij dostęp do leczenia, oraz",
+            "odwróć uwagę / dezorientuj wrogów",
+            "by chronić swoich podopiecznych!",
+            "",
+            "Z koroną inspirujesz ich bardziej,",
+            "oferując sojusznikom bonusy."
+        ],
+        "details_line_highlights": []
+    },
+    "legendary strikes": {
+        "blurb": [
+            "Osiągając LEGENDĘ w walce wręcz",
+            "i wykorzystując naładowany atak",
+            "może on mieć dodatkowy modyfikator,",
+            "nakładany na trafionego wroga.",
+            "Efekty różnią się, zależnie od oręża."
+        ],
+        "details": [
+            "Zebranie odpowiednio dużo punktów",
+            "by zostać Legendą jest trudne.",
+            "",
+            "Jeśli jesteś w miarę wytrzymały,",
+            "unikaj ładowania ciosów, by zadać",
+            "więcej ataków, zwiększając rozwój",
+            "umiejętności używanego oręża.",
+            "",
+            "Rozwinięcie talentu do Legendy",
+            "uratuje Ci skórę w lochu, gdy",
+            "zawalczysz z zacieklejszym wrogiem."
+        ],
+        "details_line_highlights": []
+    },
+    "leveling up": {
+        "blurb": [
+            "Co każde 100 pkt DOŚW zwiekszy,",
+            "się Twój poziom! Za nowy poziom",
+            "każda postać otrzymuje kolejno:",
+            "+5 Max PŻ, +5 Max PM,",
+            "i wzrost 3 różnych atrybutów."
+        ],
+        "details": [
+            "Talenty opierają się o statystyki.",
+            "",
+            "Jeśli zwiększy się z poziomem",
+            "a talent powiązany z tą statystyką",
+            "był pielęgnowany, to wzrost",
+            "może wynieść +2 punkty a nie +1.",
+            "",
+            "Zdobywaj nowe poziomy rozwijając",
+            "talenty oparte o Twoje statystyki."
+        ],
+        "details_line_highlights": []
+    },
+    "mace skill": {
+        "blurb": [
+            "Obijanie obuchem wroga szybciej",
+            "zniszczy mu pancerz od innego oręża.",
+            "Legenda w BUZDYGANACH zadaje więcej",
+            "obrażeń i może sparaliżować wroga",
+            "przy naładowanym trafieniu."
+        ],
+        "details": [
+            "Korzystaj z Buzdyganu na początku",
+            "zwłaszcza jeśli używasz broni",
+            "do walki na dystans, magii czy",
+            "nawet mieczy.",
+            "",
+            "Efektywnie MIAŻDŻY nieumarłych",
+            "i pozwala przeżyć na tyle długo",
+            "że zostaniesz mistrzem w innych",
+            "niepowiązanych talentach."
+        ],
+        "details_line_highlights": []
+    },
+    "magic skill": {
+        "blurb": [
+            "Rozwój TALENTU MAGICZNEGO pozwoli",
+            "Ci nauczyć się zaawansowanych czarów",
+            "i zwiększy ich MOC. Legenda w magii",
+            "pozwala okiełznać zaklęcie dominacji."
+        ],
+        "details": [
+            "Wszechpotężna Czarodziela zawsze",
+            "trenuje!",
+            "",
+            "Dla tych, z regeneracją PM/TMP",
+            "pełna pula to marnowawnie many,",
+            "którą mógłbyś regenerować.",
+            "",
+            "Fajnie jest zachować sobie ją",
+            "na czarną godzinę, ale rzuć czar",
+            "co jakiś czas, by rozwijać talent."
+        ],
+        "details_line_highlights": []
+    },
+    "melee": {
+        "blurb": [
+            "Weź w dłoń buzdygan, kij, miecz,",
+            "topór, a nawet ściśnij dłoń w pięść",
+            "i ATAKUJ! Szybkie ciosy pozwolą",
+            "podróżnikom ukatrupić wroga zanim ten",
+            "zorientuje się, że jest już sztywny."
+        ],
+        "details": [
+            "Lekki klik wystarczy by zadać cios",
+            "wręcz pełną siłą Twojej postaci.",
+            "",
+            "Ładuj swój atak tylko jeśli musisz",
+            "wymierzyć atak w czasie, lub",
+            "chcesz zadać cios krytyczny.",
+            "",
+            "Planując zasadzkę, często masz czas",
+            "by połączyć cios krytyczny z jednym",
+            "lub dwoma szybkimi. To wystarczy",
+            "by wykończyć słabszych wrogów zanim",
+            "zdążą zareagować na tę sytuację."
+        ],
+        "details_line_highlights": []
+    },
+    "memorized": {
+        "blurb": [
+            "Zapamiętane zaklęcie, przygotujesz",
+            "bez pomocy magicznego Tomu.",
+            "",
+            "PM, EN, i TMP zużywają się w trakcie",
+            "rzucania zaklęcia i zmarnują się",
+            "jeśli przekręcisz literkę w zaklęciu."
+        ],
+        "details": [
+            "Użyj opcji szybkiego czarowania",
+            "z listy zaklęć by rzucić czar",
+            "bez umieszczania go na pasku.",
+            "Dla zaklęć używanych rzadko",
+            "to świetna opcja, która pozwoli",
+            "zachować na pasku ważne rzeczy.",
+            "",
+            "Nie korzystasz z Tomu by wzmocnić",
+            "MOC? Książki możesz wyrzucić lub",
+            "sprzedać jeśli pamiętasz zaklęcie.",
+            "Nigdy nie czytaj przeklętego Tomu!",
+            "Jeśli to zrobisz to zapomnisz",
+            "losowe zaklęcie, które już znasz!"
+        ],
+        "details_line_highlights": []
+    },
+    "missiles": {
+        "blurb": [
+            "Proce, kusze, i łuki strzelają",
+            "POCISKAMI. Ta broń zajmuje chwilę",
+            "zanim się ją załaduje i wystrzeli.",
+            "Kusze i Łuk można ładować specjalną",
+            "amunicją jeśli trzymasz ją",
+            "w swojej drugiej ręce."
+        ],
+        "details": [
+            "Wzmocnij kusze i łuki ładując",
+            "specjalną amunicję by zwiększyć",
+            "obrażenia lub nałóż osłabiające",
+            "efekty statusu na groźnych celach.",
+            "",
+            "Wróg zawsze wie skąd nadleciała",
+            "strzała czy kamień, jeśli oberwą.",
+            "Wykorzystaj to by wywabić wrogów",
+            "tam gdzie chcesz ich mieć.",
+            "",
+            "Wróg może być odporny na drobne",
+            "pociski, ale walka podjazdowa daje",
+            "wystarczająco czasu by oskubać",
+            "ich punkt po punkcie z życia."
+        ],
+        "details_line_highlights": []
+    },
+    "mp": {
+        "blurb": [
+            "Rzucanie zapamiętanych zaklęć, lub",
+            "tych z Tomów, wymaga Punktów Many (PM),",
+            "Energii (EN), Temperatury (TMP).",
+            "Rzucając zaklęcie musisz mieć więcej",
+            "lub równo Many by móc rzucić zaklęcie."
+        ],
+        "details": [
+            "Jeśli PM masz zbyt mało, dobij",
+            "słabego wroga zwykłym atakiem.",
+            "Oszczędzaj złoto, i kup eliksiry",
+            "przywracające PM w sklepach.",
+            "",
+            "MAGIA KRWI WAMPIRÓW:",
+            "Wampir może rzucać zaklęcia",
+            "bez PM, poświęcając za to PŻ",
+            "Zasada równowartej wymiany.",
+            "Uważaj na podtrzymywane zaklęcia!",
+            "",
+            "BOJLER NA PLECACH:",
+            "Regeneracja pary polega na",
+            "cieple w bojlerze na plecach.",
+            "Możesz rozgrzać go demonicznie,",
+            "skutkując szybkim przyrostem pary.",
+            "Gdy bojler na plecach jest chłodny",
+            "zawarte ciśnienie rozsadzi maszynę.",
+            "",
+            "ENERGIA INSEKTOIDÓW:",
+            "Insekty metabolizują energię na",
+            "magię, ale granicą jest ich sytość.",
+            "Ich pula energii jest ograniczona,",
+            "nie regeneruje się, ale mogą",
+            "zjeść multum w krótkim czasie by",
+            "mieć energię na czarowanie.",
+            "Eliksiry magiczne i Sok owocowy",
+            "przywraca sporo energii."
+        ],
+        "details_line_highlights": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "per": {
+        "blurb": [
+            "PERCEPCJA (PER) poprawia wzrok w",
+            "ciemnościach i Ocenę przedmiotów.",
+            "",
+            "PER zwiększa szansę na to, że",
+            "atak dystansowy przebije AŻ 50%",
+            "punktów pancerza Twojego wroga."
+        ],
+        "details": [
+            "PER jest więc podstawą dla postaci",
+            "skupionych na pociskach, dzięki",
+            "czemu silny wróg będzie podatny",
+            "na ataki dystansowe.",
+            "",
+            "Mechanika i Ocena zyskują",
+            "sporo dzięki wysokiej percepcji.",
+            "",
+            "Jeśli nie możesz ocenić przedmiotu",
+            "to mały bonus do PER może zacząć",
+            "lawinowy rozwój umiejętności."
+        ],
+        "details_line_highlights": []
+    },
+    "polearm skill": {
+        "blurb": [
+            "Kije są celniejsze, z mniejszym",
+            "rozrzutem obrażeń w porówaniu",
+            "z innym orężem do walki wręcz.",
+            "Legenda w walce KIJEM zawsze nakłada",
+            "Odepchnięcie kiedy zaatakujesz",
+            "naładowanym ciosem."
+        ],
+        "details": [
+            "Broń drzewcowa to popularny wybór",
+            "między różnymi klasami.",
+            "",
+            "Dzięki efektywności przeciwko",
+            "celom ludzkich rozmiarów, są",
+            "generalnie świetnym orężem",
+            "na start każdej wyprawy.",
+            "",
+            "Zważ na to kiedy OLBRZYM idzie,",
+            "lub MALUCZKI, bo ich ciężko",
+            "będzie Ci nadziać."
+        ],
+        "details_line_highlights": []
+    },
+    "pwr": {
+        "blurb": [
+            "MOC MAGICZNA (MOC) wzmacnia zaklęcia",
+            "rzucane przez użytkownika o procent,",
+            "zwiększając obrażenia, leczenie,",
+            "lub długość trwania efektów statusu."
+        ],
+        "details": [
+            "Niektóre czary mają prosty efekt i",
+            "skutkuje to tym, że MOC nie wpływa",
+            "na każde zaklęcie.",
+            "",
+            "MOC jest niezbędna zaklęciom",
+            "ofensywnym i leczącym, zwłaszcza",
+            "gdy masz błogosławiony Tom.",
+            "",
+            "Efekty statusu mogą trwać dłużej",
+            "im większa jest Twoja MOC."
+        ],
+        "details_line_highlights": []
+    },
+    "races": {
+        "blurb": [
+            "Ludzie nie są jedynymi inteligentnymi",
+            "stworzeniami w lochach. Każda RASA",
+            "ma własnych przyjaciół i wrogów.",
+            "Mają też zdolności początkowe,",
+            "odporności, kary i",
+            "preferencje żywieniowe."
+        ],
+        "details": [
+            "Część ras potworów może rekrutować",
+            "swoich. Tylko człowiek i maszyna",
+            "może wejść bezpiecznie do sklepu.",
+            "",
+            "Wybierając swoją RASĘ podczas",
+            "tworzenia postaci, użyj \"Pokaż",
+            "Rasę Info\" by objaśnić Twoje",
+            "siły, słabości, umiejętności,",
+            "i przynależności.",
+            "",
+            "By ułatwić podróż w lochach,",
+            "dobierz rasę z klasą, która",
+            "minimalizuje wady, a wzmacnia",
+            "zalety Twojej RASY."
+        ],
+        "details_line_highlights": []
+    },
+    "ranged skill": {
+        "blurb": [
+            "Zalewanie wrogów pociskami może",
+            "przebić ich pancerz. Legenda",
+            "w walce dystansowej pozwala używać",
+            "broni dystansowej bez degradacji",
+            "ich jakości przez eksploatację."
+        ],
+        "details": [
+            "Używanie słabej dystansówki",
+            "np. procy lub krótkiego łuku",
+            "rozwinie Twój talent. Czym",
+            "więcej strzałów by powalić wroga",
+            "tym więcej szans na rozwój.",
+            "",
+            "Lochy często, nie są hojne z",
+            "bezpieczną przestrzenią do",
+            "ucieczki i walki podjazdowej.",
+            "",
+            "Pamiętaj, że przetrwanie jest",
+            "nadrzędne podczas ćwiczeń."
+        ],
+        "details_line_highlights": []
+    },
+    "res": {
+        "blurb": [
+            "Obrażenia magiczne ignorują KP, ale",
+            "ODPORNOŚĆ na magię (ODP) zredukuje",
+            "procentowo obrażenia. Czas trwania",
+            "negatywnych efektów magicznych",
+            "również będzie skrócona."
+        ],
+        "details": [
+            "Skoro KP nie zredukuje obrażeń",
+            "magicznych, mądrze jest mieć",
+            "jakąś odporność na magię.",
+            "",
+            "Odbicie zaneguje całkowicie",
+            "pocisk magiczny, ale ma to koszt.",
+            "Odporność dla porównania jest",
+            "pasywna i niezawodna.",
+            "",
+            "Niektóre rasy mają bazową ODP",
+            "a inne dodatkową podatność."
+        ],
+        "details_line_highlights": []
+    },
+    "rgn": {
+        "blurb": [
+            "Większość regeneruje się z czasem,",
+            "przywracając PŻ i PM. Zwiększenie",
+            "REGENERACJI (RGN) skróci łączny",
+            "czas w jakim się je odzyskuje."
+        ],
+        "details": [
+            "PŻ i PM można stracić szybko a",
+            "odrobina praktyki pomoże Tobie",
+            "zrozumieć ile czasu potrzeba",
+            "na To by się zregenerować.",
+            "",
+            "Zwiedzaj, zarządzaj sprzętem i",
+            "trzymaj się zdala od wrogów,",
+            "będąc wyczerpanym, wtedy w pełni",
+            "skorzystasz z RGN.",
+            "",
+            "Regen HP jest wyłączony jeśli",
+            "wyłączysz GŁÓD w ustawieniach!"
+        ],
+        "details_line_highlights": []
+    },
+    "skills": {
+        "blurb": [
+            "Czynności wykonywane w lochach",
+            "opierają się na UMIEJĘTNOŚCIACH.",
+            "",
+            "Trenując, rozwijacie talenty",
+            "organicznie i z czasem zyskacie",
+            "całkiem nowe możliwości."
+        ],
+        "details": [
+            "Początkowe umiejętności klasy",
+            "to wykładnia jak rozwijać",
+            "się efektywnie daną postacią.",
+            "",
+            "Czasem klasy mają umiejętności,",
+            "które trzeba połączyć ze sprzętem",
+            "a to zachęca do poszukiwania",
+            "konkretnych przedmiotów.",
+            "",
+            "Każda umiejętność otrzymuje bonus,",
+            "który odblokowuje się w momencie",
+            "gdy w talencie uzbierasz 100 pkt."
+        ],
+        "details_line_highlights": []
+    },
+    "sneaking": {
+        "blurb": [
+            "Jeśli w drugiej ręce masz amunicję",
+            "lub nic, możesz zacząć się skradać,",
+            "a to utrudni wrogom wykrycie Ciebie.",
+            "Ostrożne SKRADANIE się pozwala",
+            "lepiej widzieć w ciemnościach."
+        ],
+        "details": [
+            "Jeśli czujesz się ciągle nękany",
+            "lub zaskakiwany przez wroga,",
+            "pomyśl czy nie zdradza Cię światło.",
+            "",
+            "Korzystając z przewagi cieni",
+            "i skradania, większość wrogów",
+            "wytrenowanych w swoim fachu ma",
+            "problem znaleźć skradających się."
+        ],
+        "details_line_highlights": []
+    },
+    "spellbook casting": {
+        "blurb": [
+            "Każdy może chwycić Tom w drugą dłoń",
+            "i spróbować rzucić czar, który",
+            "drzemie w środku. Ci z wysoką",
+            "INT dostaną bonusową MOC",
+            "korzystając z księgi w porównaniu",
+            "do rzucania zaklęcia z pamięci."
+        ],
+        "details": [
+            "Zapaleni magowie mogą korzystać z",
+            "ulubionego zaklęcia ofensywnego",
+            "mając Tom zaklęć w swojej dłoni.",
+            "",
+            "Pomijając większą MOC, można",
+            "przygotować zapamiętany czar",
+            "pozwalając na wszechstronność",
+            "w rozwiązaniach magicznych.",
+            "",
+            "Tomy zaklęć można pobłogosławić",
+            "jak każdy sprzęt, zapewniając",
+            "duży bonus do MOCY. Użyj",
+            "zaklętego pióra, by naprawić Tom,",
+            "na którym mocno polegasz!"
+        ],
+        "details_line_highlights": []
+    },
+    "stats metastats": {
+        "blurb": [
+            "Statystyki określą zdolność postaci",
+            "i są podstawą każdej umiejętności.",
+            "Mowa o SIŁ, KON, ZRĘ, INT, PER, CHR.",
+            "Metastatystyki: MOC, KP, RGN i ATAK",
+            "nie rosną wraz z nowymi poziomami."
+        ],
+        "details": [
+            "Każdy gracz docenia bardziej inne",
+            "statystyki od innych. Mądrze jest",
+            "nadzorować kartę postaci i zbierać",
+            "taki ekwipunek, który wzmocni",
+            "najprzydatniejsze statystyki.",
+            "",
+            "Zwróć uwagę na kartę umiejętności,",
+            "tam widać GŁÓWNE statystyki. Czasem",
+            "wysokie statystyki zrekompensują",
+            "braki lub słabe umiejętności.",
+            "",
+            "Metastatystyki nie opierają się o",
+            "poziom czy klasę, lecz łączą staty",
+            "umiejętności, poziomy i sprzęt."
+        ],
+        "details_line_highlights": []
+    },
+    "stealth skill": {
+        "blurb": [
+            "Wysokie SKRADANIE pozwoli chować się",
+            "przed wrogiem i zwiększy obrażenia",
+            "od ciosów w plecy i z flanki.",
+            "",
+            "Legendarne SKRADANIE zagwarantuje Ci",
+            "niewidzialność na skinięcie palca."
+        ],
+        "details": [
+            "Człapiąc przez lochy zatrzymaj się",
+            "przed wrogiem. Jeśli pozwolisz aby",
+            "odwrócił się od Ciebie, możesz",
+            "podbiec by dźgnąć w plecy lub",
+            "nawet dokonać skrytobójstwa!", 
+            "",
+            "Taka aktywność ma większą szansę na",
+            "zwiększenie talentu SKRADANIA się.",
+            "Poświęcając się zasadzkom, każdy",
+            "podróżnik może zostać Legendą",
+            "w ich umiejętności skradania się."
+        ],
+        "details_line_highlights": []
+    },
+    "str": {
+        "blurb": [
+            "Każdy punkt SIŁY (SIŁ) dodaje się",
+            "do mocy ataku wręcz (ATAK). Siłacze",
+            "łatwiej dźwigną ciężki ekwipunek",
+            "i przechomikują więcej w swoich",
+            "plecakach, bez spadku mobilności."
+        ],
+        "details": [
+            "Postać, która polega głównie na",
+            "atakach w zwarciu zawsze doceni",
+            "wzrost swych SIŁ.",
+            "",
+            "Priorytetem będzie błogosławiony",
+            "sprzęt wzmacniający Twoją SIŁĘ",
+            "a tym samym siłę ataków."
+        ],
+        "details_line_highlights": []
+    },
+    "strafing": {
+        "blurb": [
+            "Podczas eksploracji, podróżnik",
+            "porusza się wprost z pełnym pędem,",
+            "ale krok w tył lub krok w bok",
+            "będzie wolniejszy. To ważne!",
+            "Zwłaszcza jeśli jesteś obok",
+            "potencjalnego zagrożenia."
+        ],
+        "details": [
+            "Jasne, kusząco jest iść tyłem",
+            "widząc potężnego wroga, lub",
+            "nadlatujący głaz, ale serio",
+            "szybszy jest obrót i ucieczka!",
+            "",
+            "Setki zostało zmiażdzonych,",
+            "bo wgapiali się bezpośrednio",
+            "w obiekt ich zagłady.",
+            "",
+            "Masz dedykowany klawisz,",
+            "by się szybko odwrócić!"
+        ],
+        "details_line_highlights": []
+    },
+    "swimming skill": {
+        "blurb": [
+            "O ile pływanie nie wydaje się ważne",
+            "jako talent, tak czasem musisz uciec",
+            "od zagrożenia i wtedy zadecyduje to o",
+            "życiu i śmierci. Zwłaszcza na bagnach",
+            "gdzie masz zalany cały parter."
+        ],
+        "details": [
+            "Chodzenie po wodzie to nagroda za",
+            "Legendę w pływaniu, świetna i",
+            "często się przydaje, ale czasem",
+            "chciałbyś wskoczyć do wody jako",
+            "ratunek by ugasić płomienie, które",
+            "cię spopielają jak Kamila.",
+            "",
+            "Pomyśl o tym podczas kąpieli!"
+        ],
+        "details_line_highlights": []
+    },
+    "sword skill": {
+        "blurb": [
+            "Ciachanie swoich wrogów mieczem",
+            "zwiększa ich  szansę na krwawienie.",
+            "Legenda w MIECZACH zawsze nakłada",
+            "krwotok przy naładowanym ciosie."
+        ],
+        "details": [
+            "Miecz może wydawać się słaby,",
+            "bo Szkielety opierają się ich",
+            "ostrym krawędziom.",
+            "",
+            "Im głębiej zejdziesz, tym więcej",
+            "twardych wrogów, których",
+            "słabością będzie Twoje ostrze.",
+            "",
+            "Bądź cierpliwy i ostrożny",
+            "jako początkujący szermierz."
+        ],
+        "details_line_highlights": []
+    },
+    "thrown": {
+        "blurb": [
+            "Broń miotana przebija pancerz",
+            "i rośnie w siłę razem ze ZRĘ.",
+            "",
+            "Ładowanie ataku MIOTANEGO wzmocni",
+            "całkiem znacząco przebyty dystans",
+            "i wychodzące obrażenia."
+        ],
+        "details": [
+            "Broń miotana może szybko ściąć",
+            "twardych przeciwników redukując",
+            "o 50% KP atakowanego celu.",
+            "",
+            "Musisz zebrać swój sprzęt po, lub",
+            "w trakcie walki, co oznacza, że",
+            "musisz być czujny i ostrożnie",
+            "gospodarować zasobami.",
+            "",
+            "Wyłącz wrogów z walki, lub uciekaj",
+            "upewniając się, że masz zapas",
+            "rzeczy do rzucania przed walką."
+        ],
+        "details_line_highlights": []
+    },
+    "tinkering skill": {
+        "blurb": [
+            "Mając wytrych, utalentowany majster",
+            "osiągnie wiele. Ale prawdziwa moc",
+            "mechanika to dostęp do",
+            "narzędziówki. Na każdy problem,",
+            "jest mechaniczne rozwiązanie."
+        ],
+        "details": [
+            "Rozumiejąc podstawy ucząc się",
+            "złomować aż do poziomu Eksperta",
+            "(60), dalszy rozwój może być",
+            "nie lada wyzwaniem.",
+            "",
+            "Twórzy tyle pułapek ile to możliwe",
+            "i daj wieżyczce dobijać cele.",
+            "Zwiększysz tym SZANSĘ na wzrost",
+            "umiejętności mechaniki.",
+            "",
+            "Przytłoczony nadmiarem złomu,",
+            "używaj pułapek i wnyków jako",
+            "podstawową formę ataku, co też",
+            "może zwiększyć twój talent."
+        ],
+        "details_line_highlights": []
+    },
+    "trading skill": {
+        "blurb": [
+            "HANDEL pozwoli Ci zyskać więcej",
+            "na wartości złota, kupując lub",
+            "sprzedając. Tylko wprawny kupiec",
+            "przekona sklepikarza by rozstał się",
+            "z prywatnym zapasem bibelotów."
+        ],
+        "details": [
+            "Handel rośnie tylko przy zakupie",
+            "przedmiotów, z kosztem złota jako",
+            "wykładnią szansy na wzrost",
+            "talentu aż do ogrągłej setki.",
+            "",
+            "Przedmiot, warty 100 złota",
+            "ma 100% szansę na rozwój talentu.",
+            "",
+            "Prywatny składzik handlarza to",
+            "źródło przedmiotów, które też",
+            "mogą podnieść Twoje umiejętności",
+            "jednocześnie będąc przydatne.",
+            "Nowy prywatny przedmiot pojawi",
+            "się co 10 pkt aż do 40 pkt."
+        ],
+        "details_line_highlights": []
+    },
+    "unarmed skill": {
+        "blurb": [
+            "Rozwinięta umiejętność PIĘŚCI może",
+            "odpychać wroga ciosem krytycznym.",
+            "Legendarna zdolność może tymczasowo",
+            "sparaliżować wroga jeśli",
+            "uderzy się go w plecy."
+        ],
+        "details": [
+            "Zadając ogólnie mniej obrażeń i",
+            "będąc mniej efektywnym przeciw",
+            "wielu celom, wojownik może szybko",
+            "rozwinąć swoje umiejętności",
+            "walki pięściami.",
+            "",
+            "Głównie dzięki ilości wymaganych",
+            "ataków do pokonania wroga.",
+            "",
+            "Z mistrzowskim talentem walki",
+            "pięściami stajesz się groźny",
+            "nie polegając na broni."
+        ],
+        "details_line_highlights": []
+    },
+    "wanted": {
+        "blurb": [
+            "Jeśli jesteś ŚCIGANY przez gildię",
+            "Kupiecką, handlarze zaatakują Cię",
+            "od razu. Cechy jak rasa, przedmioty",
+            "lub efekty magiczne mogą zmienić",
+            "postrzeganie ciebie jako klienta."
+        ],
+        "details": [
+            "Handlarze są twardzi jak diabli.",
+            "Atakowanie ich to głupota, a",
+            "wizja, że każdy z nich to wróg",
+            "zamyka wiele okazji i szans.",
+            "",
+            "Z odpowiednimi zasobami możesz",
+            "okraść sklep, by potem wrócić",
+            "udając lojalnego klienta.",
+            "",
+            "Użyj maski bandyty by napadać na",
+            "sklepikarzy. Gdy twoja tożsamość",
+            "będzie ścigana, użyj Uroku, by",
+            "przekonać gildię do wybaczenia",
+            "Ci przeszłych zbrodni."
+        ],
+        "details_line_highlights": []
+    },
+    "weapon quality": {
+        "blurb": [
+            "Każda broń atakuje słabiej jeśli",
+            "jest w rozsypce. Mechanikę",
+            "i Zwoje naprawy można użyć do",
+            "poprawy zadawanych obrażeń",
+            "aż do maksymalnego potencjału."
+        ],
+        "details": [
+            "Każda broń ma słabszy ATAK",
+            "kiedy straci na jakości.",
+            "",
+            "Nie trać wielu zasobów na",
+            "rozklekotany szmelc.",
+            "",
+            "Błogosławiony czy nie, znajdziesz",
+            "świeżą, zwykłą klingę,",
+            "która przebije parametrami tą,",
+            "która zaraz się rozsypie.",
+            "",
+            "Jeśli na prawdę zależy Ci na",
+            "ulubionej broni, miej chociaż",
+            "zapasową zwykłą broń."
+        ],
+        "details_line_highlights": []
+    },
+    "wgt": {
+        "blurb": [
+            "To co nosisz na sobie i w plecaku",
+            "wypełnia UDŹWIG (UDŹ). Więcej SIŁY",
+            "pozwoli ci UDŹ więcej zanim cię",
+            "spowolni. Im więcej dźwigasz, tym",
+            "większa kara do poruszania się."
+        ],
+        "details": [
+            "Początkujący zbierają wszystko",
+            "co widzą a to często błąd, który",
+            "przeciąża UDŹ a w efekcie nakłada",
+            "karę do poruszania się.",
+            "",
+            "W tym tempie dogoni cię śmierć.",
+            "",
+            "Mądrzej wyrzucić rzeczy, których",
+            "nie użyjesz przez najbliższy",
+            "kwadrans, żeby zachować",
+            "mobilność i swoje życie."
+        ],
+        "details_line_highlights": []
+    },
+    "xp": {
+        "blurb": [
+            "Kiedy rozwijasz swój dowolny talent,",
+            "otrzymujesz 2 PKT DOŚWIADCZENIA (DOŚW).",
+            "Zabójstwa też nagrodzą Cię DOŚW",
+            "w oparciu o trudność oponenta.",
+            "",
+            "Co 100 DOŚW czeka nowy poziom!"
+        ],
+        "details": [
+            "Jeśli masz czas, szukaj potworów",
+            "do zabicia i szansy na rozwijanie",
+            "różnych talentów by zwiększyć DOŚW.",
+            "Zbyt szybkie schodzenie głębiej",
+            "bez wysokiego poziomu zagwarantuje",
+            "Ci chłodną posadkę w kostnicy!",
+            "",
+            "DOŚW z walki dzieli się między",
+            "graczy podróżujących razem.",
+            "",
+            "Jeśli już wymaxowałeś umiejętność,",
+            "zacznij rozwijać inną, żebyś mógł",
+            "ciągle zbierać doświadczenie."
+        ],
+        "details_line_highlights": []
+    }
+}

@@ -1,0 +1,2856 @@
+{
+    "arcane citadel": {
+        "blurb": [
+            "Zbudowana zgodnie z architektonicznym",
+            "planem generalnym, CYTADELA przypomina",
+            "aranżacją wielki uniwersytet.",
+            "",
+            "Tylko dostęp do niezwykle potężnej",
+            "magii może uzasadnić jego wielkość."
+        ],
+        "details": [
+            "ZAMIESZKAŁE PRZEZ:",
+            "Satyrów, Maszyny, Inkuby,",
+            "Wampiry, Grolemy 13, Kuroliszki,",
+            "Cienie",
+            "",
+            "Ta sztywno zorganizowana struktura",
+            "może być trudniejsza w nawigacji niż",
+            "inne lochy i labirynty ze względu",
+            "na zamknięte bramy i ślepe zaułki.",
+            "",
+            "Zaklęcie kopania i otwierania",
+            "może znacznie ułatwić eksplorację.",
+            "",
+            "Uważaj, aby nie osaczyły Cię",
+            "giganty, takie jak kuroliszek i grolem."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "arrow trap": {
+        "blurb": [
+            "Przypuszczano, że te złożone mechanizmy",
+            "zostały stworzone przez Gobliny. Teraz",
+            "już wiemy, że powstały wcześniej.",
+            "",
+            "Zostały one jednak przerobione przez",
+            "zaradnych goblińskich rzemieślników."
+        ],
+        "details": [
+            "Zazwyczaj w lochu nie jest zbyt ciemno.",
+            "Pułapka Strzałkowa zawsze ma dwie",
+            "pochodnie przymocowane od frontu.",
+            "",
+            "Każda pułapka jest wypełniona losowym",
+            "rodzajem amunicji, która ma trafić cel.",
+            "Amunicję można ukraść przy pomocy",
+            "pomocy wytrycha, jeśli użytkownik jest",
+            "mechanikem i rozbroi pułapkę.",
+            "",
+            "Taką pułapkę można też oszukać",
+            "rzucając przed nią przedmiot. Mogą",
+            "wystrzelić z siebie tylko pięć razy."
+        ],
+        "details_line_highlights": []
+    },
+    "bell": {
+        "blurb": [
+            "Wiele miast wykorzystuje DZWONY, aby",
+            "skupić uwagę mieszkańców, podnosząc",
+            "ich na duchu podczas wspólnych wydarzeń.",
+            "",
+            "Stare DZWONY, których nie konserwowano,",
+            "czasami ulegają spektakularnym awariom."
+        ],
+        "details": [
+            "ZNAJDZIESZ JE W:",
+            "- Ruinach",
+            "- Cytadeli",
+            "",
+            "EFEKTY JAKIE DAJE DZWON:",
+            "- Wytrzymałość (1 Minuta)",
+            "- Zwinność (1 Minuta)",
+            "- Psychika (1 Minuta)",
+            "- Siła (1 Minuta)",
+            "- Regeneracja PŻ/PM",
+            "- Przyciąga BN-ów (Zakres 15 pól)",
+            "",
+            "SZANSA NA UKRYTE ŁUPY:",
+            "- 25% na Tom Zaklęć",
+            "- 25% na Złoto",
+            "- 25% na wylecenie nietoperzy",
+            "",
+            "Dzwonienie to zazwyczaj dobry pomysł,",
+            "jeśli nie boisz się walki! Każdy dzwon",
+            "zapewni ten sam efekt tym, którzy",
+            "są nieopodal, by zainspirować się",
+            "jego melodią. Stojąc za blisko",
+            "ryzykujesz, gdyż nietoperze mogą",
+            "wylecieć z środka lub konstrukcja",
+            "może nagle się zawalić!",
+            "",
+            "Spadające dzwony zadają 80 obrażeń",
+            "każdemu na ich drodze. Nisko wiszący",
+            "dzwon może zadać obrażenia",
+            "zbyt pewnemu siebie minotaurowi."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "boulder trap": {
+        "blurb": [
+            "Zwiastowane przez ciemne dziury w suficie,",
+            "niektórzy twierdzą, że ogromne kamienie",
+            "są wynikiem zapadania się wykopków.",
+            "",
+            "Inni teoretyzują, że są one",
+            "karą od samego Boga, Szatana."
+        ],
+        "details": [
+            "Głazy zadają 80 obrażeń, niezależnie",
+            "od pancerza lub kondycji ofiary.",
+            "Jeśli ofiary nie zabije głaz to",
+            "rozpadnie się on na kilka kawałków.",
+            "",
+            "Głazy toczą się wyłącznie prosto na",
+            "Północ, Południe, Wschód lub Zachód.",
+            "",
+            "Głazy blokujące wyjście zostają",
+            "rozbite przez bogów, pozostawiając",
+            "w gruzach szczęśliwy kamyk.",
+            "",
+            "Większość pułapek z głazem można",
+            "uruchomić rzucając coś pod otwór."
+        ],
+        "details_line_highlights": []
+    },
+    "brams castle": {
+        "blurb": [
+            "Choć niedostępna dla zwykłych ludzi,",
+            "posiadłość ta leży gdzieś w głębi",
+            "maszynerii Cytadeli. Wygląda na to,",
+            "że nieśmiertelni lubią mieć swoją",
+            "przestrzeń z dala od wścibskich oczu."
+        ],
+        "details": [
+            "SKARBY NA SEKRETNYM POZIOMIE:",
+            "- Szata Widma",
+            "",
+            "Zamek Brama jest bardziej domem, a",
+            "mniej fortecą. Podczas walki z jego",
+            "świtą, poszukiwacze przygód będą",
+            "mieli okazję zwiedzić każdy pokój",
+            "ostatecznie stawiając czoła",
+            "Wąpierzowi na szczycie zamku.",
+            "",
+            "Uważaj, aby ciasne korytarze cię",
+            "nie przytłoczyły. UWAGA! Górne",
+            "piętra są niedostępne dla wielu",
+            "zwierzęcych sojuszników."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "breakable barriers": {
+        "blurb": [
+            "Niektóre bariery mogą początkowo",
+            "wydawać się nieprzekraczalne, ale są",
+            "podatne na kilka silnych uderzeń,",
+            "które otworzą drogę. Zależnie od",
+            "materiału, mają one różne słabości."
+        ],
+        "details": [
+            "TYPY PRZESZKÓD:",
+            "- Drewniane",
+            "   Łatwopalne, otrzymują dodatkowe",
+            "   obrażenia od toporów i pięści.",
+            "- Ceglane i Kamienne",
+            "   Dodatkowe obrażenia od maczug.",
+            "- Sieciowate (Pajęczyna lub Gąszcz)",
+            "   Łatwopalne, otrzymują dodatkowe",
+            "   obrażenia od toporów i mieczy.",
+            "",
+            "Wszystkie zniszczalne bariery",
+            "otrzymują pełne obrażenia od magii",
+            "ognia, gromu czy pocisku mocy,",
+            "są za to odporne na mróz."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "brimstone boulder": {
+        "blurb": [
+            "Głazy są wystarczająco groźne, ale",
+            "żyły siarki pozwalają tej piekielnej",
+            "odmianie toczyć się po lawie.",
+            "Przy kontakcie z głazami wybuchają",
+            "one w ognistej eksplozji.",
+            "UNIKAĆ."
+        ],
+        "details": [
+            "Przywoływanie głazów siarki jest",
+            "mocą unikalną dla Szatana, zadającą",
+            "50 punktów obrażeń niezależnie",
+            "od pancerza lub kondycji ofiary.",
+            "",
+            "W momencie uderzenia, głazy siarki",
+            "eksplodują tworząc SŁUP OGNIA,",
+            "zadający obrażenia magiczne.",
+            "",
+            "Na stopionym tronie daje to",
+            "Szatanowi szczególną przewagę, bo",
+            "kałuże lawy, którymi się teleportuje,",
+            "nie są już schronieniem przed",
+            "toczącą się pożogą.",
+            "",
+            "Lewitujący poszukiwacz przygód może",
+            "mimo to unikać głazów, które",
+            "zmiażdżą przywołanych przez niego",
+            "ślepo oddanych sługusów."
+        ],
+        "details_line_highlights": []
+    },
+    "ceiling trap": {
+        "blurb": [
+            "Dzięki bezpośredniemu wykorzystaniu",
+            "energii magicznej pochodzącej",
+            "z kryształowych sufitów. Taki system",
+            "powstrzyma najeźdźców niemal",
+            "bez żadnych kosztów utrzymania.",
+            "Innowacja dostępna w kilku odmianach."
+        ],
+        "details": [
+            "TYPY PUŁAPEK SUFITOWYCH:",
+            "- Pocisk Energii",
+            "- Mróz",
+            "- Kula Ognia",
+            "- Grom",
+            "- Magiczny Pocisk",
+            "- Sen",
+            "- Spowolnienie",
+            "- Dezorientacja",
+            "",
+            "Mimo podobieństw do magicznej pułapki,",
+            "sufitowej nie można zniszczyć.",
+            "",
+            "Upuszczony przedmiot zmyli pułapkę,",
+            "ale zapętli też jej mechanizm.",
+            "W przerwach możesz obejść pułapkę."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "chest": {
+        "blurb": [
+            "KUFRY mogą zawierać cenne skarby,",
+            "i sprzęt. Znajdująca się w nich",
+            "zawartość nie powinna być przeklęta.",
+            "Niestety, zanim nie otworzysz skrzyni",
+            "nie dowiesz się czy to nie MIMIK."
+        ],
+        "details": [
+            "ZAWARTOŚĆ KUFRÓW:",
+            "- 13.5% Broń i pancerz",
+            "- 13.5% Zwoje i magiczne przedmioty",
+            "- 13.5% Eliksiry i składniki do alchemii",
+            "- 13.5% Narzędzia Mechanika",
+            "- 13.5% Klejnoty i magiczna biżuteria",
+            "- 13.5% Żywność",
+            "- 13.5% Losowe przedmioty",
+            "- 5.5% Pusta lub jakieś Śmieci",
+            "",
+            "Przedmioty znalezione w kufrach są",
+            "zazwyczaj wyższej jakości niż te",
+            "porozrzucane po podłogach lochów,",
+            "często też nie są przeklęte.",
+            "",
+            "Skrzynie mają zazwyczaj 10% szansy",
+            "na bycie zablokowanymi i 10% szansy",
+            "na bycie krwiożerczymi mimikami.",
+            "",
+            "Otwierając je MAJSTERKUJĄC",
+            "przy użyciu wytrycha, mechanizm",
+            "skrzyni zostaje rozłożony, dając",
+            "magiczny i metalowy złom w skrzyni."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "citadel sanctum": {
+        "blurb": [
+            "W sercu Cytadeli ujawnia się jej",
+            "natura jako wielkiego magicznego",
+            "urządzenia, do otwierania wyrw między",
+            "wymiarami za pomocą zakazanej magii.",
+            "",
+            "Jego twórcy ochronią go za wszelką cenę."
+        ],
+        "details": [
+            "Orfeusz i Eurydyka mieli znaczny",
+            "talent magiczny, którego Herx nigdy",
+            "nie posiadał, gdy otrzymał moce zła,",
+            "które zmieniły go w licza.",
+            "",
+            "Spodziewaj się, że ta para będzie",
+            "o wiele potężniejsza dzięki swoim",
+            "zaklęciom w walce, zwłaszcza po",
+            "niedawnym poddaniu się złu.",
+            "",
+            "Zaklęcia zimna Eurydyki ułatwią jej",
+            "bratu złapanie cię w walce wręcz!",
+            "",
+            "Każde z rodzeństwa wpadnie w furię,",
+            "jeśli zabijesz jego odpowiednik.",
+            "Myśl z wyprzedzeniem!"
+        ],
+        "details_line_highlights": []
+    },
+    "cockatrice lair": {
+        "blurb": [
+            "Mimo niewiedzy o symbiozie między tymi",
+            "łuskowatymi stworzeniami, Kuroliszki i",
+            "Koboldy są historycznie przedstawiane",
+            "razem w sztuce plemiennej Koboldów.",
+            "Uważa się, że czczą one te bestie."
+        ],
+        "details": [
+            "SKARBY NA SEKRETNYM POZIOMIE:",
+            "- Smocza kolczuga",
+            "",
+            "Ten strzeżony labirynt koboldów",
+            "jest największym znanym przykładem",
+            "ich pomysłowości i kultury.",
+            "",
+            "Pełne pułapek i zagadek legowisko",
+            "zostało zaprojektowane tak, by",
+            "trzymać intruzów z dala od niego.",
+            "",
+            "Silne zaklęcia uniemożliwiają czary",
+            "teleportacji, kopania, otwierania i",
+            "lewitacji. Ci, którzy szukają skarbu,",
+            "muszą poruszać się po tych tunelach",
+            "normalnie z nadzieją, że uciekną."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "containers": {
+        "blurb": [
+            "Mieszkańcy lochów chowają rzeczy",
+            "do pojemników lub ukrywają je w",
+            "osłoniętych miejscach.",
+            "",
+            "Złoto i przedmioty można znaleźć,",
+            "rozbijając przeróżne pojemniki."
+        ],
+        "details": [
+            "Zawartość takiego pojemnika",
+            "różni się znacznie w zależności",
+            "od miejsca jego znalezienia.",
+            "",
+            "Najczęściej znajdziesz tam,",
+            "garść monet lub losowy przedmiot",
+            "schowany w skrytce.",
+            "",
+            "Rzadko zdarza się, że mała istota lub",
+            "nawet mała grupa może być schowana",
+            "w środku, szukając schronienia."
+        ],
+        "details_line_highlights": []
+    },
+    "crystal caves": {
+        "blurb": [
+            "Chociaż to bogate źródło rzadkiego",
+            "kryształu zostało odkryte niedawno,",
+            "arcymagowie Gildii Magów szybko je",
+            "zapieczętowali, ze szlachetnych",
+            "pobudek dla 'dobra' Osady."
+        ],
+        "details": [
+            "ZAMIESZKAŁE PRZEZ:",
+            "Koboldy, Skarabeusze, Insektoidy,",
+            "Maszyny, Inkuby, Grolemy 13,",
+            "Kuroliszki",
+            "",
+            "NOWA PUŁAPKA:",
+            "Pułapka Sufitowa",
+            "",
+            "Kryształy z tych jaskiń dają ich wielu",
+            "bywalcom potężną moc wykraczającą",
+            "poza to, co jest naturalnie możliwe.",
+            "",
+            "Pewni siebie podróżnicy przybywający",
+            "z ruin powinni zachować większą",
+            "ostrożność wobec nowych wrogów!"
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "daedalus": {
+        "blurb": [
+            "Ściśle związane z minotaurem",
+            "KAPLICE DEDALA pojawiają się zawsze",
+            "gdy minotaur jest na polowaniu.",
+            "",
+            "Podróżnicy mogą ich dotknąć, aby",
+            "odsłonić przejście i uciec."
+        ],
+        "details": [
+            "Te kapliczki po dotknięciu wskazują",
+            "kierunek w stronę wyjścia, wysyłając",
+            "w tym kierunku promień jasnowidzenia.",
+            "Ujawnia to również mapę między",
+            "kapliczką a wyjściem!",
+            "",
+            "Jeśli zostanie aktywowana w ciągu",
+            "30 sekund od przybycia minotaura,",
+            "kapliczka zwiększy Twoją szybkość",
+            "dając Ci błogosławieństwo prędkości.",
+            "",
+            "Poszukiwacze przygód eksplorujący",
+            "razem mogą mieć nieco więcej pewności",
+            "siebie, rozdzielając się tam, gdzie",
+            "minotaur poluje. Wszystko dzięki",
+            "pokornym sługom Dedala."
+        ],
+        "details_line_highlights": []
+    },
+    "door": {
+        "blurb": [
+            "Otwierają się, zamykają,",
+            "a czasami mogą być zakluczone!",
+            "",
+            "W porównaniu do bramy, DRZWI można",
+            "wyważyć lub otworzyć. Potwory rozwalą",
+            "drzwi, jeśli nie mogą ich otworzyć!"
+        ],
+        "details": [
+            "Zaklęcie zamykania może uniemożliwić",
+            "potworom łatwe otwarcie drzwi, ale",
+            "część z nich i tak nie ma problemów",
+            "ze sforsowaniem ich. Drzwi są",
+            "mierną barykadą do powstrzymania",
+            "potworów, nawet jeśli są zamknięte.",
+            "",
+            "Otworzenie drzwi wytrychem jest",
+            "szybsze niż rozwalenie ich, ponadto",
+            "pozwoli to na rozwój mechaniki.",
+            "",
+            "Drzwi otrzymują dodatkowe obrażenia",
+            "od siekier i wytrenowanych pięści.",
+            "Skuteczne mogą być również zaklęcia."
+        ],
+        "details_line_highlights": []
+    },
+    "fountain": {
+        "blurb": [
+            "Wody z FONTANNY odświeżają lub używają",
+            "magii na użytkowniku. Czasem też",
+            "przywołują sukkuba lub inkuba.",
+            "",
+            "Magia pełna jest niebezpieczeństw."
+        ],
+        "details": [
+            "POTENCJALNE EFEKTY FONTANNY:",
+            "- 40% losowy efekt eliksiru",
+            "- 30% Przywraca 5 PŻ, +Sytość",
+            "- 10% na Sukkuba/Inkuba:",
+            "    Poziom 1-10:",
+            "        - Sukkub (100%)",
+            "    Poziom 11-20/Zaświaty:",
+            "        - Sukkub (50%)",
+            "        - Słaby Inkub (50%)",
+            "    Poziom 21+:",
+            "        - Inkub (100%)",
+            "- 7.5% Błogosław 1 noszoną rzecz",
+            "- 2.5% Błogosław wszystko na sobie",
+            "",
+            "Osoby biegłe w alchemii unikają",
+            "przywołania Demonów gdy napełniają",
+            "butelki płynami z fontanny.",
+            "",
+            "Obecność z innego świata sprawia, że",
+            "fontanna napełnia się. W efekcie",
+            "zbierzesz więcej różnych eliksirów."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "gnomish mines": {
+        "blurb": [
+            "Jeśli w kopalniach pod Osadą kiedyś",
+            "było złoto, opowieści o nim",
+            "zaczeły się właśnie tutaj.",
+            "Kiedy Gnom zacznie poszukiwać bogactw,",
+            "jego chciwość nie zostanie zaspokojona."
+        ],
+        "details": [
+            "SKARBY NA SEKRETNYM POZIOMIE:",
+            "- Welon Sfinksa",
+            "- Dziesiątki żył złota do wydobycia",
+            "",
+            "Największą nagrodą może być",
+            "doświadczenie zdobyte",
+            "za zabicie tak wielu Gnomów!",
+            "",
+            "Kostury gromu noszone przez",
+            "Gnomy są śmiertelnie niebezpieczne,",
+            "ale mądre zasadzki mogą sprawić,",
+            "że kostury znajdą się w Twoich rękach",
+            "i przechylą szalę na twą korzyść.",
+            "Bądź przebiegły, aby przetrwać."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "gravestone": {
+        "blurb": [
+            "GRÓB z wyrytymi epitafiami, może",
+            "skutkować powstaniem z ziemi Ghula,",
+            "gdy naruszysz jego spokój. Niektórzy",
+            "cieszą się z możliwości zabicia lub",
+            "zaprzyjaźnienia się z nieumarłymi."
+        ],
+        "details": [
+            "CO SIĘ STANIE JAK DOTKNĘ GROBU:",
+            "- 25% Wkurzyłeś Ghulema",
+            "    Level 1-15:",
+            "        - Ghul",
+            "    Level 16+/Nawiedzony Zamek:",
+            "        - Zniewolony Ghul",
+            "",
+            "Jeśli ghula nie rozsierdzi czytanie",
+            "epitafium na nagrobku, będzie on",
+            "działał jedynie jako przeszkoda.",
+            "",
+            "Jeśli pułapka lub łamigłówka",
+            "aktywuje nagrobek, zawsze stworzy",
+            "nieumarłego ghula."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "hall of trials": {
+        "blurb": [
+            "Założona przez niezrzeszonych",
+            "poszukiwaczy przygód - SALA PRÓB",
+            "powstała krótko po uwięzieniu Herxa w",
+            "Diabelskim Bastionie. Nikt nie wie,",
+            "co stało się z jej dobroczyńcami."
+        ],
+        "details": [
+            "Podczas gdy niektórzy podróżnicy",
+            "starają się zdobyć dyplom z Sali",
+            "Prób od razu, wielu woli od czasu do",
+            "czasu odwiedzać tajemniczą akademię,",
+            "stopniowo opanowując dyscypliny.",
+            "",
+            "Najważniejszą rzeczą, jaką można tu",
+            "zdobyć, jest wiedza. Największą",
+            "nagrodą są poszerzone horyzonty.",
+            "",
+            "Chociaż nie zbudowała go samodzielnie",
+            "żadna gildia, Sala Prób to pierwszy",
+            "wysiłek ruchu zjednoczonych gildii,",
+            "które chcą powstrzymać chaos."
+        ],
+        "details_line_highlights": []
+    },
+    "hamlet": {
+        "blurb": [
+            "Niedawno odzyskany Hamlet został",
+            "pospiesznie odnowiona przez niedawno",
+            "uwolnionych więźniów kopalni.",
+            "",
+            "Gildia Magów cieszy się dużym autorytetem",
+            "w dzielnicy położonej najbliżej kopalni."
+        ],
+        "details": [
+            "Przyjaźni ludzie mają pełny dostęp",
+            "do poniższych sklepów w Hamlecie:",
+            "- 2x Broń i Zbroje",
+            "- Towary ogólne (Ogólny)",
+            "- Jubiler",
+            "- Różdżki i Kostury",
+            "- Biblioteka",
+            "- Alchemik i Alchemilla",
+            "- Garmażerka",
+            "",
+            "Wykryte potwory w Osadzie zostaną",
+            "zatakowane. W sypialni karczmy jest",
+            "przydatne zejście do kanałów, przez",
+            "które można bezpiecznie udać się",
+            "na tyły Gildii Magów.",
+            "",
+            "W kanałach są mikstury polimorfii,",
+            "umożliwiające potworom zakupy."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "haunted castle": {
+        "blurb": [
+            "Zanim Baron został zapieczętowany,",
+            "mieszkańcy Osady zostali zniewoleni",
+            "by zbudować dla niego ZAMEK.",
+            "",
+            "Ściany zostały utworzone ze skał",
+            "wydobytych przez górników."
+        ],
+        "details": [
+            "SKARBY NA SEKRETNYM POZIOMIE:",
+            "- Trepy Wyroczni",
+            "- Ukryte kufry ze skarbami",
+            "- 4 Eliksiry Lewitacji",
+            "",
+            "Są tutaj przeklęte Ghule, broniące",
+            "własności barona, powstają, gdy go",
+            "okradniesz. Przed plądrowaniem",
+            "zaplanuj ucieczkę lub obronę!",
+            "",
+            "Ukryte kuferki ze skarbami",
+            "schowane są za wodospadem. Zbadaj",
+            "dokładnie wieże zamku i znajdź",
+            "sposób na odkrycie drogi."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "hell": {
+        "blurb": [
+            "Wymiar przeznaczony dla ludzkiego",
+            "cierpienia, ale także dom dla",
+            "wielu magicznych bestii i potworów.",
+            "",
+            "Diabły chcą zdominować królestwa",
+            "śmiertelników i nieśmiertelnych."
+        ],
+        "details": [
+            "ZAMIESZKAŁE PRZEZ:",
+            "Sukkuby, Inkuby, Chochliki, Demony,",
+            "Cienie, Satyrów",
+            "",
+            "NOWA PUŁAPKA:",
+            "Pułapka Przywołująca",
+            "",
+            "Niewielu przeżywa w piekle.",
+            "Zwinnie unikaj zaklęć lub kolców.",
+            "Pułapki strzałkowe mogą zepchnąć",
+            "poszukiwaczy przygód do lawy!",
+            "",
+            "By przetrwać, musisz myśleć szybko.",
+            "Leczenie dolegliwości ugasi ogień."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "herx lair": {
+        "blurb": [
+            "Starożytne ruiny łączą się z miejscem,",
+            "przez które przepływa pierwotna moc.",
+            "",
+            "Ci, którzy chcą ją kontrolować,",
+            "wywierają na nią wpływ, ponieważ",
+            "bariera między światami jest cienka."
+        ],
+        "details": [
+            "Jeśli przyniesiesz do tego miejsca",
+            "mistyczne kule, umieszczając je na",
+            "piedestałach w północnych pokojach:",
+            "- Zielona wzmocni ZRĘ i PER",
+            "- Czerwona wzmocni SIŁ i KON",
+            "- Niebieska wzmocni INT",
+            "    i Odporność na Magię",
+            "",
+            "Herx czeka z zaskoczeniem swoich",
+            "wrogów, aż ci zbliżą się do środka",
+            "areny. Trzymaj sojuszników na",
+            "zewnętrznej krawędzi pomieszczenia",
+            "i daj sobie czas na przygotowanie.",
+            "Odbicie Magii jest zalecane."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "hunters guild": {
+        "blurb": [
+            "Założona przez prostych pionierów,",
+            "GILDIA ŁOWCÓW zatrudnia Myśliwych,",
+            "Łotrów i Ninja, którzy są w stanie",
+            "zlikwidować przerażające zagrożenia",
+            "z wysoką skutecznością."
+        ],
+        "details": [
+            "Gildia łowców polega na zasadzkach,",
+            "aby pokonać swoich wrogów.",
+            "Uważają to za najmniej kosztowną,",
+            "ryzykowną, a tym samym najbardziej",
+            "moralną metodę służenia obywatelom.",
+            "",
+            "Członkowie oferują śmierć jako",
+            "pierwsze rozwiązanie. Dzięki temu",
+            "zyskali reputację czcicieli śmierci.",
+            "",
+            "Ich słowa brzmią:",
+            "   Śmierć jest niezbędna by żyć.",
+            "   Naszym obowiązkiem jest decyzja",
+            "   kto na co zasługuje."
+        ],
+        "details_line_highlights": []
+    },
+    "labyrinth": {
+        "blurb": [
+            "Geomanci twierdzą, że bagienne",
+            "wody wypłynęły niegdyś",
+            "z ogromnego podziemnego oceanu.",
+            "",
+            "Jednak górnicy znaleźli tylko suchy",
+            "piach i ruiny w głębinach poniżej."
+        ],
+        "details": [
+            "ZAMIESZKAŁE PRZEZ:",
+            "Skarabeusze, Skorpiony, Insektoidy,",
+            "Gobliny, Trolle",
+            "",
+            "NOWA PUŁAPKA:",
+            "Pułapka z kolcami",
+            "",
+            "Z dużymi, krętymi korytarzami,",
+            "labirynty są zabójcze w połączeniu",
+            "z dwoma zagrożeniami:",
+            "Głodem i Minotaurem.",
+            "Magiczne mapowanie pomoże w",
+            "szybkiej eksploracji. Przekop się,",
+            "aby otworzyć ukryte przejścia."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "lava": {
+        "blurb": [
+            "To gorąca magma w stanie ciekłym!",
+            "",
+            "Wszystko, co wpadnie do środka,",
+            "zostaje pochłonięte przez płomienie,",
+            "łącznie z niezdarnymi śmiałkami."
+        ],
+        "details": [
+            "Lawa to śmiertelna przeszkoda i",
+            "nie ma sensu w niej pływać, bo",
+            "spali wszystko, co w nią wpadnie.",
+            "",
+            "Maszyny, które chcą podnieść swoją",
+            "temperaturę, mogą zanurzyć się",
+            "na krótką chwilę - mimo otrzymanych",
+            "obrażeń powodowanych przez lawę.",
+            "",
+            "Chodzenie po wodzie pozwoli Tobie",
+            "i Twoim towarzyszom uniknąć",
+            "zatonięcia w lawie.",
+            "Trzeba to było przetłumaczyć",
+            "jako CHODZENIE PO CIECZACH..."
+        ],
+        "details_line_highlights": []
+    },
+    "lever": {
+        "blurb": [
+            "DŹWIGNIE to niezawodne przyrządy",
+            "dla architekta lochów.",
+            "",
+            "Korzystając z ukrytych mechanizmów,",
+            "dźwignia może aktywować wszystko:",
+            "pułapki, drzwi lub mistyczne gadżety."
+        ],
+        "details": [
+            "Niektóre dźwignie mają efekt czasowy",
+            "wymagający wielokrotnego",
+            "pociągnięcia przed aktywacją.",
+            "Często są powiązane z wyzwaniem,",
+            "które wymaga od was szybkości.",
+            "",
+            "Czasami mechanizm dźwigni pokrywa",
+            "się z innymi pułapkami w lochu.",
+            "Nakładanie się tych mechanizmów",
+            "może być mylące, ale może również",
+            "otworzyć gamę nowych możliwości.",
+            "",
+            "Duchy graczy mogą używać dźwigni,",
+            "pomijając niektóre wyzwania."
+        ],
+        "details_line_highlights": []
+    },
+    "magic trap": {
+        "blurb": [
+            "Te magiczne pylony służyły niegdyś",
+            "jako kanały magiczne dla tych,",
+            "którzy tu mieszkali.",
+            "",
+            "Od tego czasu zostały wypaczone",
+            "i stały się latarniami chaosu."
+        ],
+        "details": [
+            "TYPY MAGICZNYCH PUŁAPEK:",
+            "- Pocisk Energii",
+            "- Mróz",
+            "- Kula Ognia",
+            "- Grom",
+            "- Magiczny Pocisk",
+            "- Sen",
+            "- Spowolnienie",
+            "- Dezorientacja",
+            "",
+            "Niektórzy mają możliwość kopania, a",
+            "ta może zniszczyć pułapkę, tym samym",
+            "ułatwić eksplorację. Unikaj pułapek,",
+            "dezorientacyjnych z towarzyszami!",
+            "Leczenie dolegliwości to podstawa."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "magicians guild": {
+        "blurb": [
+            "Wspierając innowacje i ambicje, Gildia",
+            "Magów szkoli Arkanistów, Uzdrowicieli,",
+            "Czarodziele i Czarodziejów.",
+            "",
+            "Paradoksalne źródło uświęconej tradycją",
+            "mądrości i nieprzemyślanej rewolucji."
+        ],
+        "details": [
+            "Uczeni gildii magów są zdolnymi do",
+            "adaptacji zaklinaczami, zdolnymi do",
+            "odczytywania i zapamiętywania",
+            "większości zaklęć, o ile ćwiczą.",
+            "",
+            "Każdy mag posiada inne umiejętności,",
+            "które pozwolą mu zachować zaklęcia",
+            "wtedy gdy będą naprawdę potrzebne.",
+            "",
+            "Żyją złożoną filozofią na temat",
+            "wszechświata, zastanawiając się,",
+            "w jaki sposób każdy element łączy się,",
+            "aby wyjaśnić to co materialne a co",
+            "duchowe a także ludzkie cnoty i wady."
+        ],
+        "details_line_highlights": []
+    },
+    "masons guild": {
+        "blurb": [
+            "Pierwotnie była to gildia murarzy,",
+            "a obecnie jej rola w społecznościach",
+            "obejmuje wszelkiego rodzaju prace",
+            "fizyczne, wymagające użycia siły.",
+            "Barbarzyńcy, Wojownicy i Wędrowcy",
+            "często dołączają do gildii."
+        ],
+        "details": [
+            "Dumna organizacja robotników",
+            "i żołnierzy, którzy są pewni,",
+            "że to oni są podwalinami i",
+            "fundamentem samej społeczności.",
+            "",
+            "Choć inne gildie mogą się z tym",
+            "nie zgadzać, żadna nie zaprzeczy, że",
+            "ich potężne ramiona i silne plecy są",
+            "zasługą zasiedlenia i fortyfikacji",
+            "wszystkich wielkich miast.",
+            "",
+            "Członkowie tej gildii wierzą w",
+            "powinność dbania o pokój i budowaniu",
+            "nowej, owocnej przyszłości."
+        ],
+        "details_line_highlights": []
+    },
+    "merchants guild": {
+        "blurb": [
+            "Zrzeszająca Handlarzy, Mechaników",
+            "i Gorzelników Gildia Kupców jest",
+            "cicho uznawana za najpotężniejszą",
+            "gildię w całym królestwie.",
+            "",
+            "Ponoć Herx też do niej należał."
+        ],
+        "details": [
+            "Członków gildii kupieckiej cechuje",
+            "zaradność. Często brakuje im potęgi",
+            "lub talentu magicznego, dlatego",
+            "polegają na znalezionym sprzęcie.",
+            "",
+            "Gildia tłumaczy jak zidentyfikować",
+            "i wykorzystać narzędzia, które mają",
+            "do dyspozycji, aby zapewnić im sukces.",
+            "",
+            "W drużynach, klasy z Gildii Kupców",
+            "znajdują rozwiązania, na które zwykli",
+            "podróżnicy często nie zwracają",
+            "uwagi. Adaptacja jest kluczowa."
+        ],
+        "details_line_highlights": []
+    },
+    "minehead": {
+        "blurb": [
+            "Tuż za ruinami Osady leżą Kopalnie,",
+            "gdzie mieszkańcy niewolniczo",
+            "harowali dla Barona Herxchavena.",
+            "",
+            "Wejście do kopalni to podróż w jedną",
+            "stronę, o ile uda się zdjąć klątwę."
+        ],
+        "details": [
+            "Wiele grup śmiałków obozuje tutaj,",
+            "przygotowując się do próby",
+            "zdjęcia klątwy Barona.",
+            "",
+            "Dogodne miejsce do planowania i",
+            "handlu sprzętem lub żywnością",
+            "przed niebezpieczną wyprawą.",
+            "",
+            "Wszechpotężne Czarodziele mogą",
+            "dzielić się ze sobą Tomami zaklęć.",
+            "Tak długo, jak jest w dobrym stanie,",
+            "zapamiętanie cudzego Tomu zaklęć",
+            "daje wiele korzyści dla drużyny."
+        ],
+        "details_line_highlights": []
+    },
+    "mines": {
+        "blurb": [
+            "Początkowo wydobywano tu żelazo,",
+            "a później bezskutecznie poszukiwano",
+            "złota. KOPALNIE stały się domem",
+            "dla najemnej armii Barona Herxa,",
+            "która uwięziła górników z Osady."
+        ],
+        "details": [
+            "ZAMIESZKAŁE PRZEZ:",
+            "Szczury, Szkielety, Pająki, Trolle,",
+            "Ludzi",
+            "",
+            "NOWA PUŁAPKA:",
+            "Spadający głaz",
+            "",
+            "Kopalnie sprawdzą twoje podstawowe",
+            "umiejętności w lochach, np. zasadzki,",
+            "blokowanie, uważanie na pułapki i",
+            "zarządzanie zapasami żywności.",
+            "",
+            "Unikaj walk, których nie wygrasz i",
+            "wykorzystaj słabości wrogów!"
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "minetown": {
+        "blurb": [
+            "Miejsce wytchnienia w kopalniach,",
+            "ukryte przed Herxem. Uważane za mit",
+            "przez górników z Osady, nie wiadomo,",
+            "czy MIASTO GÓRNICZE zbudowali pełni",
+            "nadziei ludzie czy je odkryli."
+        ],
+        "details": [
+            "SKARBY NA SEKRETNYM POZIOMIE:",
+            "- Cztery losowe sklepy",
+            "- Cztery kufry ze skarbami",
+            "- Garstka Ludzi do zrekrutowania",
+            "",
+            "Dostęp do ukrytych skarbów w Mieście",
+            "Górniczym wymaga sposobu na",
+            "ominięcie bram strzegących jeziora.",
+            "Zaklęcie otwierania, kilofy, czy",
+            "nawet teleport załatwi sprawę.",
+            "",
+            "Cztery sklepy to czterej handlarze.",
+            "To miejsce jest niebezpieczne dla",
+            "źle przygotowanych potworów."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "minotaur maze": {
+        "blurb": [
+            "Mity mówią o labiryncie skrywającym",
+            "artefakty o niezrównanej mocy.",
+            "",
+            "Wysokie ściany i szerokie korytarze",
+            "są idealnie dopasowane do przerażająco",
+            "dużego obrońcy, strzegącego skarbu."
+        ],
+        "details": [
+            "SKARBY NA SEKRETNYM POZIOMIE:",
+            "- Czerwona Mistyczna Kula",
+            "- Gungnir",
+            "",
+            "Najrozsądniej jest wziąć kulę i",
+            "uciec minotaurowi do wyjścia.",
+            "Szukaj dźwigni, jeśli zamknięte",
+            "wrota blokują drogę. Zaklęcia",
+            "otwierania lub kopania mogą pomóc!",
+            "",
+            "Piedestał na końcu labiryntu",
+            "tymczasowo osłabi minotaura po",
+            "umieszczeniu na nim kuli.",
+            "Nie zapomnij później jej odzyskać!"
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "molten throne": {
+        "blurb": [
+            "Siedziba mocy Bafometa. Ten diabeł",
+            "wybrał miejsce, w którym magia łatwiej",
+            "przepływa do wymiaru śmiertelników,",
+            "pozwalając na przenikanie jego mocy.",
+            "",
+            "Inne wymiary mogą sąsiadować z piekłem."
+        ],
+        "details": [
+            "Bafomet jest istotą o wielkiej mocy,",
+            "ale nie spodziewa się, że jakiś śmiałek",
+            "zaatakuje jego królestwo. Baron Herx",
+            "był jego marionetką. Używając go,",
+            "chciał zepsuć świat śmiertelników.",
+            "",
+            "Nawet łapiąc go z zaskoczenia,",
+            "jego mistrzostwo w siarkomancji",
+            "oraz dowodzeniu Demonów i Duchów,",
+            "gwarantuje że łatwo się nie podda.",
+            "",
+            "Jeśli go pokonasz, uważaj na inne",
+            "diabły wysyłające swoje minotaury,",
+            "aby przejąć jego tron dla siebie."
+        ],
+        "details_line_highlights": []
+    },
+    "murky water": {
+        "blurb": [
+            "Większość mieszkańców unika pływania",
+            "w brudnej wodzie płynącej w lochach.",
+            "",
+            "Wypełniona gęstą zgnilizną, unosi się",
+            "na niej prawie wszystko, w tym",
+            "śmiałkowie mający gdzie się udać."
+        ],
+        "details": [
+            "Choć mętna woda jest zazwyczaj",
+            "trywialną przeszkodą, powinieneś",
+            "unikać walki podczas pływania.",
+            "",
+            "Amulet pływaka olimpijskiego",
+            "wyeliminuje problemy związane z",
+            "pływaniem i uratuje Ci życie,",
+            "jeśli musisz szybko uciekać.",
+            "",
+            "Woda gasi pożary i ZMYWA efekty",
+            "polimorfii. Potwory powinny",
+            "upewnić się, że zrobiły zakupy",
+            "zanim wpadną do wody."
+        ],
+        "details_line_highlights": []
+    },
+    "mystic library": {
+        "blurb": [
+            "Gildia Magów nadal utrzymuje",
+            "dziwne połączenie z MISTYCZNĄ",
+            "BIBLIOTEKĄ, kieszonkowym wymiarem",
+            "dostępnym za pomocą magii z ruin",
+            "zakopanych głęboko pod Osadą."
+        ],
+        "details": [
+            "SKARBY NA SEKRETNYM POZIOMIE:",
+            "- Niebieska Mistyczna Kula",
+            "- Kufry z magicznymi rzeczami",
+            "- Garstka Ludzi do zrekrutowania",
+            "",
+            "Biblioteka jest pełna nagród.",
+            "Użyj kopania i lewitacji,",
+            "aby znaleźć ukryte skrzynie.",
+            "",
+            "Skrytki zwojów, Tomów zaklęć i",
+            "Kosturów mogą pomóc wciąż uczącym",
+            "się magom w doszlifowaniu talentu.",
+            "Użytkownicy niemagiczni nadal",
+            "mogą skorzystać z wielu zwojów."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "obelisk": {
+        "blurb": [
+            "Przemierzanie bezkształtnej pustki",
+            "podziemi może być dezorientujące.",
+            "",
+            "Ta kapliczka łapie zagubione dusze",
+            "i przy dotknięciu, przenosi",
+            "je do innej części królestwa."
+        ],
+        "details": [
+            "Obeliski przeniosą Cię w losowe",
+            "miejsca w określonej sekwencji,",
+            "ostatecznie zapętlając się.",
+            "",
+            "Umożliwia to eksplorację",
+            "podziemnego morza otchłani,",
+            "ale także wysyła śmiałków",
+            "bez ostrzeżenia o tym,",
+            "co czeka po drugiej stronie.",
+            "",
+            "Niektórzy szykują mikstury, inni",
+            "skradają się lub podnoszą tarczę.",
+            "Są też tacy co wysyłają towarzysza,",
+            "czekając, czy przeżyje on podróż."
+        ],
+        "details_line_highlights": []
+    },
+    "pits": {
+        "blurb": [
+            "Większość jest na tyle mądra,",
+            "by nie skakać w przepastną OTCHŁAŃ.",
+            "Ci, którzy przeciwstawiają się",
+            "grawitacji, powinni upewnić się,",
+            "że wylądują na twardym gruncie",
+            "albo czeka ich pewna śmierć."
+        ],
+        "details": [
+            "Przepaście często kuszą",
+            "śmiałków nieosiągalnymi",
+            "skarbami po drugiej stronie.",
+            "",
+            "Choć lewitacja to też rozwiązanie,",
+            "często można znaleźć dostęp,",
+            "przekopując się przez ściany lub",
+            "otwierając bramę z drugiej strony.",
+            "",
+            "Doły można wykorzystać jako",
+            "sposób na pozbycie się sprzętu",
+            "dzięki czemu sojusznicy nie",
+            "stracą czasu na przegrzebanie",
+            "stosu przeklętych śmieci."
+        ],
+        "details_line_highlights": []
+    },
+    "portcullis": {
+        "blurb": [
+            "Bronę można przekroczyć dopiero",
+            "po podniesieniu żelaznych krat.",
+            "",
+            "Najczęściej wystarczy pobliska dźwignia,",
+            "ale magia również może załatwić sprawę."
+        ],
+        "details": [
+            "Nie każda brama ma dźwignię,",
+            "która ją obsługuje. Zaklęcie",
+            "otwarcia pozwoli śmiałkom ominąć",
+            "wiele wyzwań i pułapek w lochach.",
+            "",
+            "Tylko minotaur zniszczy bramę,",
+            "więc zamknięcie jej to niezawodny",
+            "sposób na powstrzymanie potworów,",
+            "jeśli potrzebujesz chwili.",
+            "",
+            "Niektóre bramy są zamykane",
+            "za pomocą mechanizmu, a nie",
+            "otwierane. Tych bram nie można",
+            "otworzyć za pomocą magii."
+        ],
+        "details_line_highlights": []
+    },
+    "ruins": {
+        "blurb": [
+            "Nikt nie wie, które starożytne plemię",
+            "zbudowało te zaczarowane RUINY.",
+            "",
+            "Legenda mówi o magicznej katastrofie,",
+            "która wysłała całe miasto do podziemi.",
+            "Być może to jest właśnie to miejsce."
+        ],
+        "details": [
+            "ZAMIESZKAŁE PRZEZ:",
+            "Demony, Gnomy, Młode Wąpierze,",
+            "Strachuny, Uszkodzone Maszyny",
+            "",
+            "NOWA PUŁAPKA:",
+            "Pułapka Magiczna",
+            "",
+            "Otwarte przestrzenie ruin łatwiej",
+            "zwiedza się niż labirynty,",
+            "ale zagrożenie czyha zewsząd.",
+            "Orientacja i świadome działania",
+            "są niezbędne by tutaj przeżyć.",
+            "",
+            "Omiń dziury, by odkryć sekrety."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "shop": {
+        "blurb": [
+            "SKLEP rozpoznasz z kilometra",
+            "nieważne gdzie się znajduje.",
+            "",
+            "Nawet potwory boją się handlarzy",
+            "Natomiast oni sami nie mają nic",
+            "do osób grzebiących im w kufrach."
+        ],
+        "details": [
+            "Rodzaje sklepów:",
+            "- Broń i Zbroje",
+            "- Nakrycia głowy",
+            "- Towary Myśliwskie",
+            "- Garmażerka",
+            "- Eliksirownia",
+            "- Warsztat",
+            "- Cudowne Kostury",
+            "- Biblioteka",
+            "- Jubiler",
+            "- Towary ogólne (Ogólny)",
+            "",
+            "Każdy sklep ma znak oznaczający",
+            "czym handluje. Tylko Wieczorek",
+            "kupi od Ciebie wszystkie towary.",
+            "",
+            "Nie bój się wydawać pieniędzy!",
+            "Sklepy to rzadki luksus, więc",
+            "zaopatruj się w nich i rozwijaj",
+            "tym samym umiejętność Handlu!",
+            "",
+            "Rozwijając handel i charyzmę",
+            "uzyskasz dostęp za kontuar",
+            "co utrzyma Twój sprzęt i zdrowie",
+            "w ryzach. Prywatne zapasy sklepu",
+            "różnią się w zależności od jego",
+            "typu, często uzupełniając",
+            "towary ogólnodostępne w handlu.",
+            "",
+            "Potwory i ludzie ze statusem",
+            "POSZUKIWANY są atakowani od razu",
+            "przez handlarzy. Unikaj obrażeń",
+            "ubocznych, upewniając się,",
+            "że nie znajdujesz się między",
+            "sklepikarzem a jego celem."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "sink": {
+        "blurb": [
+            "Woda ze ZLEWU może zmniejszyć głód,",
+            "ale może też oparzyć, Szlam chowa",
+            "się w rurach a sama hydraulika",
+            "pozostawia wiele do życzenia.",
+            "",
+            "Najlepiej używać pustych flakonów."
+        ],
+        "details": [
+            "CO SIĘ STANIE JAK UŻYJĘ ZLEWU:",
+            "- 60% na Świeżutką Wodę",
+            "- 20% na Oparzenie się",
+            "- 10% na wyciek Szlamu",
+            "- 10% na znalezienie pierścienia",
+            "",
+            "Świeża woda z odpowiednią",
+            "temperaturą, przywróci 1 PŻ. Ci,",
+            "którzy się przejedli powinni",
+            "uważać podczas picia ze zlewu,",
+            "bo mogą się po tym zrzygać.",
+            "",
+            "Jeśli podczas napełniania flakonu",
+            "wyleci śluz, zostanie zebrany kwas."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "sokoban": {
+        "blurb": [
+            "Ci, którzy tu wchodzą, mówią, że",
+            "czują się obserwowani i oceniani,",
+            "jakby poddano ich testowi.",
+            "Cynicy twierdzą, że to sztuczka",
+            "okrutnych bogów, patrzących jak",
+            "śmiertelnicy umierają z głodu."
+        ],
+        "details": [
+            "SKARBY NA SEKRETNYM POZIOMIE:",
+            "- Okowy Dżinolda",
+            "- Fortuna w złocie",
+            "",
+            "Aby rozwiązać to wyzwanie, należy",
+            "zrzucić wszystkie głazy, używając",
+            "eliksiru lub pierścienia siły.",
+            "",
+            "Zepchnięcie wszystkich głazów w",
+            "otchłań da Ci zwycięstwo, nie",
+            "wepchnij je w narożniki, bo",
+            "głazów nie można ciągnąć do siebie!",
+            "",
+            "Nagrody są mniejsze za każdy",
+            "zniszczony głaz, nie oszukuj!"
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "spike trap": {
+        "blurb": [
+            "Ktoś był albo bardzo okrutny, albo",
+            "przerażony czymś olbrzymim,",
+            "kiedy tworzył te brutalne machinacje.",
+            "",
+            "Łatwo je zauważyć i uniknąć...",
+            "Jeśli masz czas, by patrzeć pod nogi."
+        ],
+        "details": [
+            "Kolce zadają 50 obrażeń, niezależnie",
+            "od pancerza lub kondycji ofiary.",
+            "Pułapki z kolcami uruchomią się po",
+            "przejściu po nich, nawet lewitując.",
+            "",
+            "Zneutralizuj kolce, rzucając coś",
+            "na pułapkę. Nie uzbroją się ponownie,",
+            "dopóki przedmiot nie zostanie zdjęty.",
+            "Pomoże to Twoim towarzyszom",
+            "przetrwać podczas ich wędrówek.",
+            "",
+            "Pułapki te są niebezpieczne tylko",
+            "gdy się wysuwają. Podniesione nie",
+            "stanowią zagrożenia, co daje Ci",
+            "więcej czasu na niektóre wyzwania!"
+        ],
+        "details_line_highlights": []
+    },
+    "summoning trap": {
+        "blurb": [
+            "Wzmocniona tajemnymi rytuałami PUŁAPKA",
+            "PRZYWOŁYWACZA w jednej chwili zmieni",
+            "pusty pokój w niebezpieczne pole bitwy.",
+            "",
+            "Bądź ostrożny w pobliżu tych symboli.",
+            "Aktywują się one na wiele sposobów."
+        ],
+        "details": [
+            "Symbol na podłodze sygnalizuje",
+            "obecność tej pułapki, ale",
+            "zbliżenie się do niej, uruchomienie",
+            "dźwigni lub wzięcie ofiary z",
+            "podłogi może rozpocząć przywołanie.",
+            "",
+            "Aktywacji towarzyszą głośne dźwięki",
+            "a same demony materializują się.",
+            "",
+            "Niektórzy gorliwi śmiałkowie lubią",
+            "kusić los, przywołując piekielne",
+            "pomioty do zabicia. To jest spore",
+            "ryzyko, bo nigdy nie wiesz",
+            "jakiego rodzaju walka was czeka."
+        ],
+        "details_line_highlights": []
+    },
+    "swamps": {
+        "blurb": [
+            "Tutejsza gęsta roślinność została",
+            "zniszczona podczas rozbudowy kopalni",
+            "ale hydrofilna flora szybko odrosła.",
+            "",
+            "Niestety, roślinność ta wywołuje",
+            "psychozę i haluny po spożyciu."
+        ],
+        "details": [
+            "ZAMIESZKAŁE PRZEZ:",
+            "Pająki, Gobliny, Szlamy, Ghule, Trolle",
+            "",
+            "NOWA PUŁAPKA:",
+            "Pułapka Strzałkowa",
+            "",
+            "Na Bagnach czyhają nowe zagrożenia.",
+            "Skradanie się pomaga!",
+            "",
+            "Uważaj na Gobliny z kosturami!",
+            "Magiczne odbicie to idealna kontra.",
+            "Jeśli jej nie masz stosuj zasadzki",
+            "lub walcz na dystans i rób uniki.",
+            "Wskocz do wody, aby ugasić płomienie."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "temple": {
+        "blurb": [
+            "Zły bóg wysłuchał modlitw bagiennych",
+            "goblinów i zapewnił im miejsce na",
+            "powierzchni, w którym mogą składać",
+            "krwawe ofiary. Do ŚWIĄTYNI prowadzi",
+            "śmiertelnie niebezpieczna ścieżka."
+        ],
+        "details": [
+            "SKARBY NA SEKRETNYM POZIOMIE:",
+            "- Zielona Mistyczna Kula",
+            "- 4 Eliksiry Siły",
+            "- Ogrom sztuk złota",
+            "- Kilka skrzyń ze skarbami",
+            "",
+            "Niektóre miejsca korzystają z kuli,",
+            "ujawniając więcej skarbów. Pułapki",
+            "Świątyni zablokują dostęp do tych",
+            "obszarów, jeśli odkrywcy będą",
+            "nieostrożni lub uwolnią więźniów.",
+            "",
+            "Planujcie z wyprzedzeniem,",
+            "aby uniknąć pomyłek w Świątyni."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    },
+    "the church": {
+        "blurb": [
+            "KOŚCIOŁ odgrywa bierną rolę kulturową",
+            "póki wszystko jest pod kontrolą.",
+            "",
+            "Klerycy, mnisi i Kościelni działają",
+            "jako organy działania, gdy trzeba",
+            "naprostować ludzkie błędy."
+        ],
+        "details": [
+            "Członkowie kościoła postrzegają",
+            "wydarzenia na świecie jako gobelin",
+            "o wielkim celu i poświęcają się,",
+            "starając się go zrozumieć i utrzymać.",
+            "",
+            "Mając niewielkie ambicje, oficjele",
+            "wycofują się ze spraw publicznych.",
+            "Jednak żadna inna organizacja nie jest",
+            "tak zjednoczona jak Kościół, gdy widzi,",
+            "że bieg historii zostaje zakłócony.",
+            "",
+            "Słudzy kościoła są często praktyczni,",
+            "korzystając z krzepy i magii,",
+            "zapewniają prostotę i użyteczność."
+        ],
+        "details_line_highlights": []
+    },
+    "transition floor": {
+        "blurb": [
+            "Każda warstwa lochów była stopniowo",
+            "odkrywana, gdy górnicy kopali głębiej.",
+            "",
+            "Pomiędzy warstwami utworzyły się",
+            "naturalne szczeliny, które wymagały",
+            "zbudowania mostów, a to trwało."
+        ],
+        "details": [
+            "Na piętrach przejściowych panuje",
+            "dziwny spokój, który sprawia,",
+            "że poszukiwacze przygód odczuwają",
+            "głód znacznie wolniej niż zwykle.",
+            "Idealne miejsce na przerwę.",
+            "",
+            "Ostrzegamy, że mimiki mogą nadal",
+            "zastępować skrzynie ze skarbami.",
+            "",
+            "Przejście między kopalniami",
+            "a bagnami zawiera ukryty portal",
+            "do podziemi. Jeśli ktoś chce",
+            "zaryzykować wizytę, potrzebna",
+            "jest jakaś metoda kopania."
+        ],
+        "details_line_highlights": []
+    },
+    "underworld": {
+        "blurb": [
+            "Te katakumby są pierwszym miejscem",
+            "dla dusz, które niedawno zmarły.",
+            "",
+            "W zależności od tego, jak żyli, inni",
+            "mieszkańcy Zaświatów mogli zrzucić",
+            "ich jeszcze niżej, do Piekła."
+        ],
+        "details": [
+            "ZAMIESZKAŁE PRZEZ:",
+            "Szkielety, Szlamy, Ghule, Chochliki,",
+            "Cienie",
+            "",
+            "SKARBY NA SEKRETNYM POZIOMIE:",
+            "- Khryselakatos (Poziom 7)",
+            "",
+            "Do Zaświatów można wejść dwukrotnie",
+            "przez wejścia na piętrze 5 i 18.",
+            "W obu przypadkach na śmiałków,",
+            "którzy znajdą zapadnię prowadzącą",
+            "na drugie piętro podziemi, czeka",
+            "śmiertelnie niebezpieczna nagroda.",
+            "",
+            "Większość wrogów atakuje na dystans."
+        ],
+        "details_line_highlights": [
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            },
+            {},
+            {
+                "color": {
+                    "r": 198,
+                    "g": 190,
+                    "b": 179,
+                    "a": 255
+                }
+            },
+            {
+                "color": {
+                    "r": 157,
+                    "g": 129,
+                    "b": 93,
+                    "a": 255
+                }
+            }
+        ]
+    }
+}

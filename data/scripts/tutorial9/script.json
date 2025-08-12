@@ -1,0 +1,1903 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},	
+    "script_entries": {
+        "tutorial9a": {
+            "sign": [
+				"Wszystkie te przedmioty",
+				"są zepsute i bezużyteczne.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,2]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/recycle.png",
+				"sizex": 32,
+				"sizey": 32
+				}						
+			]
+        },
+        "tutorial9b": {
+            "sign": [
+				"$",
+				"Żyrobot to mobilny asystent",
+				"każdego mechanika.",
+				"Po uruchomieniu, korzystaj",
+				"z jego umiejętności by",
+				"wykonywał różne zadania."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,2],
+					[],
+					[],
+					[],
+					[1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/gyrobotdeploy.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_gyrobot.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial9c": {
+            "sign": [
+				"Kukła, którą otrzymałeś",
+				"wcześniej była uszkodzona.",
+				"",
+				"Napraw ją, by przetrwać",
+				"tę zastawioną pułapkę.",
+				"Jeśli uległ zepsuciu, to",
+				"musisz [Wytworzyć] nową",
+				"w menu mechanika."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight2_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[],
+					[2],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9d": {
+            "sign": [
+				"Zestawem mechanika",
+				"można naprawiać rzeczy.",
+				"",
+				"To podstawa by utrzymywać",
+				"wytworzone maszyny jak i",
+				"sam zestaw w zadowalającym",
+				"i użytecznym stanie.",
+				"Szanuj swoją narzędziówkę",
+				"bo innej może nie być."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3,4]
+				],
+                "word_highlights2": [
+					[],
+					[1],
+					[],
+					[3],
+					[],
+					[],
+					[1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9e": {
+            "sign": [
+				"INFORMACJA:",
+				"Wpadłeś w tarapaty.",
+				"",
+				"Wajcha otworzy bramę,",
+				"ale również zrzuci głaz",
+				"toczący się w Twoim",
+				"kierunku.",
+				"",
+				"Majsterkuj aby",
+				"to przeżyć."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2],
+					[],
+					[],
+					[3],
+					[0,1,2,3],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/boulder_block.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9f": {
+            "sign": [
+				"Wytworzone pułapki można",
+				"rzucać na ściany i podłogi,",
+				"w gruncie rzeczy można",
+				"nawet na kufry i drzwi.",
+				"",
+				"Rozstawione pułapki nie",
+				"odpalą się na sojuszników,",
+				"no chyba, że pogrzebiesz",
+				"przy nich wytrychem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[3],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/firetrap.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9g": {
+            "sign": [
+				"Użycie Narzędziówki otworzy",
+				"Ci menu mechanika,",
+				"wybierz zakładkę Naprawy.",
+				"Potem ulepsz swój sprzęt.",
+				"",
+				"Twoje maszyny powinny być",
+				"naprawione i ulepszone."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1],
+					[],
+					[1,2],
+					[1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[3],
+					[],
+					[0,1],
+					[0,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9h": {
+            "sign": [
+				"Twoja strategia oraz",
+				"zaradność w majsterkowaniu",
+				"zostanie teraz",
+				"sprawdzona.",
+				"",
+				"Bądź gotów!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1],
+					[0]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9i": {
+            "sign": [
+				"Ilość maszyn jaką możesz",
+				"rozstawić jednocześnie",
+				"opiera się na umiejętności",
+				"mechaniki.",
+				"",
+				"Dobieraj mądrze swoich",
+				"mechanicznych towarzyszy",
+				"i pilnuj ilu już masz."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0,1],
+					[0,1],
+					[3],
+					[0],
+					[],
+					[],
+					[0,1]
+				]
+            },			
+            "variables": []
+		},
+        "tutorial9is": {
+            "sign": [
+				"Możesz złomować rzeczy",
+				"w ekwipunku korzystając",
+				"z menu mechaniki.",
+				"",
+				"Użyj$ na Twoim zestawie",
+				"wybierz [Majsterkuj].",
+				"Potem w zakładce [Odzysk]",
+				"wybierzesz przedmioty,",
+				"z których odzyskasz złom."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0],
+					[0,1],
+					[2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2]				
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/salvage.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}				
+			]			
+        },
+		"tutorial9is_gamepad": {
+            "sign": [
+				"Możesz złomować rzeczy",
+				"w ekwipunku korzystając",
+				"z menu majsterkowania.",
+				"",
+				"Użyj$ na Twoim zestawie",
+				"wybierz [Majsterkuj].",
+				"Potem w zakładce [Odzysk]",
+				"wybierzesz przedmioty,",
+				"z których odzyskasz złom."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0],
+					[0,1],
+					[2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/salvage.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}				
+			]			
+        },
+        "tutorial9j": {
+            "sign": [
+				"Wybierz przedmioty do",
+				"wytworzenia z właściwej",
+				"zakładki w narzędziówce.",
+				"Podejrzyj koszt złomu",
+				"najeżdżając na każdą rzecz.",
+				"",
+				"Czeka na Ciebie test, który",
+				"przetrwasz w zależności od",
+				"wytworzonych przedmiotów."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial9k": {
+            "sign": [
+				"Mając w ręce narzędziówkę",
+				"Użyj$ by uruchomić",
+				"automatyczny odzysk.",
+				"",
+				"Każdy przedmiot",
+				"podniesiony$ zamienisz w",
+				"bardzo przydatny złom."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0],
+					[0,1],
+					[],
+					[],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/autoscrap.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}					
+			]
+        },
+        "tutorial9l": {
+            "sign": [
+				"By natychmiastowo otworzyć",
+				"menu mechaniki mając",
+				"narzędziówkę w ręku,",
+				"przytrzymaj$i wciśnij$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/repair_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
+        },
+        "tutorial9l_gamepad": {
+            "sign": [
+				"By natychmiastowo otworzyć",
+				"menu mechaniki mając",
+				"narzędziówkę w ręku,",
+				"przytrzymaj$i wciśnij$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/repair_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
+        },		
+        "tutorial9m": {
+            "sign": [
+				"Przypomnienie!",
+				"$",
+				"Zestaw mechanika daje",
+				"dostęp do maszyn, pułapek",
+				"oraz rzeczy użytkowych,",
+				"zakładając, że masz dobre",
+				"umiejętności oraz złom."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[0,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_tinkerkit.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial9n": {
+            "sign": [
+				"Wytworzone maszyny",
+				"i pułapki mogą zużyć się",
+				"w trakcie walki.",
+				"Jeśli się nie zepsują, to",
+				"można je wziąć i naprawić.",
+				"",
+				"Ale nawet zepsuty śmieć",
+				"może mieć wartość dla",
+				"mechanika-złomiarza."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[3,4],
+					[2],
+					[],
+					[2,3,4],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9o": {
+            "sign": [
+				"Wieżyczki są kruche",
+				"i mogą szybko zostać",
+				"zniszczone przez wrogów.",
+				"",
+				"Inne przyrządy mogą",
+				"trzymać wrogów na dystans",
+				"pozwalając wieżyczkom",
+				"na swobodny atak."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[2],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2],
+					[0,2,3],
+					[],
+					[1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9p": {
+            "sign": [
+				"$",
+				"Kukły są twarde jak diabli",
+				"i dobre w przyciąganiu",
+				"uwagi przeciwników.",
+				"",
+				"Po prostu miej na uwadze,",
+				"że nie strzelisz nad nimi."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2,3,4]
+				],
+                "word_highlights2": [
+					[],
+					[0,1,2],
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/dummybot.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_dummy.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial9q": {
+            "sign": [
+				"Odzyskasz trochę złomu",
+				"jeśli otworzysz kufer",
+				"wytrychem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/chest_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9q_gamepad": {
+            "sign": [
+				"Odzyskasz trochę złomu",
+				"jeśli otworzysz kufer",
+				"wytrychem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1],
+					[0]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/chest_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },		
+        "tutorial9r": {
+            "sign": [
+				"Pochodnie zapewnią",
+				"stabilny przypływ",
+				"metalowego złomu.",
+				"",
+				"Podszlifujesz swoje",
+				"umiejętności jeśli",
+				"będziesz coś złomował.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1],
+					[],
+					[0,1],
+					[0],
+					[0,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/torcher.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#images/ui/SkillSheet/Icons/Tinkering02_32.png",
+				"sizex": 32,
+				"sizey": 32
+				}					
+			]
+        },
+        "tutorial9re": {
+            "sign": [
+				"Wprawni mechanicy",
+				"mogą otrzymać dodatkowe",
+				"sztuki złomu podczas",
+				"odzysku/złomowania."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[2],
+					[0,1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial9s": {
+            "sign": [
+				"$",
+				"Nie masz broni dystansowej",
+				"albo broni miotanej.",
+				"Ale wieżyczka może walczyć",
+				"z wrogiem w Twoim imieniu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/sentry.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_sentry.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial9t": {
+            "sign": [
+				"$",
+				"Wnyki rozkłada się",
+				"na podłodze używając$ .",
+				"Wróg, który wejdzie w nie",
+				"zostaje unieruchomiony,",
+				"stając się łatwym celem",
+				"przez krótki okres czasu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0,2]
+				],
+                "word_highlights2": [
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_beartrap.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}						
+			]
+        },
+        "tutorial9u": {
+            "sign": [
+				"Te drzwi są zamknięte.",
+				"",
+				"$ ",
+				"Zamknięte kufry i drzwi",
+				"można roztrzaskać, ale",
+				"użycie wytrycha jest",
+				"o wiele szybsze im",
+				"wyższa mechanika."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1],
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/lockpick.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/spells/locking.png",
+				"sizex": 32,
+				"sizey": 32
+				}				
+			]
+        },
+        "tutorial9v": {
+            "sign": [
+				"$  $",
+				"",
+				"Zezłomowane przedmioty dają",
+				"magiczny i metalowy złom.",
+				"",
+				"Magiczny złom jest rzadszy,",
+				"i przydaje się do bardziej",
+				"kompleksowych czynności."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1,3,4]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#items/images/metal_scrap.png",
+				"sizex": 32,
+				"sizey": 32
+				},
+				{
+				"type": "image",
+				"value": "*#items/images/magic_scrap.png",
+				"sizex": 32,
+				"sizey": 32
+				}						
+			]
+        },
+        "tutorial9w": {
+            "sign": [
+				"$",
+				"Użyj$ by dawać rozkazać.",
+				"Dezaktywuj i zbierz",
+				"maszyny ze sobą by dalej",
+				"z nich korzystać."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2],
+					[]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/deactivate_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_deactivate.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}				
+			]
+        },
+        "tutorial9w_gamepad": {
+            "sign": [
+				"$",
+				"Użyj$ by dawać rozkazać.",
+				"Dezaktywuj i zbierz",
+				"maszyny ze sobą by dalej",
+				"z nich korzystać."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2],
+					[]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/deactivate_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_deactivate.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}				
+			]
+        },		
+        "tutorial9x": {
+            "sign": [
+				"$",
+				"Szumidła to proste ale",
+				"użyteczne narzędzia",
+				"dzieła mechaników.",
+				"Użyj ich by wabić potwory",
+				"we wskazane miejsce."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0],
+					[],
+					[],
+					[3,4],
+					[0,1,2]
+				]
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_noisemaker.png",
+				"sizex": 0,
+				"sizey": 0
+				}					
+			]
+        },
+        "tutorial9y": {
+            "sign": [
+				"Większość wytworzonych",
+				"maszyn i pułapek używa się",
+				"tak jak zwykłej broni.",
+				"",
+				"Użyj$ by rozstawić je",
+				"przed Tobą."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,2],
+					[],
+					[],
+					[0,2,3]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/deploy.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
+        },
+        "tutorial9z": {
+            "sign": [
+				"Za tą bramą czyha sobie",
+				"hruby Troll",
+				"na walkę, z którym",
+				"nie jesteś przygotowany.",
+				"",
+				"Użyj tego co masz",
+				"by go bezpiecznie ominąć.",
+				"Pamiętaj by trzymać się",
+				"na dystans!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[3],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/noisemaker.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9ab": {
+            "sign": [
+				"Tę wajchę trzeba",
+				"przesunąć parokrotnie",
+				"by zadziałała.",
+				"",
+				"W związku z powyższym",
+				"Po jakimś czasie",
+				"sama się wyłączy."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[0,1,2]
+					
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/timedlever.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9ac": {
+            "sign": [
+				"Maszyny i pułapki, które",
+				"zebrałeś mogą okazać się",
+				"przydatne do obrony",
+				"przeciw wrogom.",
+				"",
+				"Spowolnij ich,",
+				"a potem zwab wprost",
+				"w szpony Papy Śmierci."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[2],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9ace": {
+            "sign": [
+				"$",
+				"Rozkaż Żyrobotowi, żeby",
+				"[Wrócił i Wylądował] jeśli",
+				"dłużej nie potrzebujesz",
+				"już jego wsparcia."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/land.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_land.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },		
+        "tutorial9ad": {
+            "sign": [
+				"Nieumarli wewnątrz",
+				"tych cel tutaj",
+				"muszą zostać zabici",
+				"abyś przeszedł dalej.",
+				"",
+				"Pociągnij za wajchę jeśli",
+				"już się przygotowałeś."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0],
+					[],
+					[0,1,2],
+					[],
+					[],
+					[3],
+					[1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9ae": {
+            "sign": [
+				"Wieżyczki swobodnie skanują",
+				"teren w poszukiwaniu celu.",
+				"$",
+				"Każ im [Spojrzeć na...]",
+				"używając$ i wskazując",
+				"właściwy kierunek."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[2,3],
+					[0,1,2],
+					[0,1]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/lookat_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_lookat.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}						
+			]
+        },
+        "tutorial9ae_gamepad": {
+            "sign": [
+				"Wieżyczki swobodnie skanują",
+				"teren w poszukiwaniu celu.",
+				"$",
+				"Każ im [Spojrzeć na...]",
+				"używając$ i wskazując",
+				"właściwy kierunek."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[2,3],
+					[0,1,2],
+					[0,1]
+				],
+                "word_highlights2": [],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/lookat_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_lookat.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}						
+			]
+        },		
+        "tutorial9af": {
+            "sign": [
+				"$ $ $",
+				"Twój Żyrobot może podnosić",
+				"lub [Używać] rzeczy.",
+				"",
+				"Każ mu [Iść do] miejsca,",
+				"z którego możesz podnieść",
+				"przedmiot, który [Upuści]."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[3],
+					[1,2],
+					[],
+					[3,4],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[0,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/retrieve.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_interact.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_move.png",
+				"sizex": 0,
+				"sizey": 0
+				},
+				{
+				"type": "image",
+				"value": "*#data/scripts/tutorial9/sign_drop.png",
+				"sizex": 0,
+				"sizey": 0
+				}				
+			]
+        },
+        "tutorial9ag": {
+            "sign": [
+				"Zaawansowany Żyrobot",
+				"może rozkładać pułapki",
+				"komendą [Upuść].",
+				"",
+				"Mogą również wejść",
+				"w interakcję z dźwigniami",
+				"i rozłożonymi pułpakami."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+					
+				]
+            },
+            "variables": []
+        },
+        "tutorial9ah": {
+            "sign": [
+				"Rozstawiony Żyrobot",
+				"rozpozna maszyny-kolegów",
+				"i zabierze ich ze sobą",
+				"na kolejne piętro jeśli",
+				"zostawisz je za sobą.",
+				"",
+				"Podczas, gdy wrogowie",
+				"ignorują Żyroboty, same",
+				"mogą paść ofiarą pułapek."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9ai": {
+            "sign": [
+				"OSTRZEŻENIE:",
+				"",
+				"Rozłożone maszyny nie",
+				"przejdą z Tobą przez ten",
+				"portal. Zbierz te, które",
+				"chcesz zabrać ze sobą",
+				"To portal w jedną stronę,",
+				"z którego nie wrócisz."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial9aj": {
+            "sign": [
+				"Uruchom wajchę",
+				"na końcu tej platformy",
+				"a zaczną atakować",
+				"Cię przeróżne potwory.",
+				"Użyj nabytej wiedzy",
+				"by przetrwać tę nawałnicę",
+				"a wtedy otworzą się wrota."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[1,2]
+				],
+                "word_highlights2": [
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial9/necrotron.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial9ajz": {
+            "sign": [
+				"PRZYPOMNIENIE:",
+				"Twoje wieżyczki będą",
+				"strzelać do wykrytych",
+				"wrogów, nawet jeśli",
+				"na drodze stoi sojusznik.",
+				"",
+				"Ustaw kukły oraz",
+				"swój zadek",
+				"odpowiednio. :)"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+				"font_highlight_color": {
+					"r": 255,
+					"g": 64,
+					"b": 64,
+					"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": [
+					[0],
+					[],
+					[0],
+					[],
+					[],
+					[],
+					[1],
+					[0,1],
+					[1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial9ak": {
+            "sign": [
+				"Podróżnicy skupiający się",
+				"na mechanice, będą",
+				"mieli dużą strategiczną",
+				"przewagę w lochach."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        }
+    }
+}

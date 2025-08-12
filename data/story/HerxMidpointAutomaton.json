@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    	"Po pokonaniu Barona i umieszczeniu jego fioletowej kuli na cokole,\n",
+    	"wkraczasz do portalu. Potężna magia daje Ci po kablach i obwodach.\n^",
+    	"Twoje ciało przeniosło się z białym błyskiem.^ Znajdujesz się na zewnątrz\n",
+    	"kopalni i patrzysz jak słabe warunki pogodowe szybko się poprawiają.\n",
+    	"Ciepłe światło słoneczne przepływa nad okolicą. Gdy drzwi kopalni otworzyły się,\n",
+    	"szeroko ludzie wybiegli na ulice. Wyglądają na bardzo zadowolonych.\n^",
+    	"*3Przechadzasz się do Gildii Magów z zapytaniem dotyczącym Kuli Herxa.\n",
+    	"Odźwierny odmawia Ci wstępu, najwyraźniej widząc ślady mocnego zużycia.\n",
+    	"Instruuje cię on, abyś poszukał mechanika w karczmie i wrócił jutro.\n",
+		"Wracasz na ulice i zastajesz czekającą na Ciebie setkę ludzi.\n",
+		"Najwyraźniej chcą, żebyś przyłączył się do ich obrządków. Chociaż nie masz\n",
+		"zainstalowanego modułu imprezowego, ludzie wciągają cię w usługi rozrywkowe.\n",
+		"*2W końcu ludzie stonują swoje zachowanie i będziesz mógł powrócić do swojej\n",
+		"głównej misji - wizyty w Gildii Magów..."
+    ],
+    "images": [
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/white.png",
+	"*images/ui/Main Menus/Story/Hamlet_Rescue.png",
+	"*images/ui/Main Menus/Story/MagiciansGuild.png",
+	"*images/ui/Main Menus/Story/black.png"
+    ]
+}

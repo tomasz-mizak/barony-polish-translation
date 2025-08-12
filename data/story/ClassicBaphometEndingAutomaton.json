@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    	"*3Wyrąbując sobie ścieżkę przez każdego demona na swojej drodze,\n",
+	"bez chwili wahania przeskakujesz przez portal. Nie ważne kto, śmiertelnik\n",
+	"czy Bóg, nikt nie może stawić Ci teraz czoła.\n^",
+	"*3Nagle stajesz zmęczony w niekończącej się białej sali usianej ogromnymi filarami,\n",
+	"które rozciągają się wyżej, niż widzisz. Twoje serwomotory\n",
+	"są zbyt zużyte by pozwolić Ci iść dalej, upadasz z hukiem na podłogę.\n",
+	"*2Czy to nieludzkie miejsce może konkurować z Minotaurem, Demonami;\n",
+	"Choćby samym Bafometem? Wyczuwasz jak do pomieszczenia napływa potężna magia.\n^",
+	"*2Nagle rozlega się głos: \"Jesteśmy pod wrażeniem twoich osiągnięć, Maszyno.\n",
+	"Nie spodziewaliśmy się Ciebie tutaj. Prosimy o rozważenie tej propozycji...\"\n^",
+	"*3Gdy głos zwraca się do Ciebie, okazuje się, że albo nie chcesz lub nie możesz\n",
+	"odrzucić tego, co Ci mówi. Nagle wykrywasz przeniesienie swojej świadomości\n",
+	"i czujesz, że twoje ciało jest transportowane na dużą odległość.\n^",
+	"*3Kiedy opuszczasz świat śmiertelników, wyczuwasz najwyższą moc wielkiego umysłu.\n",
+	"Pierwszy wiek dobiega końca a zaczyna się wiek chaosu. Jesteś pewny, że\n",
+	"twój czas jest bliski i twój cel zostanie spełniony."
+    ],
+    "images": [
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/NoEternals.png",
+	"*images/ui/Main Menus/Story/Eternals.png",
+	"*images/ui/Main Menus/Story/white.png",
+	"*images/ui/Main Menus/Story/black.png"
+    ]
+}

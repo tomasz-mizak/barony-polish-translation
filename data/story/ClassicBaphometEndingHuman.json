@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    	"*3Wyrąbując sobie ścieżkę przez każdego demona na swojej drodze,\n",
+	"bez chwili wahania przeskakujesz przez portal. Wszędzie jest lepiej niż tutaj;\n",
+	"A przynajmniej tak myślisz.\n^",
+	"*3Nagle stajesz zmęczony w niekończącej się białej sali usianej ogromnymi filarami,\n",
+	"które rozciągają się wyżej, niż widzisz. Z wyczerpania odrzucasz broń,\n",
+	"i idziesz chwiejnym krokiem przed siebie.\n",
+	"*2Z pewnością, gdyby coś się teraz wydarzyło, to byłby Twój kres.\n",
+	"Jednak bez wyjaśnienia nagle czujesz, że odzyskujesz moc. Nagle rozlega się głos:\n^",
+	"*3\"Uszanowanie, człowieku. Byliśmy świadkami Waszych prób i udręk i jesteśmy\n",
+	"pod nieskończonym wrażeniem Waszego hartu ducha i siły woli. Dlatego mamy\n",
+	"dla Ciebie pewną propozycję...\"^",
+	"*3Gdy głos zwraca się do Ciebie, okazuje się, że albo nie chcesz lub nie możesz\n",
+	"odrzucić tego, co Ci mówi. W końcu następuje niewytłumaczalna zmiana w twojej\n",
+	"śmiertelnej istocie i czujesz jakbyś zanikał...\n^",
+	"*3\"Zło znika ze świata śmiertelników, a jego Strażnik spoczywa. Pierwszy wiek\n",
+	"dobiega końca a zaczyna się wiek chaosu. Teraz odpocznij, bohaterze:\n",
+	"Twój czas nadejdzie ponownie.\""
+    ],
+    "images": [
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/NoEternals.png",
+	"*images/ui/Main Menus/Story/Eternals.png",
+	"*images/ui/Main Menus/Story/white.png",
+	"*images/ui/Main Menus/Story/black.png"
+    ]
+}

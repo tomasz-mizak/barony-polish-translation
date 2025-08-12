@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    	"Po pokonaniu Barona i umieszczeniu jego fioletowej kuli na cokole,\n",
+    	"wkraczasz do portalu. Potężna magia wywołuje mrowienie w całym ciele.\n^",
+    	"Zostajesz przeniesiony z białym błyskiem.^ Wychodzisz na zewnątrz\n",
+    	"kopalni i patrzysz, jak przeklęta czerń odrywa się od ziemi.\n",
+    	"Ciepłe światło słoneczne przepływa nad okolicą. Gdy drzwi kopalni otworzyły się,\n",
+    	"szeroko, ludzie ostrożnie wyszli na ulice, przyzwyczajając się do wolności.\n^",
+    	"Pędzisz do pobliskich budynków, szukając miejsca do ukrycia i obmyślenia\n",
+		"kolejnego ruchu. Jest tu zbyt wielu ludzi, jak na twój gust.\n^",
+		"Włamujesz się do czegoś, co wygląda na karczmę. Nocujesz przykryty pościelą\n",
+		"w wygodnym łóżku, a otaczają Cię odgłosy karczemnej hulanki i swawoli.\n^",
+		"Kiedy ludzie imprezują w hostelu, słyszysz o mocy jeszcze większej\n",
+		"niż Herxchaven, podobno trzymanej w Gildii Magów...\n^",
+		"Zapadnia w sypialni prowadzi do ścieków płynących pod miastem..\n",
+		"Teraz czekasz, aż ludzie odejdą..."
+    ],
+    "images": [
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/white.png",
+	"*images/ui/Main Menus/Story/Hamlet_Rescue.png",
+	"*images/ui/Main Menus/Story/MagiciansGuild.png",
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/PowerWaiting.png",
+	"*images/ui/Main Menus/Story/black.png"
+    ]
+}

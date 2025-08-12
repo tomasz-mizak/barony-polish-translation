@@ -1,0 +1,1320 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+        "tutorial5a": {
+            "sign": [
+				"Drzwi, meble oraz kufry",
+				"mogą blokować przejście.",
+				"Ataki wręcz zniszczą je",
+				"tak samo jak kule ognia",
+				"wrogowie, oraz głazy.",
+				""
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[2],
+					[3,4],
+					[]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial5/furniture.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial5b": {
+            "sign": [
+				"Z aktywnymi zaklęciami,",
+				"dzierżonymi tomami oraz",
+				"kosturami, uzyskujesz",
+				"dostęp do szerokiej gamy",
+				"zaklęć natychmiastowo.",
+				"",
+				"$ $ $"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[1,2],
+					[0,1],
+					[0],
+					[],
+					[1]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#items/images/SpellbookGreen.png",
+					"sizex": 36,
+					"sizey": 36
+				},
+				{
+					"type": "image",
+					"value": "*#items/images/spells/forcebolt.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#items/images/RedMysticStaff.png",
+					"sizex": 36,
+					"sizey": 36
+				}						
+			]
+        },
+        "tutorial5c": {
+            "sign": [
+				"Użyj swojej znajomości",
+				"magii by wyczyścić to",
+				"pomieszczenie z wrogów."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,2],
+					[0,1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial5d": {
+            "sign": [
+				"Możesz automatycznie",
+				"dzierżyć różne tomy",
+				"zaklęć przypinając je",
+				"do paska szybkiego wyboru.",
+				"",
+				"By dzierżyć tom zaklęć",
+				"bezpośrednio z paska",
+				"i rozpoznać różnice,",
+				"przytrzymaj$ przed użyciem."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[0,1,2],
+					[],
+					[3,4],
+					[],
+					[],
+					[],
+					[],
+					[0]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2],
+					[2]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#images/ui/Glyphs/KeyboardGlyphs/Rendered/NamedKeys/Unpressed_Text_Alt_00.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },
+        "tutorial5d_gamepad": {
+            "sign": [
+				"Możesz dzierżyć",
+				"skomplikowane tomy lub",
+				"te już wyuczone przez",
+				"Ciebie, poprzez użycie",
+				"paska szybkiego wyboru.",
+				"",
+				"Niektóre zaklęcia są",
+				"mocniejsze jeśli rzucisz",
+				"czar bezpośrednio z tomu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[1],
+					[],
+					[],
+					[2],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial5e": {
+            "sign": [
+				"Te zwoje usuną klątwę",
+				"z Twoich przedmiotów.",
+				"Użyj ich w ekwipunku",
+				"wciskając$ .",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0],
+					[0]
+				],
+                "word_highlights2": [
+					[2],
+					[2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial5/sign_cursed.png",
+					"sizex": 0,
+					"sizey": 0
+				}						
+			]
+        },
+		"tutorial5e_gamepad": {
+            "sign": [
+				"Te zwoje usuną klątwę",
+				"z Twoich przedmiotów.",
+				"Użyj ich w ekwipunku",
+				"wciskając$ .",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0],
+					[0]
+				],
+                "word_highlights2": [
+					[2],
+					[2]
+				]
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				},
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial5/sign_cursed.png",
+					"sizex": 0,
+					"sizey": 0
+				}						
+			]
+        },
+        "tutorial5f": {
+            "sign": [
+				"Niski poziom Inkantacji",
+				"spowoduje przekręcenie.",
+				"zaklęcia",
+				"$",
+				"",
+				"Próbuj aż do skutku!",
+				"W końcu się tego nauczysz."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},							
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[1]
+				],
+                "word_highlights2": [
+					[1,2],
+					[],
+					[0],
+					[],
+					[],
+					[0,1,2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial5/fizzle.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#images/ui/SkillSheet/Icons/Casting02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				}			
+			]
+        },
+        "tutorial5g": {
+            "sign": [
+				"Lochy skrywaja wiele",
+				"sekretów. Niektóre będą",
+				"wymagać specjalnych",
+				"umiejętności.",
+				"Często, skrywają się",
+				"tam warte uwagi skarby."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0],
+					[1],
+					[0],
+					[],
+					[1,2,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial5h": {
+            "sign": [
+				"Tomy zaklęć, wyuczone",
+				"czary, zwoje oraz kostury",
+				"zapewnią wiele sposobów",
+				"Czarownikowi by przetrwać.",
+				"Z tą wiedzą sprawisz, że",
+				"lochy będą placem zabaw."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial5i": {
+            "sign": [
+				"Tomy zaklęć pozwalają Ci",
+				"zapamiętać dany czar.",
+				"",
+				"$",
+				"",
+				"Użyj tomu zaklęć w plecaku",
+				"wciskając$ i [Czytaj]",
+				"by wyuczyć się zaklęcia."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2],
+					[0,1,2],
+					[1,2]					
+				],
+                "word_highlights2": [
+					[0,1],
+					[0,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#images/ui/SkillSheet/Icons/Magic02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}				
+			]
+        },
+		"tutorial5i_gamepad": {
+            "sign": [
+				"Tomy zaklęć pozwalają Ci",
+				"zapamiętać dany czar.",
+				"",
+				"$",
+				"",
+				"Użyj tomu zaklęć w plecaku",
+				"wciskając$ i [Czytaj]",
+				"by wyuczyć się zaklęcia."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2],
+					[0,1,2],
+					[1,2]					
+				],
+                "word_highlights2": [
+					[0,1],
+					[0,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#images/ui/SkillSheet/Icons/Magic02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}				
+			]
+        },
+        "tutorial5j": {
+            "sign": [
+				"$",
+				"Kostury są naładowane",
+				"zaklęciem jednego rodzaju,",
+				"z którego może korzystać",
+				"każdy. Wyposaż je i rzucaj",
+				"zaklęcia wciskając$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+					
+				],
+                "word_highlights2": [
+					[],
+					[0,2],
+					[],
+					[2,3],
+					[0]
+				]
+            },
+            "variables": [			
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial5/sign_firestaff.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}				
+			]
+        },
+        "tutorial5k": {
+            "sign": [
+				"Podróżnicy muszą rozumieć",
+				"co robią jakie zaklęcia,",
+				"jeśli chcą przetrwać",
+				"zagrożenia w lochach."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial5l": {
+            "sign": [
+				"Niektóre czary wymagają",
+				"więcej INT i umiejętności",
+				"Magii by je zapamiętać.",
+				"",
+				"$ $",
+				"",
+				"Pomimo tego możesz ciągle",
+				"rzucać te czary dzierżąc",
+				"w swoich rekach tom zaklęć."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+				],
+                "word_highlights2": [
+					[1],
+					[1,3],
+					[0],
+					[],
+					[],
+					[],
+					[3,4]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/SkillSheet/Icons/Magic01.png",
+					"sizex": 0,
+					"sizey": 0
+				}							
+			]
+        },
+        "tutorial5m": {
+            "sign": [
+				"Wyuczone zaklęcia pojawią",
+				"się na liście zaklęć, można",
+				"je przypiąć je do paska.",
+				"$",
+				"Dostęp do listy uzyskasz",
+				"wciskając$ i przygotowując",
+				"zaklęcie wciskając$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[2],
+					[0,1,2],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[0,1],
+					[2,3],
+					[],
+					[3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial5/magiclist_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial5/sign_readyspell.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Spell List"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				}				
+			]
+        },
+        "tutorial5m_gamepad": {
+            "sign": [
+				"Wyuczone zaklęcia pojawią",
+				"się na liście zaklęć, można",
+				"je przypiąć je do paska.",
+				"",
+				"$",
+				"Dostęp do listy uzyskasz",
+				"wciskając$ i przygotowując",
+				"zaklęcie wciskając$ ."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2],
+					[0,1,2],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[0,1],
+					[2,3],
+					[],
+					[3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial5/magiclist_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial5/sign_readyspell.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuPageLeftAlt"
+				},
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				}				
+			]
+        },		
+        "tutorial5n": {
+            "sign": [
+				"Rzuć przygotowane",
+				"zaklęcie wciskając$.",
+				"",
+				"Rzucanie zaklęć zabiera PM,",
+				"ilość zależy od zaklęcia."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[1]
+				],
+                "word_highlights2": [
+					[1],
+					[],
+					[],
+					[2,3]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial5/cast_memorized.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Cast Spell"
+				}			
+			]
+        },
+        "tutorial5o": {
+            "sign": [
+				"Wciśnij$ na tomie",
+				"w Twoim ekwipunku",
+				"i wybierz opcję [Dzierż]",
+				"by je wyekwipować.",
+				"",
+				"Rzucaj zaklęcie z tomu",
+				"w dłoni wciskając$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,2],
+					[],
+					[2,3],
+					[2],
+					[],
+					[0,1],
+					[2]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuRightClick"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				}				
+			]
+        },
+		"tutorial5o_gamepad": {
+            "sign": [
+				"Wciśnij$ na tomie",
+				"w Twoim ekwipunku",
+				"i wybierz opcję [Dzierż]",
+				"by je wyekwipować.",
+				"",
+				"Rzucaj zaklęcie z tomu",
+				"w dłoni wciskając$."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,2],
+					[],
+					[2,3],
+					[2],
+					[],
+					[0,1],
+					[2]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "MenuConfirm"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				}				
+			]
+        },
+        "tutorial5p": {
+            "sign": [
+				"$",
+				"Zwoje zawierają",
+				"specjalny rodzaj magii,",
+				"można go użyć tylko",
+				"i wyłącznie jednorazowo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0],
+					[],
+					[2],
+					[2]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial4/sign_scroll.png",
+					"sizex": 0,
+					"sizey": 0
+				}			
+			]
+        },
+        "tutorial5q": {
+            "sign": [
+				"Tę bramę otworzysz",
+				"jedynie zaklęciem z tomu",
+				"trzymanego w dłoni.",
+				"",
+				"$ $"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[2],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial5/open_mk.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				},
+				{
+					"type": "image",
+					"value": "*#items/images/spells/opening.png",
+					"sizex": 0,
+					"sizey": 0
+				}				
+			]
+        },
+        "tutorial5q_gamepad": {
+            "sign": [
+				"Tę bramę otworzysz",
+				"jedynie zaklęciem z tomu",
+				"trzymanego w dłoni.",
+				"",
+				"$ $"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[2],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial5/open_gamepad.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				},
+				{
+					"type": "image",
+					"value": "*#items/images/spells/opening.png",
+					"sizex": 0,
+					"sizey": 0
+				}				
+			]
+        },		
+        "tutorial5r": {
+            "sign": [
+				"Czasem będziesz musiał",
+				"szybko myśleć, by wycisnąć",
+				"jak najwięcej z posiadanej",
+				"przez Ciebie magii.",
+				"",
+				"Przygotuj się!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial5s": {
+            "sign": [
+				"Aktywuj ten magiczny",
+				"portal wciskając$ jeśli",
+				"się już przygotowałeś."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[1]
+				],
+                "word_highlights2": []
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Use"
+				}				
+			]
+        },
+        "tutorial5t": {
+            "sign": [
+				"Kapelusze czarnoksiężnika",
+				"zwiększą INT, a więc też",
+				"Twoje umiejętności magiczne.",
+				"$",
+				"Jeśli będzie błogosławiony",
+				"to bonus będzie większy."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1],
+					[1,2],
+					[],
+					[2],
+					[1,3]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial5/sign_wizardhat.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },
+        "tutorial5u": {
+            "sign": [
+				"Lewitacja",
+				"",
+				"$ ",
+				"",
+				"Pozwoli podróżnikowi",
+				"unosić się nad cieczą oraz",
+				"przepastnymi otchłaniami"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,3],
+					[0,1]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#items/images/spells/levitation.png",
+					"sizex": 0,
+					"sizey": 0
+				}			
+			]
+        },
+        "tutorial5v": {
+            "sign": [
+				"Zwój Ładowania",
+				"$ ",
+				"Kostury mogą być",
+				"naładowane ponownie",
+				"dzięki temu zwojowi."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0],
+					[0],
+					[]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial5/sign_recharge.png",
+					"sizex": 0,
+					"sizey": 0
+				}				
+			]
+        },
+        "tutorial5w": {
+            "sign": [
+				"Podtrzymane zaklęcia",
+				"są ciągle aktywne i",
+				"zużywają PM na bieżąco.",
+				"",
+				"$",
+				"",
+				"By je zdezaktywować",
+				"rzuć czar ponownie."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[2],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[0,1],
+					[0],
+					[2,3]				
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial5/sustained.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#items/images/spells/light.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        },
+        "tutorial5x": {
+            "sign": [
+				"Sen",
+				"",
+				"$ ",
+				"",
+				"Sprawia, że cel zapada",
+				"w sen na krótki czas.",
+				"Spiące cele obudzą się",
+				"jeśli ich zaatakujesz."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[2],
+					[3,4],
+					[],
+					[2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial5/sleep.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#items/images/spells/sleep.png",
+					"sizex": 0,
+					"sizey": 0
+				}			
+			]
+        },
+        "tutorial5y": {
+            "sign": [
+				"$$",
+				"PM regenerują się co",
+				"jakiś czas (RGN), lub",
+				"możesz wypić eliksir",
+				"przywracający natychmiast",
+				"sporo punktów many."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0,1,2],
+					[2],
+					[],
+					[0,1],
+					[0,1,2]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial5/sign_restoremp.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_REGEN_00.png",
+					"sizex": 0,
+					"sizey": 0
+				}		
+			]
+        },
+        "tutorial5z": {
+            "sign": [
+				"Mróz",
+				"",
+				"$ ",
+				"",
+				"Zadaje obrażenia",
+				"i spowalnia cel"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[],
+					[1],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial5/cold.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#items/images/spells/cold.png",
+					"sizex": 0,
+					"sizey": 0
+				}					
+			]
+        }
+    }
+}

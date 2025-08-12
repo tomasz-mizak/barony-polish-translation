@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "press_a_to_advance": true,
+    "text": [
+    "*3Odnosząc zwycięstwo wkraczasz do portalu. Nie wiesz, czego oczekiwać,\n",
+    "ale ogarnia Cię ulga. Oczekujesz, że źródło mocy Barona Herxchavena\n",
+	"jest na wyciągnięcie ręki.\n^",
+	"*3W oka mgnieniu ponownie stajesz przed kopalniami.\n",
+	"Ale coś się zmieniło; uwodzicielska moc, którą tu wyczułeś, jest o wiele dalej.\n",
+	"Czarne niebo się przejaśnia, ukazując światło dnia.\n^",
+	"*3Nagle drzwi do kopalni otwierają się szeroko. Zapieczętowane przez stulecia,\n",
+	"by powstrzymać wewnętrzne zło, wychodzą z wnętrza, gdy wybiega setka wdzięcznych\n",
+	"ludzi. Wygląda na to, że moc Barona wymknęła Ci się z rąk.\n^",
+	"*4Piekielne źródło tej ciemnej mocy pozostaje dla ciebie tajemnicą, \n",
+	"a podsłuchiwanie ukradkiem nasuwa Ci wniosek, że Gildia Magów może mieć\n",
+	"jakiś trop w sprawie czarnej magii. Na razie postanawiasz opuścić tę krainę.\n",
+	"Wrócisz innym razem, aby poznać i wykorzystać tajemnice Osady..."
+    ],
+    "images": [
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/intro4.png",
+	"*images/ui/Main Menus/Story/Hamlet_Rescue.png",
+	"*images/ui/Main Menus/Story/MagiciansGuild.png"
+    ]
+}

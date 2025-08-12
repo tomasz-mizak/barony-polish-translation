@@ -1,0 +1,765 @@
+{
+    "version": 1,
+	"default_attributes": {
+		"font_color": {
+			"r": 239,
+			"g": 237,
+			"b": 235,
+			"a": 255
+		},
+		"font_outline_color": {
+			"r": 50,
+			"g": 29,
+			"b": 25,
+			"a": 255
+		},
+		"font_highlight_color": {
+			"r": 18,
+			"g": 196,
+			"b": 131,
+			"a": 255
+		},
+		"font_highlight2_color": {
+			"r": 64,
+			"g": 192,
+			"b": 255,
+			"a": 255
+		}
+	},
+    "script_entries": {
+        "tutorial6a": {
+            "sign": [
+				"Będąc niewidzialnym,",
+				"wróg dalej może Cię",
+				"wykryć jeśli podejdziesz",
+				"zbyt blisko, zwłaszcza",
+				"jeśli go zaatakujesz.",
+				"",
+				"$ "
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[0,2],
+					[],
+					[2]
+				],
+                "word_highlights2": [
+					[1]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#items/images/spells/invisible.png",
+					"sizex": 0,
+					"sizey": 0
+				}			
+			]
+        },
+        "tutorial6b": {
+            "sign": [
+				"Zniszcz szkielety",
+				"na dziedzińcu",
+				"po Twojej prawej.",
+				"",
+				"Potem otworzy się",
+				"brama po Twojej",
+				"lewej stronie."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[2],
+					[],
+					[],
+					[0],
+					[0]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6c": {
+            "sign": [
+				"Pamiętaj o podatności",
+				"na typ broni kiedy",
+				"atakujesz z ukrycia.",
+				"$",
+				"Bądź gotów by znów",
+				"uderzyć po ciosie",
+				"rozpoczynającym walkę!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1,2],
+					[],
+					[0,1],
+					[0],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/swordmace.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial6/sign_ironmace.png",
+					"sizex": 0,
+					"sizey": 0
+				}
+			]
+        },
+        "tutorial6d": {
+            "sign": [
+				"Zwróć uwagę na kierunek",
+				"w jakim patrzy wróg",
+				"i wymierz wtedy swój",
+				"skrytobójczy atak.",
+				"",
+				"Nie musisz się skradać",
+				"kiedy Twój wróg jest",
+				"odwrócony plecami!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[3],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/backturned.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial6do": {
+            "sign": [
+				"Kryształowy odłamek",
+				"to słaba pochodnia",
+				"która nigdy się nie",
+				"wypali, ale jest krucha.",
+				"",
+				"Kara do widoczności",
+				"z takich odłamków",
+				"jest warta połowę",
+				"normalnej kary pochodni."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},	
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[3],
+					[0,3],
+					[],
+					[0,1,2]
+				],
+                "word_highlights2": [
+					[0,1],
+					[2],
+					[1],
+					[],
+					[],
+					[],
+					[],
+					[1]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial6e": {
+            "sign": [
+				"Podróżnicy muszą",
+				"korzystać z ukrycia",
+				"by zyskać przewagę oraz",
+				"przetrwać w lochach."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[2],
+					[2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6f": {
+            "sign": [
+				"Gdy wróg zajmuje się",
+				"kimś innym, możesz",
+				"zwiększyć obrażenia",
+				"ciosami z flanki.",
+				"",
+				"Tylko nie zbliżaj się",
+				"za bardzo, bo skupią",
+				"swoją uwagę na Tobie!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},					
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2,3],
+					[],
+					[0,1,2,3]
+				],
+                "word_highlights2": [
+					[2],
+					[],
+					[0,1],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/flanking.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial6g": {
+            "sign": [
+				"Wiedza jak walczyć jest",
+				"dobra, ale podejście do",
+				"walki mając przewagę",
+				"może dać Ci zwycięstwo."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[1,3]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6h": {
+            "sign": [
+				"$",
+				"Wróg będzie miał",
+				"trudność w wykryciu",
+				"Ciebie w mrokach.",
+				"Mając pochodnię w dłoni",
+				"świecisz się jak psu..."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1,2,3,4]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[2],
+					[],
+					[1]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/sneaklight.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#data/scripts/tutorial1/sign_torch.png",
+					"sizex": 0,
+					"sizey": 0
+				}			
+			]
+        },
+        "tutorial6i": {
+            "sign": [
+				"$",
+				"",
+				"Bez żadnego przedmiotu",
+				"w swojej drugiej dłoni,",
+				"wciśnij$by się skradać."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[0,2]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[2,3],
+					[]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#images/ui/SkillSheet/Icons/Stealth02_32.png",
+					"sizex": 0,
+					"sizey": 0
+				},
+				{
+					"type": "input_glyph",
+					"value": "Defend"
+				}				
+			]
+        },
+        "tutorial6j": {
+            "sign": [
+				"Tak jak blokowanie,",
+				"skradanie sprawia, że",
+				"ruszasz się wolniej.",
+				"",
+				"To również sprawi, że",
+				"będzie trudniej Ciebie",
+				"wykryć, a Ty będziesz",
+				"lepiej widzieć w mroku."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[0],
+					[2],
+					[],
+					[],
+					[0,1,2],
+					[0,3],
+					[0,1]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6k": {
+            "sign": [
+				"Wrogowie, którzy nie",
+				"zauważyli Ciebie",
+				"otrzymają bonus od",
+				"skrytobójstwa przy",
+				"ataku w plecy."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[1,2],
+					[0],
+					[0,1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6l": {
+            "sign": [
+				"Przytrzymaj$ by naładować",
+				"cios krytyczny i",
+				"wzmocnić otwierający",
+				"walkę atak zadając",
+				"cios w plecy wrogów."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0],
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[0,1,2]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/followstrike.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": [
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				},
+				{
+					"type": "input_glyph",
+					"value": "Attack"
+				}					
+			]
+        },
+        "tutorial6m": {
+            "sign": [
+				"Sprawdzimy teraz Twoje",
+				"skradanie się.",
+				"",
+				"Zabij przywódcę Goblinów",
+				"i ujdź z życiem.",
+				"Omiń lub zabij resztę!"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1,2]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6n": {
+            "sign": [
+				"Flankowanie, skradanie,",
+				"ciosy w plecy, zarządzanie",
+				"światłem pomoże Podróżnikom",
+				"przetrwać w lochach."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": []
+            },
+            "variables": []
+        },
+        "tutorial6no": {
+            "sign": [
+				"Gratulacje!",
+				"To ostatnia z sześciu",
+				"podstawowych prób.",
+				"Bohaterowie wyciągają",
+				"wnioski z tych lekcji.",
+				"",
+				"Próby od 7 do 10 dają",
+				"wyspecjalizowane lekcje.",
+				"Przebrnij przez nie",
+				"dla nowych umiejęności."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color":
+					{
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},						
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[0,1]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[0,1],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[1,2]
+					
+				]
+            },
+            "variables": []
+        },		
+        "tutorial6o": {
+            "sign": [
+				"Te wrota otworzą się",
+				"kiedy przywódca Goblinów",
+				"zostanie ukatrupiony."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1,2],
+					[]
+				]
+            },
+            "variables": []
+        },
+        "tutorial6p": {
+            "sign": [
+				"Zabieraj pochodnie",
+				"by zaciemnić otoczenie",
+				"i ułatwić skradanie się."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[],
+					[1],
+					[]
+				],
+				"video": {
+					"background_img": "data/scripts/video_frame_half_noalpha.png",
+					"background_border": 8,
+					"path": "data/scripts/tutorial6/darken.ogv",
+					"x": 0,
+					"y": 0,
+					"w": 0,
+					"h": 0
+				}
+            },
+            "variables": []
+        },
+        "tutorial6pa": {
+            "sign": [
+				"Po zostaniu wykrytym,",
+				"szczwane lisy mogą uciec",
+				"i spróbować ponownie",
+				"zakraść sie na plecy",
+				"swojego celu."
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+					"font_highlight_color": {
+						"r": 255,
+						"g": 64,
+						"b": 64,
+						"a": 255
+					},
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [
+					[0,1,3]
+				],
+                "word_highlights2": [
+					[],
+					[],
+					[],
+					[0,1],
+					[]
+				]
+            },
+            "variables": []
+        },		
+        "tutorial6q": {
+            "sign": [
+				"Trolle są prawie ślepe.",
+				"Wróg z wyższą percepcją",
+				"może wykryć Cię z oddali",
+				"Bądź ostrożny.",
+				"",
+				"$"
+            ],
+            "attributes": {
+                "font": "fonts/pixelmix.ttf#16#2",
+                "horizontal_justify": "center",
+                "vertical_justify": "center",
+                "line_padding": 0,
+                "top_padding": 0,
+                "inline_img_adjust_x": 0,
+                "word_highlights": [],
+                "word_highlights2": [
+					[0],
+					[2],
+					[1],
+					[]
+				]
+            },
+            "variables": [
+				{
+					"type": "image",
+					"value": "*#images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+					"sizex": 48,
+					"sizey": 48
+				}			
+			]
+        }
+    }
+}
