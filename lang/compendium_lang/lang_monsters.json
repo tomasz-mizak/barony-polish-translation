@@ -153,7 +153,7 @@
             "Niemniej jednak tworzą koalicje pełne",
             "brutalnych najeźdźców, przejmując osady.",
             "STRACHUNY często wykorzystują ruiny jako",
-            "domy, a ostatnio rozbili obóz pod Osadą."
+            "domy, a ostatnio rozbili obóz pod Miastem."
         ],
         "abilities": [
             "- Krok w Bok",
@@ -361,7 +361,7 @@
     },
     "ghost": {
         "blurb": [
-            "Klątwa Osady pozwala zżytej grupie",
+            "Klątwa miasta pozwala zżytej grupie",
             "podróżników trwać razem na wieki,",
             "nawet po śmierci, dosłownie.",
             "",
@@ -500,7 +500,7 @@
     },
     "human": {
         "blurb": [
-            "Zwykli ludzie z Osady pochodzili kiedyś",
+            "Zwykli ludzie z miasta pochodzili kiedyś",
             " z wielu narodów, aby handlować",
             "i pokojowo współpracować.",
             "",

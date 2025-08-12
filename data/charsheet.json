@@ -229,11 +229,11 @@
 	"level_strings": {
 		"Start Map": { 
 			"display_name": "Wejście do kopalni",
-			"description": "Na obrzeżach południowo-zachodniej bramy Osady znajduje się wejście do Bastionu Diabłów."
+			"description": "Na obrzeżach południowo-zachodniej bramy miasta znajduje się wejście do Bastionu Diabłów."
 		},
 		"The Mines": { 
 			"display_name": "Kopalnie",
-			"description": "Mieszkańcy Osady na próżno kopali tu złoto."
+			"description": "Mieszkańcy miasta na próżno kopali tu złoto."
 		},
 		"The Swamp": { 
 			"display_name": "Bagna",

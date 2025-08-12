@@ -3004,7 +3004,7 @@ wraz z końcem Twojej many!#
 2711 %s
  Wszyscy wrócili do swoich sklepów, jakby nic się nie stało.#
 2712 %s
- Sklepikarze Osady stali się wytrzymalsi po przeżyciu w lochach Barona.#
+ Sklepikarze miasta stali się wytrzymalsi po przeżyciu w lochach Barona.#
 
 2720 type:rand#
 2721 %s
@@ -3034,7 +3034,7 @@ wraz z końcem Twojej many!#
 2743 %s
  Pochodzę z odległego miasta i jestem członkiem Gildii Łowców.#
 2744 %s
- Gildia Łowców Osady nie znajduje się w tej dzielnicy.#
+ Gildia Łowców miasta nie znajduje się w tej dzielnicy.#
 2745 %s
  Wydaje mi się, że magowie i myśliwi nie dogadują się zbyt dobrze.#
 2746 %s
@@ -3142,7 +3142,7 @@ wraz z końcem Twojej many!#
 2811 %s
  Potężne potwory zaczęły wychodzić z Kryształowych Jaskiń.#
 2812 %s
- Gildia musiała zapieczętować jaskinie, aby zapobiec zniszczeniu Osady.#
+ Gildia musiała zapieczętować jaskinie, aby zapobiec zniszczeniu miasta.#
 2813 %s
  Mam nadzieję, że z Arcymistrzami w środku wszystko w porządku.#
 2814 %s
@@ -4385,7 +4385,7 @@ dobijemy targu!#
 4028 Opuść sekretny poziom#
 4029 Wejdź na sekretny poziom#
 4030 Opuść piętro lochu#
-4031 Opuść Osadę#
+4031 Opuść Miasto#
 4032 Przejdź przez portal#
 4033 Rozpocznij próbę#
 4034 Wyjdź z próby#
