@@ -10,8 +10,8 @@
       "icon_unlocked:": "BARONY_ACH_5000_SECOND_RULE.png"
     },
     "BARONY_ACH_ALL_IN_REFLEXES": {
-      "name": "To wszystko w refleksach",
-      "description": "Złap rzuconą broń Owadzia lub Kozłoczowieka w locie.",
+      "name": "Sprawny refleks",
+      "description": "Złap rzuconą broń Insektoida lub Satyra w locie.",
 	  "lore_points": 2,
 	  "category": "technique",
       "icon_locked:": "BARONY_ACH_ALL_IN_REFLEXES_l.png",
@@ -80,7 +80,7 @@
     },
     "BARONY_ACH_BAD_BOY_BARON": {
       "name": "Baron zły chłopiec",
-      "description": "Ucieknij z Cytadeli jako prawdziwy Inkub."
+      "description": "Ucieknij z Cytadeli jako prawdziwy Inkub.",
 	  "lore_points": 5,
 	  "category": "adventure",
 	  "dlc": "legends_pariahs",

@@ -2,28 +2,28 @@
     "version": 1,
     "items": {
         "wooden_shield": {
-            "name_identified": "drewniany puklerz",
-            "name_unidentified": "drewniany puklerz"
+            "name_identified": "drewniana tarcza",
+            "name_unidentified": "drewniana tarcza"
         },
         "quarterstaff": {
-            "name_identified": "drewniany kij",
-            "name_unidentified": "drewniany kij"
+            "name_identified": "kij bojowy",
+            "name_unidentified": "kij bojowy"
         },
         "bronze_sword": {
-            "name_identified": "spiżowy miecz",
-            "name_unidentified": "spiżowy miecz"
+            "name_identified": "brązowy miecz",
+            "name_unidentified": "brązowy miecz"
         },
         "bronze_mace": {
-            "name_identified": "spiżowy buzdygan",
-            "name_unidentified": "spiżowy buzdygan"
+            "name_identified": "brązowy buzdygan",
+            "name_unidentified": "brązowy buzdygan"
         },
         "bronze_axe": {
-            "name_identified": "spiżowy topór",
-            "name_unidentified": "spiżowy topór"
+            "name_identified": "brązowy topór",
+            "name_unidentified": "brązowy topór"
         },
         "bronze_shield": {
-            "name_identified": "spiżowy puklerz",
-            "name_unidentified": "spiżowy puklerz"
+            "name_identified": "brązowa tarcza",
+            "name_unidentified": "brązowa tarcza"
         },
         "sling": {
             "name_identified": "proca",
@@ -46,16 +46,16 @@
             "name_unidentified": "żelazny topór"
         },
         "iron_shield": {
-            "name_identified": "żelazny puklerz",
-            "name_unidentified": "żelazny puklerz"
+            "name_identified": "żelazna tarcza",
+            "name_unidentified": "żelazna tarcza"
         },
         "shortbow": {
             "name_identified": "krótki łuk",
             "name_unidentified": "krótki łuk"
         },
         "steel_halberd": {
-            "name_identified": "stalowy berdysz",
-            "name_unidentified": "stalowy berdysz"
+            "name_identified": "stalowa halabarda",
+            "name_unidentified": "stalowa halabarda"
         },
         "steel_sword": {
             "name_identified": "stalowy miecz",
@@ -70,12 +70,12 @@
             "name_unidentified": "stalowy topór"
         },
         "steel_shield": {
-            "name_identified": "stalowy puklerz",
-            "name_unidentified": "stalowy puklerz"
+            "name_identified": "stalowa tarcza",
+            "name_unidentified": "stalowa tarcza"
         },
         "steel_shield_resistance": {
-            "name_identified": "stalowy puklerz odporności magicznej",
-            "name_unidentified": "stalowy puklerz"
+            "name_identified": "stalowa tarcza odporności magicznej",
+            "name_unidentified": "stalowa tarcza"
         },
         "crossbow": {
             "name_identified": "kusza",
@@ -706,8 +706,8 @@
             "name_unidentified": "kryształowe buty"
         },
         "crystal_shield": {
-            "name_identified": "kryształowy puklerz",
-            "name_unidentified": "kryształowy puklerz"
+            "name_identified": "kryształowy tarcza",
+            "name_unidentified": "kryształowy tarcza"
         },
         "crystal_gloves": {
             "name_identified": "kryształowe rękawice",
@@ -726,8 +726,8 @@
             "name_unidentified": "kubrak"
         },
         "mirror_shield": {
-            "name_identified": "lustrzany puklerz",
-            "name_unidentified": "lustrzany puklerz"
+            "name_identified": "lustrzany tarcza",
+            "name_unidentified": "lustrzany tarcza"
         },
         "brass_knuckles": {
             "name_identified": "kastet",
@@ -766,8 +766,8 @@
             "name_unidentified": "kryształowy buzdygan"
         },
         "bronze_tomahawk": {
-            "name_identified": "spiżowy tomahawk",
-            "name_unidentified": "spiżowy tomahawk"
+            "name_identified": "brązowy tomahawk",
+            "name_unidentified": "brązowy tomahawk"
         },
         "iron_dagger": {
             "name_identified": "żelazny sztylet",

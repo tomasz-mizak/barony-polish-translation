@@ -3,7 +3,7 @@
 # Linie zaczynające się hashtagiem to komentarze
 # Puste linie się ignorowane
 
-1 pusty#
+1 null#
 
 # Nazwy klas
 
@@ -32,26 +32,26 @@
 18 WYCOFANO#
 19 WYCOFANO#
 
-# Nazwy rodów/klanów
+# Nazwy wyglądu
 
-20 Strażnicy#
-21 Północni#
-22 Ognisty#
-23 Zahartowani#
-24 Wyżynni#
-25 Mrocznikuźnia#
-26 Płomiennokwiat#
-27 Wężokamień#
-28 Wiatroklan#
-29 Wojennokrwi#
-30 Młynowi#
-31 Słonecznołodyga#
-32 Glinianogórze#
-33 Burzostroży#
-34 Targoupadek#
-35 Nocnogórze#
-36 Czarnodrzew#
-37 Kamiennopis#
+20 Landguard#
+21 Northborn#
+22 Firebrand#
+23 Hardbred#
+24 Highwatch#
+25 Gloomforge#
+26 Pyrebloom#
+27 Snakestone#
+28 Windclan#
+29 Warblood#
+30 Millbound#
+31 Sunstalker#
+32 Claymount#
+33 Stormward#
+34 Tradefall#
+35 Nighthill#
+36 Baytower#
+37 Whetsong#
 
 # Opisy wyglądów
 
@@ -194,34 +194,34 @@
 156 Głód#
 157 Pułapki#
 
-# Imiona handlarzy
+# Imiona handlarzy (shopkeeper names)
 
-158 Andrzej#
-159 Błażej#
-160 Ryszard#
-161 Dobiesław#
-162 Edmund#
-163 Franciszek#
-164 Garett#
-165 Heliodor#
-166 Igzymir#
-167 Jan#
-168 Kazimierz#
-169 Łukasz#
-170 Marian#
-171 Nemezjusz#
-172 Olgierd#
-173 Prokop#
-174 Kacper#
-175 Roland#
-176 Sławomir#
-177 Tadeusz#
-178 Ulryk#
-179 Volker#
-180 Władysław#
-181 Xardas#
-182 Jerzy#
-183 Zbyszek#
+158 Adrian#
+159 Bob#
+160 Carmack#
+161 Derek#
+162 Error#
+163 Felix#
+164 Geoff#
+165 Harold#
+166 Izchak#
+167 Jesse#
+168 Ken#
+169 Luke#
+170 Marty#
+171 Norian#
+172 Oliver#
+173 Peter#
+174 Quentin#
+175 Romero#
+176 Sidney#
+177 Tom#
+178 Ulf#
+179 Vern#
+180 Wallace#
+181 Xavier#
+182 Yoshi#
+183 Zeb#
 
 # Nazwy sklepów
 
